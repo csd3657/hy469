@@ -1,35 +1,10 @@
 
-.menu{
-    width: 5%;
-    height: 1080px;
-    float: left;
-    background: #000000;
-}
 
 .main{
     width: 95%;
     height: 1080px;
     float: left;
 }
-
-.menu a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    padding-top: 25px;
-    padding-bottom: 5px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 50px;
-  }
-  
-  .VL{
-    border-left: 8px solid #FA5500;
-    height:80px;
-    width: 10px;
-    top: 27px;
-    position: absolute;
-  }
 
   .live_game{
       position: absolute;
