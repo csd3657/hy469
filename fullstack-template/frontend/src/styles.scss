@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
-body{
-    background-image:url('app/pages/home/EuroleagueTV.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+@media only screen and (min-width: 1920px){
+    body{
+        background-image:url('app/pages/home/EuroleagueTV.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
