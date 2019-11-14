@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
+import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarMenuComponent
   ],
   imports: [
     BrowserModule,
