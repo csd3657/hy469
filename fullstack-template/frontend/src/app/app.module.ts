@@ -8,6 +8,9 @@ import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.compo
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { LiveGamesComponent } from './pages/TV/live-games/live-games.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
+import { MenuIndicatorComponent } from './pages/TV/menu-indicator/menu-indicator.component';
+import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
+import { VideosRowComponent } from './pages/TV/videos-row/videos-row.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
     SidebarMenuComponent,
     HomepageTVComponent,
     LiveGamesComponent,
-    VideoTVComponent
+    VideoTVComponent,
+    MenuIndicatorComponent,
+    TitleTagComponent,
+    VideosRowComponent
   ],
   imports: [
     BrowserModule,
