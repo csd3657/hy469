@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { LiveGamesComponent } from './pages/TV/live-games/live-games.component';
+import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarMenuComponent,
     HomepageTVComponent,
-    LiveGamesComponent
+    LiveGamesComponent,
+    VideoTVComponent
   ],
   imports: [
     BrowserModule,
