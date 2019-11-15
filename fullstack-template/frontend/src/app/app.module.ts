@@ -5,11 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
+import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
+import { LiveGamesComponent } from './pages/TV/live-games/live-games.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    HomepageTVComponent,
+    LiveGamesComponent
   ],
   imports: [
     BrowserModule,

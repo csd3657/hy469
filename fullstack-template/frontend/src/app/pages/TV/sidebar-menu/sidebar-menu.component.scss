@@ -3,6 +3,10 @@
     height: 1080px;
     float: left;
     background: #000000;
+    overflow: hidden;
+}
+.options{
+  margin-top: 50%;
 }
 
 .menu a {
@@ -16,10 +20,10 @@
     font-size: 50px;
   }
   
-  .VL{
+  a span{
     border-left: 8px solid #FA5500;
     height:80px;
     width: 10px;
-    top: 27px;
-    position: absolute;
+    margin-left:-30%;
+    margin-right: 20%;
   }
