@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
+import { AugTableVOTEtopmenuComponent } from './pages/AugmTable/aug-table-votetopmenu/aug-table-votetopmenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    AugTableVOTEtopmenuComponent
   ],
   imports: [
     BrowserModule,
