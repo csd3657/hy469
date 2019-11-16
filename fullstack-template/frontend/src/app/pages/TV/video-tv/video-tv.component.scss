@@ -4,13 +4,23 @@
 
 .main{
     background-color: #1A0700;
-    width: 95%;
+    //width: 95%;
     height: 1080px;
-    float: left;
-    overflow: hidden;
+    width: auto;
+    overflow:hidden;
 }
 
-.text{
+.text1{
+    float: left;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top:-75px;
+    margin-left:50px;
+}
+
+.text2{
     float: left;
     font-size:50px;
     font-family: Arial, Helvetica, sans-serif;
