@@ -2208,3 +2208,792 @@
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
   timestamp: '2019-11-15T15:02:17.870Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-15T19:52:23.208Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-15T19:52:23.316Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-15T19:52:23.876Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-15T19:52:23.897Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-15T19:54:05.406Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-15T19:54:05.485Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-15T19:54:05.684Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-15T19:54:05.698Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-15T19:56:24.733Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-15T19:56:24.803Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-15T19:56:24.922Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-15T19:56:24.938Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-16T13:16:00.809Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-16T13:16:00.940Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:01.861Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:01.878Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'minio',
+  host: 'minio',
+  port: 9000,
+  level: 'error',
+  message:
+   'Minio client failed to be initiatedgetaddrinfo ENOTFOUND minio minio:9000',
+  stack:
+   'Error: getaddrinfo ENOTFOUND minio minio:9000\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:02.866Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-16T13:16:02.886Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:03.059Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:03.861Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:04.360Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:05.164Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:05.859Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:06.763Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:07.863Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:08.765Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:10.468Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:11.369Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:14.259Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:15.159Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:20.066Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:20.985Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:29.262Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:30.167Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:44.160Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:16:45.067Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:17:08.861Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-16T13:17:09.766Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-17T08:35:21.527Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-17T08:35:21.629Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:22.534Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:22.571Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'minio',
+  host: 'minio',
+  port: 9000,
+  level: 'error',
+  message:
+   'Minio client failed to be initiatedgetaddrinfo ENOTFOUND minio minio:9000',
+  stack:
+   'Error: getaddrinfo ENOTFOUND minio minio:9000\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:23.574Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-17T08:35:23.590Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:23.731Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:24.529Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:25.031Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:25.828Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:26.528Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:27.328Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:28.531Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:29.328Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:31.128Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:31.929Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:34.932Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:35.729Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:40.735Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:41.529Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:49.932Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-17T08:35:50.729Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-18T09:46:29.816Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-18T09:46:29.928Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:30.807Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:30.981Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'minio',
+  host: 'minio',
+  port: 9000,
+  level: 'error',
+  message:
+   'Minio client failed to be initiatedgetaddrinfo ENOTFOUND minio minio:9000',
+  stack:
+   'Error: getaddrinfo ENOTFOUND minio minio:9000\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:31.807Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-18T09:46:31.821Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:32.008Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:32.808Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:33.303Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:34.119Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:34.808Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:35.715Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:36.817Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:37.713Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:39.511Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:40.305Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:43.312Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:44.261Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:49.115Z' }
+{ errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'redis',
+  host: 'redis',
+  port: 8081,
+  level: 'error',
+  message:
+   'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
+  stack:
+   'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+  timestamp: '2019-11-18T09:46:50.135Z' }

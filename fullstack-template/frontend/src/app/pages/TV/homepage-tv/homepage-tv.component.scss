@@ -1,9 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
 .main{
+    
+    background-image:url('../../../../assets/images/EuroleagueTV.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 95%;
-    height: 1080px;
     float: left;
     overflow: hidden;
 }
 
-  
 
+   
