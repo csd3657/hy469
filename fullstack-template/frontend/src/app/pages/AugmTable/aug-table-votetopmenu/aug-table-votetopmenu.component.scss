@@ -1,0 +1,44 @@
+span{
+    display: inline-block;
+}
+
+.points h1 , .assists h1, .blocks h1, .rebounds h1{
+    margin-bottom: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FA5500;
+}
+
+.points, .assists, .blocks, .rebounds{
+    margin-left: 3%;
+    margin-top: 0%;
+}
+
+.statistics_num{
+    margin-left: 10%;
+    
+}
+.mvp_choises{
+    margin-left: 3%;
+}
+.playerForMVP{
+    text-align: center;
+    margin-left: 1%;
+}
+
+h2{
+    font-family: Roboto;
+}
+h3{
+    font-family: Roboto;
+    margin-top: 0%;
+}
+
+img{
+    margin-left: 0%;
+    margin-bottom: 10%;
+}
