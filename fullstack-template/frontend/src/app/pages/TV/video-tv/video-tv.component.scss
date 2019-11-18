@@ -1,13 +1,10 @@
-*{
-    box-sizing: border-box;
-}
 
 .main{
     background-color: #1A0700;
-    //width: 95%;
+    width:auto;
     height: 1080px;
-    width: auto;
-    overflow:hidden;
+    overflow-y:auto;
+    overflow-x:auto ;
 }
 
 .text1{
@@ -28,4 +25,12 @@
     color: #FFFFFF;
     margin-top:-75px;
     margin-left:50px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
 }
