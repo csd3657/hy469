@@ -1,0 +1,119 @@
+span{
+    display: inline-block;
+}
+
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    
+    text-align: center;
+    color: #FF5700;
+}
+.USER{
+    color: #FFFFFF;
+}
+
+span.mvpVote{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+}
+
+.mvpVoteName{
+    color: #FF5700;
+}
+
+.menu{
+    height: 50%;
+}
+.buttondiv button{
+    margin: auto;
+    width: 380px;
+    height: 93.76px;
+    left: 770px;
+    top: 933px;
+
+    background-color: transparent;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.buttondiv p{
+    margin: auto;
+    color: #FFFFFF;
+}
+.buttondiv{
+    margin-top: 1%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.leftbar{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 50%;
+    width: 40%;
+}
+.rightbar{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 50%;
+    width: 40%;
+}
+
+.rightbar h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 35px;
+
+    color: #FFFFFF;
+
+}
+
+ button{
+    margin: auto;
+    width: 344px;
+    height: 93.76px;
+    background-color: transparent;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+button p{
+    margin: auto;
+    color: #FFFFFF;
+}
+.yes_button, .no_button{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-size: 50px;
+
+    color: #FFFFFF;
+}
+
+.buttons{
+    margin: auto;
+}
+.question{
+    margin-left: 6%;
+}

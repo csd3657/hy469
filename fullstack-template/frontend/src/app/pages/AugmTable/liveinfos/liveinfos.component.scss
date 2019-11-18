@@ -1,0 +1,107 @@
+span{
+    display: inline-block;
+}
+
+.team1_area{
+    width: 1920px;
+    height: 540px;
+}
+
+
+.player1_team1_box{
+    width: 178px;
+    height: 223px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    
+    
+}
+.borderrr{
+    position: relative;
+    background: linear-gradient(to right, red, transparent);
+    padding: 8px;
+    border-radius: 5%;
+    
+}
+
+.player1_team1{
+    width: 318px;
+    height: 250px;
+}
+
+.fouls{
+    position: relative;
+    left: 49%;
+    top: -75%;
+    margin-bottom: 7.5%;
+}
+
+.dot {
+    text-align: right;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin-bottom: 12%;
+}
+
+.player_image{
+    position: relative;
+    left: 18.5%;
+    top: -10%;
+}
+
+.start5{
+    margin-top: -14%;
+    text-align: center;
+    height: 240px;
+    width: 1920px;
+}
+.team1{
+    text-align: center;
+    width: 1920px;
+}
+
+.anapliromatikoi{
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.player_anap h4{
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+.player_anap{
+    margin-left: 6%;
+}
+.player_anap img, .start5 img{
+    width: 120px;
+    height: 120px;
+}
+
+.playername p, .playerpos p{
+    text-align: left;
+    margin: 0%;
+    font-size: 25px;
+    text-align: left;
+    color: #FA5500;
+}
+
+.statsdiv{
+    margin-right: 8%;
+    text-align: right;
+}
+
+.stats p{
+    text-align: right;
+    margin: 0%;
+    font-size: 25px;
+}
+
+.stats p span{
+    font-size: 45px;
+}
+
+
