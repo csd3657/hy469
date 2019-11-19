@@ -1,0 +1,83 @@
+span{
+    display: inline-block;
+}
+.playerInfos{
+    background-color: rgb(255, 255, 255);
+    width: 158px;
+    height: 223px;
+    border-radius: 5%;
+}
+
+.playerimg img{
+    width: 120px;
+    height: 120px;  
+}
+.playerimg{
+    z-index: 999;
+    position: relative;
+    top: 32%;
+    left: -28%;
+    
+    text-align: center;
+    width: 120px;
+    height: 120px;  
+}
+
+.componentArea{
+    text-align: left;
+    margin: auto;
+    width: 200px;
+    height: 223px;
+}
+
+.fouls{
+    position: relative;
+    top: -55%;
+    left: -5%
+}
+
+.dot {
+    text-align: right;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin-bottom: 50%;
+}
+
+.stats{
+    height: 102px;
+    width: 150px;
+}
+
+.stats p{
+    text-align: right;
+    margin: 0%;
+    font-size: 25px;
+}
+
+.stats p span{
+    font-size: 35px;
+}
+
+.borderUse{
+    position: relative;
+    top: -48%;
+    background: linear-gradient(to right, rgb(255, 145, 0), transparent);
+    padding: 8px;
+    border-radius: 5%;
+}
+
+.playerposDIV{
+    margin-top: 30%;
+}
+
+.playernameDIV h4{
+    color: rgb(255, 145, 0);
+}
+
+.playerposDIV h4{
+    color: rgb(255, 145, 0);
+}
+
+

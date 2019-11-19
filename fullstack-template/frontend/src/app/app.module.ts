@@ -25,6 +25,11 @@ import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-pl
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 
 
+import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
+import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
+import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/substitute-player-bottom/substitute-player-bottom.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,8 +48,8 @@ import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
     LiveinfosComponent,
     SubstitutePlayerComponent,
     StartingPlayerComponent,
-    LiveMatchComponent
-
+    LiveMatchComponent,
+    SubstitutePlayerBottomComponent
   ],
   imports: [
     BrowserModule,
