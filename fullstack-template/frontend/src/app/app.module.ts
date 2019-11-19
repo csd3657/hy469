@@ -17,6 +17,8 @@ import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.compon
 import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.component';
 import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
+import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
+import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.compon
     VotestatsComponent,
     Votestep1Component,
     Votestep2Component,
-    LiveinfosComponent
+    LiveinfosComponent,
+    SubstitutePlayerComponent,
+    StartingPlayerComponent
   ],
   imports: [
     BrowserModule,
