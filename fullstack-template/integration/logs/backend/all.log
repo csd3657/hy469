@@ -3612,3 +3612,48 @@
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
   timestamp: '2019-11-19T12:35:05.416Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-19T19:12:33.438Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-19T19:12:33.588Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-19T19:12:34.001Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-19T19:12:34.017Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-19T19:28:56.547Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-19T19:28:56.614Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-19T19:28:56.764Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-19T19:28:56.780Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-11-19T19:30:20.130Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-11-19T19:30:20.243Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-11-19T19:30:20.408Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-11-19T19:30:20.431Z' }

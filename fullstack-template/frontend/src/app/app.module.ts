@@ -19,9 +19,6 @@ import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.compon
 import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
 
-import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
-import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
-
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 
 
