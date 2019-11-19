@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
@@ -17,8 +18,12 @@ import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.compon
 import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.component';
 import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
+<<<<<<< HEAD
 import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
+=======
+import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
+>>>>>>> c5884b4430c4001d0a52fae87ce9a2caedf840f9
 
 @NgModule({
   declarations: [
@@ -36,8 +41,12 @@ import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-pl
     Votestep1Component,
     Votestep2Component,
     LiveinfosComponent,
+<<<<<<< HEAD
     SubstitutePlayerComponent,
     StartingPlayerComponent
+=======
+    LiveMatchComponent
+>>>>>>> c5884b4430c4001d0a52fae87ce9a2caedf840f9
   ],
   imports: [
     BrowserModule,
