@@ -3,13 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
 import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.component';
-<<<<<<< HEAD
+
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
 import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
-=======
+
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
->>>>>>> c5884b4430c4001d0a52fae87ce9a2caedf840f9
+
 
 const routes: Routes = [
   {path: 'livematch', component:LiveMatchComponent},
