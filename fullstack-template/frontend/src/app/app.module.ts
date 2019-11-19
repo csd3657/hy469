@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
@@ -17,6 +18,7 @@ import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.compon
 import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.component';
 import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
+import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.compon
     VotestatsComponent,
     Votestep1Component,
     Votestep2Component,
-    LiveinfosComponent
+    LiveinfosComponent,
+    LiveMatchComponent
   ],
   imports: [
     BrowserModule,

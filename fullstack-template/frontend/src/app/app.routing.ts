@@ -3,8 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
 import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.component';
+import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 
 const routes: Routes = [
+  {path: 'livematch', component:LiveMatchComponent},
   {path: 'VideosTv', component:VideoTVComponent},
   {path:'HomepageTv' , component: HomepageTVComponent},
   {path:'Vote' , component: VotestatsComponent},
