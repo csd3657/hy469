@@ -3,6 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
@@ -25,6 +26,7 @@ import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
 import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/substitute-player-bottom/substitute-player-bottom.component';
+import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
 
 
 @NgModule({
@@ -46,7 +48,8 @@ import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/sub
     SubstitutePlayerComponent,
     StartingPlayerComponent,
     LiveMatchComponent,
-    SubstitutePlayerBottomComponent
+    SubstitutePlayerBottomComponent,
+    WatchlistTvComponent
   ],
   imports: [
     BrowserModule,
