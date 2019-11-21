@@ -13,10 +13,12 @@ import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-pl
 
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
+import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
 
 
 
 const routes: Routes = [
+  {path: 'ScheduleTv', component:ScheduleTVComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},
   {path: 'VideosTv', component:VideoTVComponent},
   {path:'HomepageTv' , component: HomepageTVComponent},
