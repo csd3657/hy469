@@ -1,7 +1,5 @@
 .menu{
-    width: 5%;
     height: 1080px;
-    float: left;
     background: #000000;
     overflow: hidden;
 }
@@ -18,4 +16,12 @@
     transition: all 0.3s ease;
     color: white;
     font-size: 50px;
+  }
+   
+  .VL{
+    float: left;
+    border-left: 8px solid #FA5500;
+    height:80px;
+    width: 10px;
+    margin-top: 25px;
   }
