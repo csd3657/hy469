@@ -61,6 +61,6 @@ import { UpcomingMatchComponent } from './pages/TV/upcoming-match/upcoming-match
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
