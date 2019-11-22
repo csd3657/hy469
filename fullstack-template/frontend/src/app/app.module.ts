@@ -28,6 +28,7 @@ import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.compo
 import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-watch.component';
 import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
 import { FirstMatchComponent } from './pages/TV/first-match/first-match.component';
+import { UpcomingMatchComponent } from './pages/TV/upcoming-match/upcoming-match.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { FirstMatchComponent } from './pages/TV/first-match/first-match.componen
     WatchlistTvComponent,
     TitleTagWatchComponent,
     ScheduleTVComponent,
-    FirstMatchComponent
+    FirstMatchComponent,
+    UpcomingMatchComponent
   ],
   imports: [
     BrowserModule,
