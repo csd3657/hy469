@@ -27,6 +27,7 @@ import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/sub
 import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
 import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-watch.component';
 import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
+import { FirstMatchComponent } from './pages/TV/first-match/first-match.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.componen
     SubstitutePlayerBottomComponent,
     WatchlistTvComponent,
     TitleTagWatchComponent,
-    ScheduleTVComponent
+    ScheduleTVComponent,
+    FirstMatchComponent
   ],
   imports: [
     BrowserModule,
