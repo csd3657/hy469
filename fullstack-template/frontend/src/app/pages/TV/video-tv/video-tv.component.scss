@@ -3,8 +3,9 @@
     background-color: #1A0700;
     margin-left: 110px;
     height: 1080px;
-    overflow-y:auto;
-    overflow-x:auto ;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: max-content;
 }
 
 .sidemenu{
@@ -15,3 +16,8 @@
     top: 0;
     left: 0;
 }
+.row{
+    overflow-x: scroll;
+    width: 2000px;
+}
+

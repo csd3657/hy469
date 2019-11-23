@@ -9,6 +9,7 @@ export class VideoComponentComponent implements OnInit {
 
   @Input() src_image:string;
   @Input() text:string;
+  @Input() date_text:string;
 
   constructor() { }
 
