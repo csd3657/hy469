@@ -33,21 +33,21 @@ span{
 .fouls{
     position: relative;
     top: -55%;
-    left: -5%
+    left: -8%
 }
 
 .dot {
     text-align: right;
     height: 20px;
     width: 20px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(190, 0, 0);
     border-radius: 50%;
     margin-bottom: 50%;
 }
 
 .stats{
     height: 102px;
-    width: 150px;
+    width: 140px;
 }
 
 .stats p{
@@ -63,7 +63,7 @@ span{
 .borderUse{
     position: relative;
     top: -48%;
-    background: linear-gradient(to right, rgb(255, 145, 0), transparent);
+    background: linear-gradient(to right, rgb(250, 85, 0), transparent);
     padding: 8px;
     border-radius: 5%;
 }
@@ -73,11 +73,11 @@ span{
 }
 
 .playernameDIV h4{
-    color: rgb(255, 145, 0);
+    color: rgb(250, 85, 0);
 }
 
 .playerposDIV h4{
-    color: rgb(255, 145, 0);
+    color: rgb(250, 85, 0);
 }
 
 

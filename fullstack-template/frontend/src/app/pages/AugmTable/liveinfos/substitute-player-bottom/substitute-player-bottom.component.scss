@@ -1,19 +1,21 @@
 span{
     display: inline-block;
+    text-align: center;
 }
 
 .Subplayer{
     text-align: center;
-    height: 120px;
-    width: 120px;
+    height: 240px;
+    width: 220px;
 }
 
 .playerimg{
-    margin: 5%;
+    margin: auto;
     height: 120px;
     width: 120px;
 }
 .playername{
+    text-align: center;
     margin: auto;
 }
 .playername p{
