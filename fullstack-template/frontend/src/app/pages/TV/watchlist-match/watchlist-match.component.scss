@@ -1,0 +1,56 @@
+.container{
+    display:inline-block;
+    width:900px;
+    height:412px;
+    background-image: url('../../../../assets/images/watchlistBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 0.5px solid white;
+    margin-right:0.2%;
+
+}
+
+.watchlist_add{
+    width:120px;
+    height: auto;
+    margin-left:45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.team1 img,.team2 img{
+    width: 162px;
+    height:auto;
+}
+
+.team1{
+    margin-left: 12%;
+    margin-top: -17%;
+}
+.team2{
+    margin-left: 65%;
+    margin-top: -21%;
+}
+
+.time{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left:36%;
+    margin-top:-3%;
+}
+.t1,.t2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width:247px;
+    text-align: center;
+}
+.t1{
+    margin-left: 7%;
+}
+.t2{
+    margin-left: 59%;
+    margin-top:-15%;
+}
