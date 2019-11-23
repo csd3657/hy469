@@ -28,6 +28,7 @@ import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
 import { VideoComponentComponent } from './pages/TV/video-component/video-component.component';
 import { RoundButtonComponent } from './pages/TV/round-button/round-button.component';
 import { ScheduleMatchComponent } from './pages/TV/schedule-match/schedule-match.component';
+import { WatchlistMatchComponent } from './pages/TV/watchlist-match/watchlist-match.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { ScheduleMatchComponent } from './pages/TV/schedule-match/schedule-match
     TitleTagComponent,
     VideoComponentComponent,
     RoundButtonComponent,
-    ScheduleMatchComponent
+    ScheduleMatchComponent,
+    WatchlistMatchComponent
   ],
   imports: [
     BrowserModule,
