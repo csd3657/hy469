@@ -10,7 +10,9 @@ export class StartingPlayerComponent implements OnInit {
   @Input() img_src : string;
   @Input() playername : string;
   @Input() playerposition : string;
-  
+  @Input()   player_points  : string; 
+  @Input()   player_assists  : string;
+  @Input()   player_rebounds  : string;
   constructor() { }
 
   ngOnInit() {
