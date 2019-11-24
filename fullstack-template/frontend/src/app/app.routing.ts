@@ -1,3 +1,4 @@
+import { SearchTvComponent } from './pages/TV/search-tv/search-tv.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
@@ -19,6 +20,7 @@ import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.componen
 
 const routes: Routes = [
   {path: 'ScheduleTv', component:ScheduleTVComponent},
+  {path: 'SearchTv', component:SearchTvComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},
   {path: 'VideosTv', component:VideoTVComponent},
   {path:'HomepageTv' , component: HomepageTVComponent},
