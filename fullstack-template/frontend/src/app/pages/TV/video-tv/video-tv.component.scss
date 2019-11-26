@@ -1,7 +1,7 @@
 
 .main{
     background-color: #1A0700;
-    margin-left: 110px;
+    margin-left: 109px;
     height: 1080px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -19,5 +19,10 @@
 .row{
     overflow-x: scroll;
     width: 2000px;
+    margin-bottom: 1.5%;
+}
+.ghost{
+    width:1920px;
+    height: 1.5%;
 }
 
