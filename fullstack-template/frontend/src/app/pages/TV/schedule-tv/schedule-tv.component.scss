@@ -9,24 +9,39 @@
 }
 .main{
     background-color: #1A0700;
-    margin-left: 110px;
+    margin-left: 109px;
     height: 1080px;
     overflow-x: hidden;
     overflow-y: scroll;
+    display: inline-block;
     width: auto;
 }
 .vertical_line{
-    height: 370px;
-    margin-bottom: -2.7%;
-    border:1px solid gray;
-    width:0;
+    height: 400px;
+    width:1px;
+    background-color: grey;
     display: inline-block;
+    position: relative;
+    left: 20px;
     opacity: 70%;
-
+    margin-bottom: -2%;
 }
 .horizontal_line{
-    width:1810px;
-    border:1px solid gray;
-    height:0;
-    margin-top: -0.5%;
+    height: 1px;
+    width:1920px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+    opacity: 70%;
+    bottom:18px;
+}
+.vertical_line2{
+    height: 400px;
+    width:1px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    opacity: 70%;
+    margin-top: -1.2%;
 }

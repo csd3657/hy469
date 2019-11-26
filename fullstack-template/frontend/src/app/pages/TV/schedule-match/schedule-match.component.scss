@@ -1,15 +1,19 @@
 .box{
-    width:900px;
-    height: 342px;
+    width:904px;
+    height: 380px;
     display: inline-block;
-    
 }
-
 .watchlists{
     width: 95px;
     height: auto;
     margin-left:46%;
     margin-top:2%;
+}
+.teams{
+    width:900px;
+    height: auto;
+    display: inline-block;
+    margin-top:-10%;
 }
 
 .teams1 img{
@@ -18,8 +22,7 @@
 }
 .teams1{
     width: 200px;
-    margin-left: 10%;
-    margin-top: -11%;
+    margin-left:10%;
 }
 
 .teams2 img{
@@ -28,7 +31,7 @@
 }
 .teams2{
     width: 200px;
-    margin-left: 73%;
+    margin-left:75%;
     margin-top: -17%;
 }
 
@@ -40,6 +43,13 @@
     margin-left: 38%;
     margin-top:-6%;
 }
+
+.texts{
+    width:900px;
+    height: auto;
+    display: inline-block;
+    margin-top:1%;
+}
 .text1{
     font-size: 45px;
     font-weight: regular;
@@ -49,7 +59,6 @@
     height: 106px;
     text-align: center;
     margin-left: 4%;
-    margin-top:-1%;
 }
 .text2{
     font-size: 45px;
@@ -59,6 +68,6 @@
     width: 267px; 
     height: 106px;
     text-align: center;
-    margin-left: 67%;
+    margin-left: 68%;
     margin-top:-12%;
 }
