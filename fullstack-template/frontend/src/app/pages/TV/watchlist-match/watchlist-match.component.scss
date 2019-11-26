@@ -1,5 +1,6 @@
 .container{
     display:inline-block;
+    vertical-align: top;
     width:900px;
     height:412px;
     background-image: url('../../../../assets/images/watchlistBack.png');
@@ -51,9 +52,11 @@
     text-align: center;
 }
 .t1{
+    width: 200px;
     margin-left: 7%;
 }
 .t2{
+    width: 200px;
     margin-left: 59%;
     margin-top:-15%;
 }

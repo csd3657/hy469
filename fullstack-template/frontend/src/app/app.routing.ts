@@ -19,10 +19,12 @@ import { VotingComponent } from './pages/AugmTable/voting/voting.component';
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
 import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 
 
 
 const routes: Routes = [
+  {path: 'PlayersMobile', component:PlayersListComponent},
   {path: 'ScheduleTv', component:ScheduleTVComponent},
   {path: 'SearchTv', component:SearchTvComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},
