@@ -17,6 +17,8 @@ import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.compo
 import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
 import { VotingComponent } from './pages/AugmTable/voting/voting.component';
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
+import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
+import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
 
 
 
@@ -31,6 +33,8 @@ const routes: Routes = [
   {path:'StartingPlayer' , component: StartingPlayerComponent},
   {path:'SubstitutePlayer' , component: SubstitutePlayerComponent},
   {path:'WallNews' , component: WallnewsComponent},
+  {path:'PlayerInfoWall' , component: PlayerInfosComponent},
+  {path:'TeamInfoWall' , component: TeamInfosComponent},
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

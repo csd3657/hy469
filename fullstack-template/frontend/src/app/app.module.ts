@@ -37,6 +37,8 @@ import { SearchVideosComponent } from './pages/TV/search-videos/search-videos.co
 import { StatsCategoryComponent } from './pages/AugmTable/voting/votestats/stats-category/stats-category.component';
 import { PlayerCaseComponent } from './pages/AugmTable/voting/votestats/stats-category/player-case/player-case.component';
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
+import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
+import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
 
 
 
@@ -70,7 +72,9 @@ import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
     SearchVideosComponent,
     StatsCategoryComponent,
     PlayerCaseComponent,
-    WallnewsComponent
+    WallnewsComponent,
+    PlayerInfosComponent,
+    TeamInfosComponent
   ],
   imports: [
     BrowserModule,
