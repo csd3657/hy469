@@ -6,10 +6,11 @@ span{
     position: relative;
     top: auto;
 }
-
 .menu{
-    height: 50%;
+    background-image: url("../../../../assets/background/TableBackground.png");
+    height: 100%;
 }
+
 .points h1 , .assists h1, .blocks h1, .rebounds h1{
     margin-bottom: 0%;
     font-family: Roboto;

@@ -26,6 +26,7 @@ import { FirstMatchComponent } from './pages/TV/first-match/first-match.componen
 import { UpcomingMatchComponent } from './pages/TV/upcoming-match/upcoming-match.component';
 import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
 import { VideoComponentComponent } from './pages/TV/video-component/video-component.component';
+import { VotingComponent } from './pages/AugmTable/voting/voting.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { VideoComponentComponent } from './pages/TV/video-component/video-compon
     FirstMatchComponent,
     UpcomingMatchComponent,
     TitleTagComponent,
-    VideoComponentComponent
+    VideoComponentComponent,
+    VotingComponent
   ],
   imports: [
     BrowserModule,
