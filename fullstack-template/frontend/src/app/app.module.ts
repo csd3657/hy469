@@ -27,6 +27,13 @@ import { UpcomingMatchComponent } from './pages/TV/upcoming-match/upcoming-match
 import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
 import { VideoComponentComponent } from './pages/TV/video-component/video-component.component';
 import { VotingComponent } from './pages/AugmTable/voting/voting.component';
+import { RoundButtonComponent } from './pages/TV/round-button/round-button.component';
+import { ScheduleMatchComponent } from './pages/TV/schedule-match/schedule-match.component';
+import { WatchlistMatchComponent } from './pages/TV/watchlist-match/watchlist-match.component';
+import { SearchTvComponent } from './pages/TV/search-tv/search-tv.component';
+import { SearchBarComponent } from './pages/TV/search-bar/search-bar.component';
+import { SearchOptionsComponent } from './pages/TV/search-options/search-options.component';
+import { SearchVideosComponent } from './pages/TV/search-videos/search-videos.component';
 
 
 @NgModule({
@@ -49,7 +56,14 @@ import { VotingComponent } from './pages/AugmTable/voting/voting.component';
     UpcomingMatchComponent,
     TitleTagComponent,
     VideoComponentComponent,
-    VotingComponent
+    VotingComponent,
+    RoundButtonComponent,
+    ScheduleMatchComponent,
+    WatchlistMatchComponent,
+    SearchTvComponent,
+    SearchBarComponent,
+    SearchOptionsComponent,
+    SearchVideosComponent
   ],
   imports: [
     BrowserModule,

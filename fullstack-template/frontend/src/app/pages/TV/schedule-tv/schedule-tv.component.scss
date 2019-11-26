@@ -1,0 +1,32 @@
+.sidemenu{
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.main{
+    background-color: #1A0700;
+    margin-left: 110px;
+    height: 1080px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: auto;
+}
+.vertical_line{
+    height: 370px;
+    margin-bottom: -2.7%;
+    border:1px solid gray;
+    width:0;
+    display: inline-block;
+    opacity: 70%;
+
+}
+.horizontal_line{
+    width:1810px;
+    border:1px solid gray;
+    height:0;
+    margin-top: -0.5%;
+}
