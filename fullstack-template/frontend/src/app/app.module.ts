@@ -9,9 +9,9 @@ import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
-import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.component';
-import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.component';
-import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
+import { VotestatsComponent } from './pages/AugmTable/voting/votestats/votestats.component';
+import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
+import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
 
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
@@ -34,6 +34,10 @@ import { SearchTvComponent } from './pages/TV/search-tv/search-tv.component';
 import { SearchBarComponent } from './pages/TV/search-bar/search-bar.component';
 import { SearchOptionsComponent } from './pages/TV/search-options/search-options.component';
 import { SearchVideosComponent } from './pages/TV/search-videos/search-videos.component';
+import { StatsCategoryComponent } from './pages/AugmTable/voting/votestats/stats-category/stats-category.component';
+import { PlayerCaseComponent } from './pages/AugmTable/voting/votestats/stats-category/player-case/player-case.component';
+import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
+
 
 
 @NgModule({
@@ -63,7 +67,10 @@ import { SearchVideosComponent } from './pages/TV/search-videos/search-videos.co
     SearchTvComponent,
     SearchBarComponent,
     SearchOptionsComponent,
-    SearchVideosComponent
+    SearchVideosComponent,
+    StatsCategoryComponent,
+    PlayerCaseComponent,
+    WallnewsComponent
   ],
   imports: [
     BrowserModule,
