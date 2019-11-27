@@ -42,6 +42,7 @@ import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component
 import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
+import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
 
 
 
@@ -80,7 +81,8 @@ import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.compone
     TeamInfosComponent,
     PlayerProfileComponent,
     PlayersListComponent,
-    HeaderTagComponent
+    HeaderTagComponent,
+    SideLetterComponent
   ],
   imports: [
     BrowserModule,

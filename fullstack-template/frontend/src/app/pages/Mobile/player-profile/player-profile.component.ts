@@ -10,7 +10,7 @@ export class PlayerProfileComponent implements OnInit {
 
   @Input() player_image:string;
   @Input() name:string;
-  @Input() team:string;
+  @Input() position:string;
   @Input() nation:string;
 
   constructor() { }
