@@ -1,10 +1,9 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'menu',
+  selector: 'mobile-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss'],
-  encapsulation: ViewEncapsulation.Native
+  styleUrls: ['./menu.component.scss']
 })
 export class menuComponent implements OnInit {
 
