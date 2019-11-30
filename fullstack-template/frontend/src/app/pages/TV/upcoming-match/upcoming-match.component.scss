@@ -1,0 +1,44 @@
+.container{
+    display:table-cell;
+    width:440px;
+    height:272px;
+    background-image: url('../../../../assets/images/upcoming_match.png');
+    border-right: 5px solid orange;
+}
+
+.watchlist_add{
+    margin-left:41%;
+    margin-top:3%;
+    width: 95px;
+    height: auto;
+}
+.team1{
+    width: 110px;
+    height: auto;
+    margin-left:2%;
+    margin-top:-7%;
+}
+
+.team2{
+    width: 120px;
+    height: auto;
+    margin-left: 68%;
+    margin-top:-33%;
+    
+}
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: -14%;
+}
+.time{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: regular;
+    margin-left: 29%;
+    margin-top:-2%
+}

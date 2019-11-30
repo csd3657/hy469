@@ -1,8 +1,9 @@
+import { SearchTvComponent } from './pages/TV/search-tv/search-tv.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
-import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.component';
+import { VotestatsComponent } from './pages/AugmTable/voting/votestats/votestats.component';
 
 
 
@@ -13,17 +14,29 @@ import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-pl
 
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
+import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
+import { VotingComponent } from './pages/AugmTable/voting/voting.component';
+import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
+import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
+import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 
 
 
 const routes: Routes = [
+  {path: 'PlayersMobile', component:PlayersListComponent},
+  {path: 'ScheduleTv', component:ScheduleTVComponent},
+  {path: 'SearchTv', component:SearchTvComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},
   {path: 'VideosTv', component:VideoTVComponent},
   {path:'HomepageTv' , component: HomepageTVComponent},
-  {path:'TableVote' , component: VotestatsComponent},
+  {path:'TableVote' , component: VotingComponent},
   {path:'TableLiveInfos' , component: LiveinfosComponent},
   {path:'StartingPlayer' , component: StartingPlayerComponent},
   {path:'SubstitutePlayer' , component: SubstitutePlayerComponent},
+  {path:'WallNews' , component: WallnewsComponent},
+  {path:'PlayerInfoWall' , component: PlayerInfosComponent},
+  {path:'TeamInfoWall' , component: TeamInfosComponent},
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

@@ -8,16 +8,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
-import { LiveGamesComponent } from './pages/TV/live-games/live-games.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
-import { MenuIndicatorComponent } from './pages/TV/menu-indicator/menu-indicator.component';
-import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
-import { VideosRowComponent } from './pages/TV/videos-row/videos-row.component';
-import { VideosRow1Component } from './pages/TV/videos-row1/videos-row1.component';
-import { VideosRow3Component } from './pages/TV/videos-row3/videos-row3.component';
-import { VotestatsComponent } from './pages/AugmTable/votestats/votestats.component';
-import { Votestep1Component } from './pages/AugmTable/votestep1/votestep1.component';
-import { Votestep2Component } from './pages/AugmTable/votestep2/votestep2.component';
+import { VotestatsComponent } from './pages/AugmTable/voting/votestats/votestats.component';
+import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
+import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
 
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
@@ -27,7 +21,29 @@ import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitut
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
 import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/substitute-player-bottom/substitute-player-bottom.component';
 import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
-import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-watch.component';
+import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
+import { FirstMatchComponent } from './pages/TV/first-match/first-match.component';
+import { UpcomingMatchComponent } from './pages/TV/upcoming-match/upcoming-match.component';
+import { TitleTagComponent } from './pages/TV/title-tag/title-tag.component';
+import { VideoComponentComponent } from './pages/TV/video-component/video-component.component';
+import { VotingComponent } from './pages/AugmTable/voting/voting.component';
+import { RoundButtonComponent } from './pages/TV/round-button/round-button.component';
+import { ScheduleMatchComponent } from './pages/TV/schedule-match/schedule-match.component';
+import { WatchlistMatchComponent } from './pages/TV/watchlist-match/watchlist-match.component';
+import { SearchTvComponent } from './pages/TV/search-tv/search-tv.component';
+import { SearchBarComponent } from './pages/TV/search-bar/search-bar.component';
+import { SearchOptionsComponent } from './pages/TV/search-options/search-options.component';
+import { SearchVideosComponent } from './pages/TV/search-videos/search-videos.component';
+import { StatsCategoryComponent } from './pages/AugmTable/voting/votestats/stats-category/stats-category.component';
+import { PlayerCaseComponent } from './pages/AugmTable/voting/votestats/stats-category/player-case/player-case.component';
+import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
+import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
+import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
+import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
+import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
+import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+
 
 
 @NgModule({
@@ -35,13 +51,7 @@ import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-wat
     AppComponent,
     SidebarMenuComponent,
     HomepageTVComponent,
-    LiveGamesComponent,
     VideoTVComponent,
-    MenuIndicatorComponent,
-    TitleTagComponent,
-    VideosRowComponent,
-    VideosRow1Component,
-    VideosRow3Component,
     VotestatsComponent,
     Votestep1Component,
     Votestep2Component,
@@ -51,7 +61,28 @@ import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-wat
     LiveMatchComponent,
     SubstitutePlayerBottomComponent,
     WatchlistTvComponent,
-    TitleTagWatchComponent
+    ScheduleTVComponent,
+    FirstMatchComponent,
+    UpcomingMatchComponent,
+    TitleTagComponent,
+    VideoComponentComponent,
+    VotingComponent,
+    RoundButtonComponent,
+    ScheduleMatchComponent,
+    WatchlistMatchComponent,
+    SearchTvComponent,
+    SearchBarComponent,
+    SearchOptionsComponent,
+    SearchVideosComponent,
+    StatsCategoryComponent,
+    PlayerCaseComponent,
+    WallnewsComponent,
+    PlayerInfosComponent,
+    TeamInfosComponent,
+    PlayerProfileComponent,
+    PlayersListComponent,
+    HeaderTagComponent,
+    SideLetterComponent
   ],
   imports: [
     BrowserModule,
@@ -59,6 +90,6 @@ import { TitleTagWatchComponent } from './pages/TV/title-tag-watch/title-tag-wat
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

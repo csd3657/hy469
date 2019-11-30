@@ -1,0 +1,84 @@
+
+
+span{
+    display: inline-block;
+    vertical-align: top;
+}
+.menu{
+    background: linear-gradient(90deg, rgba(23, 22, 22, 0.6) 3.26%, #950202 100%);
+    padding: 1%;
+    background-color: black;
+    height: 800px;
+    width: 1720px;
+    color: white;
+}
+
+.player_profile{
+    height: 100%;
+    width: 55%;
+}
+
+.carrer_notes{
+    height: 100%;
+    width: 45%;
+}
+
+
+.playerinfo1 span{
+    text-align: center;
+    height: 140px;
+    width: 110px;
+}
+
+.playerinfo1{
+    margin-top: 12%;
+}
+
+.sec_row{
+    margin-top: 35%;
+}
+
+.team_logo .sec_row img{
+    margin-top: -12%;
+}
+
+.playerSTATS span{
+    text-align: left;
+    height: 140px;
+    width: 150px;
+}
+
+.titleStats h2{
+    font-size: 50px;
+}
+
+.statsTitle h4{
+    font-size: 25px;
+}
+
+.statsNum h3{
+    font-size: 65px;
+}
+
+.StatsArray, .StatsArray2{
+    margin-top: 2%;
+}
+
+.playerSTATS{
+    margin-left: 15%;
+}
+
+h3 span{
+    display: inline;
+    vertical-align: bottom;
+    font-size: 25px;
+}
+
+.carrer_notes p {
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.carrer_notes h1{
+    font-size: 50px;
+}

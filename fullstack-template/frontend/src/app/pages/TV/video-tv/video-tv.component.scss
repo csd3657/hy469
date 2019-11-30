@@ -1,40 +1,28 @@
 
 .main{
     background-color: #1A0700;
-    width:auto;
+    margin-left: 109px;
     height: 1080px;
-    overflow-y:auto;
-    overflow-x:auto ;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: max-content;
 }
 
-.text1{
-    float: left;
-    font-size:50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    margin-top:-75px;
-    margin-left:50px;
+.sidemenu{
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.row{
+    overflow-x: scroll;
+    width: 2000px;
+    margin-bottom: 1.5%;
+}
+.ghost{
+    width:1920px;
+    height: 1.5%;
 }
 
-.text2{
-    float: left;
-    font-size:50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    margin-top:-75px;
-    margin-left:50px;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-}
-
-::-webkit-scrollbar-track {
-    display: none;
-}
-
-ami-fullstack-menu-indicator{
-    margin-top:90px;
-}

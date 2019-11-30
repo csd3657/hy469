@@ -1,0 +1,70 @@
+span{
+    display: inline-block;
+}
+.menu{
+    background-image: url("../../../../assets/images/Wall_Images/csska_article_back.png");
+    height: 800px;
+    color: white;
+    overflow: hidden;
+}
+.head{
+    height: 7%;
+    background-color: black;
+}
+
+.euroleagueLogo{
+    margin-left: 5%;
+}
+.euroleagueLogo img{
+    margin-top: 5%;
+}
+
+.news_head{
+    position: absolute;
+    top: 3px;
+    margin-left: 1%;
+}
+
+.news_head h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.article_context{
+    height: 93%;
+    background-color: black;
+    opacity: 0.8;
+    width: 80%;
+    margin: auto;
+}
+
+.context_ar{
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.context_ar img{
+    margin-left: 145%;
+    margin-top: -20%;
+}
+
+h3{
+    font-size: 30px;
+    color: #999999;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 35px;
+}
+p span{
+    color: #FA5500;
+}
+
+.article{
+    margin-top: 2%;
+}
+
