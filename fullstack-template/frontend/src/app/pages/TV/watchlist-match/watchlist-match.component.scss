@@ -1,12 +1,12 @@
 .container{
     display:inline-block;
+    vertical-align: top;
     width:900px;
     height:412px;
     background-image: url('../../../../assets/images/watchlistBack.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-right: 0.5px solid white;
-
 }
 
 .watchlist_add{
