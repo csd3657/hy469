@@ -39,6 +39,8 @@ import { PlayerCaseComponent } from './pages/AugmTable/voting/votestats/stats-ca
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
 import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
 
 
 
@@ -74,7 +76,9 @@ import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component
     PlayerCaseComponent,
     WallnewsComponent,
     PlayerInfosComponent,
-    TeamInfosComponent
+    TeamInfosComponent,
+    PrematchStatisticsComponent,
+    StatsRowComponent
   ],
   imports: [
     BrowserModule,
