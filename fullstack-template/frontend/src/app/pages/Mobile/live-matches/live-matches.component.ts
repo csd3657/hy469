@@ -1,10 +1,9 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'live-matches',
+  selector: 'mobile-live-matches',
   templateUrl: './live-matches.component.html',
-  styleUrls: ['./live-matches.component.scss'],
-  encapsulation: ViewEncapsulation.Native
+  styleUrls: ['./live-matches.component.scss']
 })
 export class liveMatchesComponent implements OnInit {
 
