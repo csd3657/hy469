@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './live-matches.component.html',
   styleUrls: ['./live-matches.component.scss']
 })
-export class liveMatchesComponent implements OnInit {
+export class LiveMatchesComponent implements OnInit {
 
   constructor() { }
 

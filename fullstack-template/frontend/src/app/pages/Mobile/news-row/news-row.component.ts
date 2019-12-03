@@ -6,7 +6,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./news-row.component.scss'],
   encapsulation: ViewEncapsulation.Native
 })
-export class newsRowComponent implements OnInit {
+export class NewsRowComponent implements OnInit {
 
   constructor() { }
 
