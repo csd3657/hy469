@@ -19,7 +19,11 @@ import { VotingComponent } from './pages/AugmTable/voting/voting.component';
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
 import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+<<<<<<< HEAD
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
+=======
+import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+>>>>>>> branchDim
 
 
 
@@ -37,6 +41,7 @@ const routes: Routes = [
   {path:'WallNews' , component: WallnewsComponent},
   {path:'PlayerInfoWall' , component: PlayerInfosComponent},
   {path:'TeamInfoWall' , component: TeamInfosComponent},
+  {path:'PrematchStatistics' , component: PrematchStatisticsComponent},
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

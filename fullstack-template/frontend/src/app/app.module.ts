@@ -39,10 +39,15 @@ import { PlayerCaseComponent } from './pages/AugmTable/voting/votestats/stats-ca
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
 import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
+<<<<<<< HEAD
 import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+=======
+import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
+>>>>>>> branchDim
 
 
 
@@ -79,10 +84,15 @@ import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.comp
     WallnewsComponent,
     PlayerInfosComponent,
     TeamInfosComponent,
+<<<<<<< HEAD
     PlayerProfileComponent,
     PlayersListComponent,
     HeaderTagComponent,
     SideLetterComponent
+=======
+    PrematchStatisticsComponent,
+    StatsRowComponent
+>>>>>>> branchDim
   ],
   imports: [
     BrowserModule,

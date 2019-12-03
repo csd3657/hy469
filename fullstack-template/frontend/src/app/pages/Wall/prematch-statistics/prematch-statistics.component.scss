@@ -1,0 +1,88 @@
+
+span{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainpage{
+    background-image: url("../../../../assets/images/Wall_Images/LiveGameStats.png");
+    height: 800px;
+    width: 1720px;
+}
+
+.team1_flag{
+    height: 100%;
+    width: 15%;
+}
+
+.team2_flag{
+    height: 100%;
+    width: 15%;
+}
+
+.statistics{
+    height: 100%;
+    width: 70%;
+}
+
+.row_Stats{
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.divstats{
+    margin-top: 4%;
+}
+.team1{
+    height: 100%;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.team2{
+    height: 100%;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.teams_score{
+    margin-top: -1%;
+    height: 100%;
+    width: 30%;
+}
+
+
+.team1_flag{
+    /*background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0) 34.2%);
+    transform: rotate(-180deg);*/
+    margin-top: 9%;
+}
+
+.team1_flag img{
+    margin-left: 20%;
+    height: 350px;
+    width: 250px;;
+}
+
+.team2_flag{
+    margin-top: 13%;
+    /*background: linear-gradient(270deg, rgba(250, 255, 0, 0.92) 0%, rgba(0, 0, 0, 0) 34.2%);*/    
+}
+
+.team2_flag img{
+    margin-left: -20%;
+    height: 250px;
+    width: 250px;;
+}
+
+h2{
+    font-size: 60px;
+}
+h1{
+    font-size: 90px;
+}
+
+
+
