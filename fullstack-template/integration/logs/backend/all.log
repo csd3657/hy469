@@ -4767,3 +4767,93 @@
    'Server started in "development" mode. Available on: http://localhost:8080',
   level: 'info',
   timestamp: '2019-11-22T07:17:02.586Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-03T21:39:27.098Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-03T21:39:27.384Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-03T21:39:27.839Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-03T21:39:27.878Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-04T13:17:23.556Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-04T13:17:24.075Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-04T13:17:24.801Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-04T13:17:24.903Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-04T13:22:26.408Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-04T13:22:26.685Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-04T13:22:26.951Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-04T13:22:26.988Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:19.215Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:19.542Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:20.183Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:20.233Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:52.168Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:52.657Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:52.868Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-04T14:43:52.913Z' }
+{ message:
+   'MongoDB is connected on mongodb://database:27000/?authSource=admin',
+  level: 'info',
+  timestamp: '2019-12-04T14:51:06.858Z' }
+{ message:
+   'Sockets are established on path: http://localhost:8080/socket.io-client',
+  level: 'info',
+  timestamp: '2019-12-04T14:51:07.107Z' }
+{ message: 'Minio client connected at: http://minio:9000',
+  level: 'info',
+  timestamp: '2019-12-04T14:51:07.421Z' }
+{ message:
+   'Server started in "development" mode. Available on: http://localhost:8080',
+  level: 'info',
+  timestamp: '2019-12-04T14:51:07.449Z' }
