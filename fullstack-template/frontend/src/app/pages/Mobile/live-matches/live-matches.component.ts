@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'mobile-live-matches',
@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LiveMatchesComponent implements OnInit {
 
+
+  @Input() logo1:string;
+  @Input() logo2:string;
+  @Input() team1:string;
+  @Input() team2:string;
+  @Input() time:string;
+  @Input() score:string;
   constructor() { }
 
   ngOnInit() {
