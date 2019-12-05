@@ -51,6 +51,7 @@ import { NewsCardComponent } from './pages/Mobile/news-card/news-card.component'
 import { NewsFullComponent } from './pages/Mobile/news-full/news-full.component';
 import { NewsRowComponent } from './pages/Mobile/news-row/news-row.component';
 import { StandingsComponent } from './pages/Mobile/standings/standings.component';
+import { MobileNewsFullComponent } from './mobile-news-full/mobile-news-full.component';
 
 
 @NgModule({
@@ -97,7 +98,8 @@ import { StandingsComponent } from './pages/Mobile/standings/standings.component
     NewsCardComponent,
     NewsFullComponent,
     NewsRowComponent,
-    StandingsComponent
+    StandingsComponent,
+    MobileNewsFullComponent
 
   ],
   imports: [
