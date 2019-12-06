@@ -8,10 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class MatchUpComponent implements OnInit {
 
-  @Input() team_1: String;
+  @Input() team1: String;
   @Input() time: String;
-  @Input() team_2: String;
-
+  @Input() team2: String;
+  @Input() logo1: String;
+  @Input() logo2: String;
   constructor() { }
 
   ngOnInit() {

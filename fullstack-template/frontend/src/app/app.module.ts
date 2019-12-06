@@ -43,6 +43,7 @@ import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-pro
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+
 import { ControllerComponent } from './pages/Mobile/controller/controller.component';
 import { LiveMatchesComponent } from './pages/Mobile/live-matches/live-matches.component';
 import { MatchUpComponent } from './pages/Mobile/matchup/matchup.component';
@@ -51,7 +52,9 @@ import { NewsCardComponent } from './pages/Mobile/news-card/news-card.component'
 import { NewsFullComponent } from './pages/Mobile/news-full/news-full.component';
 import { NewsRowComponent } from './pages/Mobile/news-row/news-row.component';
 import { StandingsComponent } from './pages/Mobile/standings/standings.component';
-import { MobileNewsFullComponent } from './mobile-news-full/mobile-news-full.component';
+import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
+
 
 
 @NgModule({
@@ -99,8 +102,9 @@ import { MobileNewsFullComponent } from './mobile-news-full/mobile-news-full.com
     NewsFullComponent,
     NewsRowComponent,
     StandingsComponent,
-    MobileNewsFullComponent
 
+    PrematchStatisticsComponent,
+    StatsRowComponent
   ],
   imports: [
     BrowserModule,
