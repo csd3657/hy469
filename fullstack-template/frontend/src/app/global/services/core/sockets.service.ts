@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { Subject, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import * as io from 'socket.io-client';
+import { HttpClient } from '@angular/common/http';
+
 
 
 @Injectable({
@@ -14,13 +16,15 @@ export class SocketsService {
   private isInitialized = false;
   private onMessageObserver: Subject<{ event: string, msg: any }>;
 
-  constructor() {
+  constructor(private http: HttpClient) {
     this.hostUrl = environment.host;
   }
 
   /**
    * Init and connect sockets to server
    */
+
+
   public async initAndConnect() {
     if (!this.isInitialized) {
       await this.init();

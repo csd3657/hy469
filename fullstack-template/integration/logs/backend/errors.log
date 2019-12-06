@@ -4280,7 +4280,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.343Z' }
+=======
+  timestamp: '2019-12-05T20:36:46.731Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4292,7 +4296,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.372Z' }
+=======
+  timestamp: '2019-12-05T20:36:46.736Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4304,7 +4312,11 @@
    'Minio client failed to be initiatedgetaddrinfo ENOTFOUND minio minio:9000',
   stack:
    'Error: getaddrinfo ENOTFOUND minio minio:9000\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.385Z' }
+=======
+  timestamp: '2019-12-05T20:36:47.730Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4316,7 +4328,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.578Z' }
+=======
+  timestamp: '2019-12-05T20:36:47.924Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4328,7 +4344,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.620Z' }
+=======
+  timestamp: '2019-12-05T20:36:48.725Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4340,7 +4360,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.939Z' }
+=======
+  timestamp: '2019-12-05T20:36:49.226Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4352,7 +4376,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:51.975Z' }
+=======
+  timestamp: '2019-12-05T20:36:50.025Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4364,7 +4392,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:52.526Z' }
+=======
+  timestamp: '2019-12-05T20:36:50.825Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4376,7 +4408,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:52.572Z' }
+=======
+  timestamp: '2019-12-05T20:36:51.628Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4388,7 +4424,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:53.541Z' }
+=======
+  timestamp: '2019-12-05T20:36:52.827Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4400,7 +4440,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:53.570Z' }
+=======
+  timestamp: '2019-12-05T20:36:53.624Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4412,7 +4456,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:55.239Z' }
+=======
+  timestamp: '2019-12-05T20:36:55.427Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4424,7 +4472,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:55.263Z' }
+=======
+  timestamp: '2019-12-05T20:36:56.227Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4436,7 +4488,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:58.124Z' }
+=======
+  timestamp: '2019-12-05T20:36:59.225Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4448,7 +4504,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:15:58.165Z' }
+=======
+  timestamp: '2019-12-05T20:37:00.025Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4460,7 +4520,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:02.976Z' }
+=======
+  timestamp: '2019-12-05T20:37:05.025Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4472,7 +4536,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:03.034Z' }
+=======
+  timestamp: '2019-12-05T20:37:05.829Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4484,7 +4552,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:11.245Z' }
+=======
+  timestamp: '2019-12-05T20:37:14.236Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4496,7 +4568,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:11.277Z' }
+=======
+  timestamp: '2019-12-05T20:37:15.025Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4508,7 +4584,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:25.243Z' }
+=======
+  timestamp: '2019-12-05T20:37:29.229Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4520,7 +4600,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:25.271Z' }
+=======
+  timestamp: '2019-12-05T20:37:29.990Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4532,7 +4616,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:48.998Z' }
+=======
+  timestamp: '2019-12-05T20:37:53.929Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4544,7 +4632,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:16:49.013Z' }
+=======
+  timestamp: '2019-12-05T20:37:54.727Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4556,7 +4648,11 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:17:29.350Z' }
+=======
+  timestamp: '2019-12-05T20:38:35.227Z' }
+>>>>>>> branchManos
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
   syscall: 'getaddrinfo',
@@ -4568,6 +4664,7 @@
    'Socket server failed due to: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081',
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
+<<<<<<< HEAD
   timestamp: '2019-12-05T11:17:29.379Z' }
 { errno: 'ENOTFOUND',
   code: 'ENOTFOUND',
@@ -7493,3 +7590,6 @@
   stack:
    'Error: Redis connection to redis:8081 failed - getaddrinfo ENOTFOUND redis redis:8081\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)',
   timestamp: '2019-12-05T16:32:03.824Z' }
+=======
+  timestamp: '2019-12-05T20:38:36.027Z' }
+>>>>>>> branchManos

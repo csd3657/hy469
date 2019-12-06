@@ -37,7 +37,11 @@ export class App {
       await socketService.start(server);
 
       // Setup minio client
+<<<<<<< HEAD
    //  const minioService = DIContainer.get(MinioService); APO EDW KALEITAI I VASI. TA KANAME KOMMENT
+=======
+    //  const minioService = DIContainer.get(MinioService);
+>>>>>>> branchManos
     //  await minioService.setup();
 
       // Finally start server

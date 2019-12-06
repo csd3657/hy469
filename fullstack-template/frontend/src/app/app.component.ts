@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { SocketsService } from './global/services';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'ami-fullstack-root',
   templateUrl: './app.component.html',

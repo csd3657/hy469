@@ -1,5 +1,7 @@
 import * as express from 'express';
 import { apiV1Router } from './v1';
+import { ExampleController } from './v1/example/example.controller';
+
 
 export class Api {
 
@@ -9,6 +11,8 @@ export class Api {
    * @param {express.Application} app
    * @returns {Promise<express.Router>}
    */
+
+   
   public static async applyRoutes(app: express.Application): Promise<express.Router> {
 
     const apiRouter = express.Router();
@@ -16,6 +20,11 @@ export class Api {
     apiRouter.use('/api/', apiV1Router);
 
     return apiRouter;
+
+    
+
   }
+
+  
 
 }
