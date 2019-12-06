@@ -4,11 +4,7 @@
 
 export const environment = {
   production: false,
-<<<<<<< HEAD
   host: 'http://147.52.126.160:80',
-=======
-  host: 'http://85.72.70.168:80',
->>>>>>> branchManos
 };
 
 /*
