@@ -21,6 +21,7 @@ import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.com
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+import { EmampleComponent } from './pages/emample/emample.component';
 
 
 
@@ -39,6 +40,7 @@ const routes: Routes = [
   {path:'PlayerInfoWall' , component: PlayerInfosComponent},
   {path:'TeamInfoWall' , component: TeamInfosComponent},
   {path:'PrematchStatistics' , component: PrematchStatisticsComponent},
+  {path:'EMAMPLE' , component: EmampleComponent},
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

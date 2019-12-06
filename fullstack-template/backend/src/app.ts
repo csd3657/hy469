@@ -26,7 +26,7 @@ export class App {
   public async start() {
     try {
       // Setup and connect database
-      await this.setupDatabase();
+     // await this.setupDatabase();
 
       // Setup express and API routes
       this.app = await this.setupExpressApp();
@@ -37,8 +37,8 @@ export class App {
       await socketService.start(server);
 
       // Setup minio client
-      const minioService = DIContainer.get(MinioService);
-      await minioService.setup();
+   //  const minioService = DIContainer.get(MinioService); APO EDW KALEITAI I VASI. TA KANAME KOMMENT
+    //  await minioService.setup();
 
       // Finally start server
       server.listen(config.port, () => {

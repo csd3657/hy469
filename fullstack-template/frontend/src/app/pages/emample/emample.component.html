@@ -1,0 +1,15 @@
+<div>
+    <h1>SOCKET ECAMPLE</h1>
+    <ul>
+        <h1>My list</h1>
+        <li *ngFor="let event of socketEvents">
+            <h5>
+                {{event.event}}
+            </h5>
+            <h1>UserID</h1>
+            <p *ngIf="myUserID==userIDToTreat">
+                Its {{event.message.userID | json}}!
+            </p>
+        </li>
+    </ul>
+</div>

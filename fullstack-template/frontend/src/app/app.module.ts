@@ -45,6 +45,7 @@ import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.compone
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
 import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
+import { EmampleComponent } from './pages/emample/emample.component';
 
 
 
@@ -86,7 +87,8 @@ import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/st
     HeaderTagComponent,
     SideLetterComponent,
     PrematchStatisticsComponent,
-    StatsRowComponent
+    StatsRowComponent,
+    EmampleComponent
   ],
   imports: [
     BrowserModule,

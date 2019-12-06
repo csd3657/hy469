@@ -11,12 +11,7 @@ export const config = {
 
   // MongoDB connection options
   mongo: {
-    uri: `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/?authSource=admin`,
-    options: {
-      dbName: process.env.DB_NAME,
-      user: process.env.DB_ROOT_USERNAME,
-      pass: process.env.DB_ROOT_PASSWORD,
-    }
+    uri: `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}`
   },
 
   // sockets options

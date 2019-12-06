@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { SocketsService } from './global/services';
-
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'ami-fullstack-root',
@@ -12,8 +12,6 @@ export class AppComponent {
   constructor(private socketsService: SocketsService) {
     // Connect to sockets server on startup
     this.socketsService.initAndConnect();
-
-
 
 
     //How to consume an event

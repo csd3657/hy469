@@ -22,7 +22,7 @@ export class MongoAdapter {
     };
 
     // merge default options with config mongo options
-    const options = _.merge(defaultOptions, config.mongo.options);
+    const options = defaultOptions;
 
     // Connect to DB
     await connect(config.mongo.uri, options);

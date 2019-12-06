@@ -10,6 +10,7 @@ export class ExampleController {
      *
      * @returns {Router}
      */
+    /*
     public applyRoutes(): Router {
         const router = Router();
 
@@ -19,7 +20,17 @@ export class ExampleController {
 
         return router;
     }
+*/
+    public applyRoutes(): Router {
+        const router = Router();
 
+        router
+            .post('/treatSomeone', this.treatSomeone);
+
+        return router;
+    }
+ 
+    
     /**
      * Sens a message back as a response
      */
@@ -41,6 +52,16 @@ export class ExampleController {
         socketService.broadcast(event, message);
 
         res.json({ message: 'ok' });
+
+    }
+    
+    public treatSomeone(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
 
     }
 
