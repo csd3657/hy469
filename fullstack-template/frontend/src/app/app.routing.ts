@@ -21,11 +21,13 @@ import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.com
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
+import { ExampleComponentComponent } from './pages/home/example-component/example-component.component';
 
 
 
 const routes: Routes = [
   {path: 'PlayersMobile', component:PlayersListComponent},
+  {path: 'ExampleTv', component:ExampleComponentComponent},
   {path: 'ScheduleTv', component:ScheduleTVComponent},
   {path: 'SearchTv', component:SearchTvComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},

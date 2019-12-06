@@ -37,8 +37,8 @@ export class App {
       await socketService.start(server);
 
       // Setup minio client
-      const minioService = DIContainer.get(MinioService);
-      await minioService.setup();
+    //  const minioService = DIContainer.get(MinioService);
+    //  await minioService.setup();
 
       // Finally start server
       server.listen(config.port, () => {
