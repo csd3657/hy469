@@ -54,6 +54,7 @@ import { NewsRowComponent } from './pages/Mobile/news-row/news-row.component';
 import { StandingsComponent } from './pages/Mobile/standings/standings.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
 import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
+import { ScheduleDateComponent } from './pages/Mobile/schedule-date/schedule-date.component';
 
 
 
@@ -102,6 +103,7 @@ import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/st
     NewsFullComponent,
     NewsRowComponent,
     StandingsComponent,
+    ScheduleDateComponent,
 
     PrematchStatisticsComponent,
     StatsRowComponent
