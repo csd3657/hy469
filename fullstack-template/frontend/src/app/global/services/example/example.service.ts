@@ -20,7 +20,7 @@ export class ExampleService {
           food: foodToTreat,
           userID: toUserID
         }
-        , event:"treating"
+        , event:"treating1"
         
       }
     )

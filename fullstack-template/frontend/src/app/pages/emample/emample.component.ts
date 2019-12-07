@@ -20,9 +20,9 @@ export class EmampleComponent implements OnInit {
 
   ngOnInit() {
     this.myUserID = "me";
-    this.userIDToTreat = "userToTreat";
+    this.userIDToTreat = "me";
     this.foodToTreat = "aFoodToTreat";
-    this.socketService.syncMessages("treating").subscribe(msg => {
+    this.socketService.syncMessages("treating1").subscribe(msg => {
       this.socketEvents.push(msg);
     })
     this.treatSomeone();

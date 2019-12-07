@@ -1,6 +1,36 @@
 <span class="statscategory">
     <h1>{{categoryName}}</h1>
-    <ami-fullstack-player-case name="CAMPAZZO, FACUNTO" number="6" position="Guard" statsnum="22" country="Argentina" class="player1" image="assets/images/campazzoS.png"></ami-fullstack-player-case>
-    <ami-fullstack-player-case name="CAMPAZZO, FACUNTO" number="6" position="Guard" statsnum="22" country="Argentina" class="player1" image="assets/images/campazzoS.png"></ami-fullstack-player-case>
-    <ami-fullstack-player-case name="CAMPAZZO, FACUNTO" number="6" position="Guard" statsnum="22" country="Argentina" class="player1" image="assets/images/campazzoS.png"></ami-fullstack-player-case>
+    <span *ngIf="categoryName=='Points'">
+        <ami-fullstack-player-case name="CAMPAZZO, FACUNTO" number="6" position="Guard" statsnum="22"
+            country="Argentina" class="player1" image="assets/images/campazzoS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="DORSEY, TYLER" number="8" position="Guard" statsnum="15" country="Greece"
+            class="player2" image="assets/images/dorseyS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="CARROLL, JAYCE" number="12" position="Guard" statsnum="12" country="USA"
+            class="player3" image="assets/images/carollS.png"></ami-fullstack-player-case>
+    </span>
+    <span *ngIf="categoryName=='Assists'">
+        <ami-fullstack-player-case name="CAMPAZZO, FACUNTO" number="6" position="Guard" statsnum="12"
+            country="Argentina" class="player1" image="assets/images/campazzoS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="DORSEY, TYLER" number="8" position="Guard" statsnum="10" country="Greece"
+            class="player2" image="assets/images/dorseyS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="CARROLL, JAYCE" number="12" position="Guard" statsnum="7" country="USA"
+            class="player3" image="assets/images/carollS.png"></ami-fullstack-player-case>
+    </span>
+    <span *ngIf="categoryName=='Rebounds'">
+        <ami-fullstack-player-case name="TAVARES, EDY" number="22" position="Center" statsnum="12" country="Cape Verde"
+            class="player1" image="assets/images/tavaresS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="RANDOLPH, ANTHONY" number="20" position="Center" statsnum="7"
+            country="Slovenia" class="player2" image="assets/images/randolphS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="ACY, QUINCY" number="10" position="Center" statsnum="6" country="USA"
+            class="player3" image="assets/images/acyS.png"></ami-fullstack-player-case>
+    </span>
+    <span *ngIf="categoryName=='Blocks'">
+        <ami-fullstack-player-case name="TAVARES, EDY" number="22" position="Center" statsnum="6" country="Cape Verde"
+            class="player1" image="assets/images/tavaresS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="RANDOLPH, ANTHONY" number="20" position="Center" statsnum="3"
+            country="Slovenia" class="player2" image="assets/images/randolphS.png"></ami-fullstack-player-case>
+        <ami-fullstack-player-case name="ACY, QUINCY" number="10" position="Center" statsnum="2" country="USA"
+            class="player3" image="assets/images/acyS.png"></ami-fullstack-player-case>
+    </span>
+
 </span>

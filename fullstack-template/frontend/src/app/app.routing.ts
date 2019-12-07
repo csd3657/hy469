@@ -22,6 +22,9 @@ import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
 import { EmampleComponent } from './pages/emample/emample.component';
+import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
+import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
+import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 
 
 
@@ -32,7 +35,24 @@ const routes: Routes = [
   {path: 'WatchlistTv', component:WatchlistTvComponent},
   {path: 'VideosTv', component:VideoTVComponent},
   {path:'HomepageTv' , component: HomepageTVComponent},
-  {path:'TableVote' , component: VotingComponent},
+  {
+    path:'TableVote' , 
+    component: VotingComponent,
+    children: [
+      {
+        path: 'VoteMvp1',
+        component:  Votestep1Component
+      },
+      {
+        path: 'VoteMvp2',
+        component:  Votestep2Component
+      },
+      {
+        path: 'VoteMvp3',
+        component:  Votestep3Component
+      }
+    ]
+  },
   {path:'TableLiveInfos' , component: LiveinfosComponent},
   {path:'StartingPlayer' , component: StartingPlayerComponent},
   {path:'SubstitutePlayer' , component: SubstitutePlayerComponent},

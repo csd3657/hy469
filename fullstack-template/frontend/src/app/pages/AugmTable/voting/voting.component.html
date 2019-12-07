@@ -1,5 +1,13 @@
 <div class="menu">
-        <ami-fullstack-votestats></ami-fullstack-votestats>
-
-        <ami-fullstack-votestep1></ami-fullstack-votestep1>
+        <ami-fullstack-votestats class="playerStats"></ami-fullstack-votestats>
+        <div *ngIf="loadComponent1">
+                <ami-fullstack-votestep1 (childEvent)="loadMyChildComponent1();"></ami-fullstack-votestep1>
+        </div>
+        <div *ngIf="loadComponent2">
+                <ami-fullstack-votestep2 (childEvent1)="loadMyChildComponent2();"
+                        (childEvent2)="loadMyChildComponent3();"></ami-fullstack-votestep2>
+        </div>
+        <div *ngIf="loadComponent3">
+                <ami-fullstack-votestep3></ami-fullstack-votestep3>
+        </div>
 </div>

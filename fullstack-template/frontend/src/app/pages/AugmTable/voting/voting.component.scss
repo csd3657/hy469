@@ -1,3 +1,16 @@
 .menu{
+    height: 1080px;
+    width: 1920px;
     background-image: url("../../../../assets/background/TableBackground.png");
+    overflow: hidden;
+}
+
+.playerStats{
+    height: 50%;
+    width: 100%;
+}
+
+.voteStep1{
+    height: 50%;
+    width: 100%;
 }

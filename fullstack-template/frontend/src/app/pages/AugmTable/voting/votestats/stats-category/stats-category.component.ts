@@ -6,10 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./stats-category.component.scss']
 })
 export class StatsCategoryComponent implements OnInit {
-
   
   @Input() categoryName: string;
+
   constructor() { }
+
 
   ngOnInit() {
   }

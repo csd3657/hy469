@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-votestep2',
@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Votestep2Component implements OnInit {
 
+  @Output() public childEvent1 = new EventEmitter();
+  @Output() public childEvent2 = new EventEmitter();
+
   constructor() { }
+
+  SendToParent1(){
+    this.childEvent1.emit();
+  }
+
+  SendToParent2(){
+    this.childEvent2.emit();
+  }
 
   ngOnInit() {
   }

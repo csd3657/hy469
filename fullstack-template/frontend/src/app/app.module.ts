@@ -46,6 +46,7 @@ import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.comp
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
 import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
 import { EmampleComponent } from './pages/emample/emample.component';
+import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 
 
 
@@ -88,7 +89,8 @@ import { EmampleComponent } from './pages/emample/emample.component';
     SideLetterComponent,
     PrematchStatisticsComponent,
     StatsRowComponent,
-    EmampleComponent
+    EmampleComponent,
+    Votestep3Component
   ],
   imports: [
     BrowserModule,

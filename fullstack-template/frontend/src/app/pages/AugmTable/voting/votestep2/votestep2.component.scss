@@ -1,5 +1,6 @@
 span{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .title{
@@ -11,6 +12,8 @@ span{
     text-align: center;
     color: #FF5700;
 }
+
+
 .USER{
     color: #FFFFFF;
 }
@@ -28,6 +31,10 @@ span.mvpVote{
 
 .mvpVoteName{
     color: #FF5700;
+}
+
+.mvpVote h2{
+    font-size: 40px;
 }
 
 .menu{
