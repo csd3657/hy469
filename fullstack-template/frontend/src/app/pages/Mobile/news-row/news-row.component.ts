@@ -8,7 +8,6 @@ import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 })
 export class NewsRowComponent implements OnInit {
 
-
   @Input() title:string;
   @Input() title1:string;
   @Input() title2:string;

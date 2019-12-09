@@ -1,0 +1,28 @@
+.tab{
+    margin-left: 10px;
+}
+.col
+{
+    display: table-cell;
+    border-collapse: separate;
+    border-right: 20px solid transparent;
+}
+
+img {
+    max-height: 200px;
+    min-height: 200px;
+    width: auto;
+}
+
+p {
+    max-width: 350px;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 46px;
+}
