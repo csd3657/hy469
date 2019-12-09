@@ -22,6 +22,7 @@ import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
 import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
+import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 
 
 
@@ -50,6 +51,7 @@ const routes: Routes = [
     ]
   },
   {path:'TableLiveInfos' , component: LiveinfosComponent},
+  {path:'PlayersMobile' , component: PlayersListComponent},
   {path:'StartingPlayer' , component: StartingPlayerComponent},
   {path:'SubstitutePlayer' , component: SubstitutePlayerComponent},
   {path:'WallNews' , component: WallnewsComponent},
