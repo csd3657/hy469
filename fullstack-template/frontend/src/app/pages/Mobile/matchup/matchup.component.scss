@@ -1,0 +1,58 @@
+.card{
+    height: 530px;
+    display: table;
+    width: 110%;
+    margin: 0%;
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    height: 300px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 7%;
+    height: 200px;
+}
+
+.blank{
+    width: 400px;
+}
+.watchlist{
+    width: 100%;
+    position: absolute;
+    max-width: 120px;
+    margin-left: 93%;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 80px;
+}
+
+.score{
+    width: 300px;
+    margin-bottom: 40%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.top_icons {
+    min-width: 250px;
+    height: auto;
+}
+
+.team{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 50px;
+    width: 200px;
+}
