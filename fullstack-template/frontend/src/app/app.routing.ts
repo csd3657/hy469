@@ -3,14 +3,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomepageTVComponent } from './pages/TV/homepage-tv/homepage-tv.component';
 import { VideoTVComponent } from './pages/TV/video-tv/video-tv.component';
-
-
-
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
 import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
-
-
 import { WatchlistTvComponent } from './pages/TV/watchlist-tv/watchlist-tv.component';
 import { ScheduleTVComponent } from './pages/TV/schedule-tv/schedule-tv.component';
 import { VotingComponent } from './pages/AugmTable/voting/voting.component';
@@ -23,42 +18,44 @@ import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2
 import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
+import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
 
 
 
 const routes: Routes = [
-  {path: 'ScheduleTv', component:ScheduleTVComponent},
-  {path: 'SearchTv', component:SearchTvComponent},
-  {path: 'WatchlistTv', component:WatchlistTvComponent},
-  {path: 'VideosTv', component:VideoTVComponent},
-  {path:'HomepageTv' , component: HomepageTVComponent},
+  { path: 'ScheduleTv', component: ScheduleTVComponent },
+  { path: 'SearchTv', component: SearchTvComponent },
+  { path: 'WatchlistTv', component: WatchlistTvComponent },
+  { path: 'VideosTv', component: VideoTVComponent },
+  { path: 'HomepageTv', component: HomepageTVComponent },
   {
-    path:'TableVote' , 
+    path: 'TableVote',
     component: VotingComponent,
     children: [
       {
         path: 'VoteMvp1',
-        component:  Votestep1Component
+        component: Votestep1Component
       },
       {
         path: 'VoteMvp2',
-        component:  Votestep2Component
+        component: Votestep2Component
       },
       {
         path: 'VoteMvp3',
-        component:  Votestep3Component
+        component: Votestep3Component
       }
     ]
   },
-  {path:'TableLiveInfos' , component: LiveinfosComponent},
-  {path:'PlayersMobile' , component: PlayersListComponent},
-  {path:'StartingPlayer' , component: StartingPlayerComponent},
-  {path:'SubstitutePlayer' , component: SubstitutePlayerComponent},
-  {path:'WallNews' , component: WallnewsComponent},
-  {path:'PlayerInfoWall' , component: PlayerInfosComponent},
-  {path:'TeamInfoWall' , component: TeamInfosComponent},
-  {path:'PrematchStatistics' , component: PrematchStatisticsComponent},
-  {path:'EMAMPLE' , component: EmampleComponent},
+  { path: 'TableLiveInfos', component: LiveinfosComponent },
+  { path: 'PlayersMobile', component: PlayersListComponent },
+  { path: 'StartingPlayer', component: StartingPlayerComponent },
+  { path: 'SubstitutePlayer', component: SubstitutePlayerComponent },
+  { path: 'WallNews', component: WallnewsComponent },
+  { path: 'PlayerInfoWall', component: PlayerInfosComponent },
+  { path: 'TeamInfoWall', component: TeamInfosComponent },
+  { path: 'PrematchStatistics', component: PrematchStatisticsComponent },
+  { path: 'EMAMPLE', component: EmampleComponent },
+  { path: 'SMhome', component: SMhomepageComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

@@ -41,6 +41,11 @@ import { PlayersListComponent } from './pages/Mobile/players-list/players-list.c
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
 import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
+import { SmlivematchComponent } from './pages/Mobile/smhomepage/smlivematch/smlivematch.component';
+import { TopplaysComponent } from './pages/Mobile/smhomepage/topplays/topplays.component';
+import { VideoComponent } from './pages/Mobile/smhomepage/topplays/video/video.component';
+import { StandingsComponent } from './pages/Mobile/smhomepage/standings/standings.component';
 
 
 
@@ -85,7 +90,12 @@ import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.comp
     Votestep3Component,
     PlayersListComponent,
     SideLetterComponent,
-    PlayerProfileComponent
+    PlayerProfileComponent,
+    SMhomepageComponent,
+    SmlivematchComponent,
+    TopplaysComponent,
+    VideoComponent,
+    StandingsComponent
   ],
   imports: [
     BrowserModule,

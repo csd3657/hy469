@@ -1,0 +1,41 @@
+<div class="menu">
+    <div>
+        <h3>{{title}}</h3>
+    </div>
+    <div *ngIf="title=='Top Plays'" class="case">
+        <span>
+            <ami-fullstack-video play_img="../../../../../assets/Videos_mob/play.png"
+                back_img="../../../../../assets/Videos_mob/larkin26 1.png"
+                context="Larkin’s assist vs Maccabi FOX a..."></ami-fullstack-video>
+        </span>
+        <span>
+            <ami-fullstack-video play_img="../../../../../assets/Videos_mob/play.png"
+                back_img="../../../../../assets/Videos_mob/spanoulis 1.png"
+                context="Spanoulis’ assist vs Anadolu Efe..."></ami-fullstack-video>
+        </span>
+        <span>
+            <ami-fullstack-video play_img="../../../../../assets/Videos_mob/play.png"
+                back_img="../../../../../assets/Videos_mob/calathes.png" context="Calathes’ assist vs Olympiakos...">
+            </ami-fullstack-video>
+        </span>
+    </div>
+
+    <div *ngIf="title=='News'" class="case">
+        <span>
+            <ami-fullstack-video
+                back_img="../../../../../assets/Videos_mob/berto.png"
+                context="Open letter from EuroLeague C..."></ami-fullstack-video>
+        </span>
+        <span>
+            <ami-fullstack-video
+                back_img="../../../../../assets/Videos_mob/obradovic.png"
+                context="Obradovic asks fans to show h..."></ami-fullstack-video>
+        </span>
+        <span>
+            <ami-fullstack-video
+                back_img="../../../../../assets/Videos_mob/blat.png" 
+                context="David Blatt, Olympiacos is ...">
+            </ami-fullstack-video>
+        </span>
+    </div>
+</div>
