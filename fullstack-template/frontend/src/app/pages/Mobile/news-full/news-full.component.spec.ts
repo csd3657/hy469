@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StandingsComponent } from './standings.component';
+import { NewsFullComponent } from './news-full.component';
 
-describe('StandingsComponent', () => {
-  let component: StandingsComponent;
-  let fixture: ComponentFixture<StandingsComponent>;
+describe('NewsFullComponent', () => {
+  let component: NewsFullComponent;
+  let fixture: ComponentFixture<NewsFullComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ StandingsComponent ]
+      declarations: [ NewsFullComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StandingsComponent);
+    fixture = TestBed.createComponent(NewsFullComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
