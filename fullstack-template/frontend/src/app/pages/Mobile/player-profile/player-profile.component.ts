@@ -14,6 +14,7 @@ export class PlayerProfileComponent implements OnInit {
   @Input() nation:string;
 
   constructor() { }
+  
 
   ngOnInit() {
   }
