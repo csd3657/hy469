@@ -41,6 +41,8 @@ import { PlayersListComponent } from './pages/Mobile/players-list/players-list.c
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
 import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
+import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profile.component';
 
 
 
@@ -85,7 +87,9 @@ import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.comp
     Votestep3Component,
     PlayersListComponent,
     SideLetterComponent,
-    PlayerProfileComponent
+    PlayerProfileComponent,
+    TeamsListComponent,
+    TeamsProfileComponent
   ],
   imports: [
     BrowserModule,
