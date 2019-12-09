@@ -37,6 +37,7 @@ import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/pr
 import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
 import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
+import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 
 
 
@@ -76,7 +77,8 @@ import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3
     PrematchStatisticsComponent,
     StatsRowComponent,
     EmampleComponent,
-    Votestep3Component
+    Votestep3Component,
+    PlayersListComponent
   ],
   imports: [
     BrowserModule,
