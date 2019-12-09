@@ -1,9 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-
-
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { SidebarMenuComponent } from './pages/TV/sidebar-menu/sidebar-menu.component';
@@ -13,10 +10,7 @@ import { VotestatsComponent } from './pages/AugmTable/voting/votestats/votestats
 import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1.component';
 import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
 import { LiveinfosComponent } from './pages/AugmTable/liveinfos/liveinfos.component';
-
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
-
-
 import { SubstitutePlayerComponent } from './pages/AugmTable/liveinfos/substitute-player/substitute-player.component';
 import { StartingPlayerComponent } from './pages/AugmTable/liveinfos/starting-player/starting-player.component';
 import { SubstitutePlayerBottomComponent } from './pages/AugmTable/liveinfos/substitute-player-bottom/substitute-player-bottom.component';
@@ -43,7 +37,6 @@ import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/pr
 import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/stats-row.component';
 import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
-import { ScheduleDateComponent } from './pages/Mobile/schedule-date/schedule-date.component';
 
 
 
