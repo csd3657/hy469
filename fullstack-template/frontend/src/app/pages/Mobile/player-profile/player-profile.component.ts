@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Interpolation } from '@angular/compiler';
+//import { Interpolation } from '@angular/compiler';
 
 @Component({
   selector: 'ami-fullstack-player-profile',
@@ -14,7 +14,7 @@ export class PlayerProfileComponent implements OnInit {
   @Input() nation:string;
 
   constructor() { }
-  
+
 
   ngOnInit() {
   }
