@@ -1,4 +1,4 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'mobile-news-card',
@@ -7,9 +7,11 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class NewsCardComponent implements OnInit {
 
-  @Input() video_thumbnail:string;
-  @Input() video_title:string;
-  @Input() video_desc:string;
+  @Input() video_thumbnail: string;
+  @Input() video_title: string;
+  @Input() video_desc: string;
+  @Input() video_name: string;
+
   constructor() { }
 
   ngOnInit() {

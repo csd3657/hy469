@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-header-tag',
@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderTagComponent implements OnInit {
 
+  @Input() page_title: string;
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  
+
 }

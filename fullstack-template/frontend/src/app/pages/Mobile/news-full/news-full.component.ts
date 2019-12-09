@@ -9,10 +9,11 @@ export class NewsFullComponent implements OnInit {
 
   constructor() { }
 
-  @Input() article:string;
-  @Input() author:string;
-  @Input() date:string;
-  @Input() image:string;
+  @Input() article: string;
+  @Input() author: string;
+  @Input() date: string;
+  @Input() image: string;
+  @Input() title: string;
   ngOnInit() {
   }
 
