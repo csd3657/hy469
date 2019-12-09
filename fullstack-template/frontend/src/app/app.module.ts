@@ -50,6 +50,9 @@ import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.compone
 import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profile.component';
 import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
 import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component';
+import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
+import { BarComponent } from './pages/Mobile/smschedule/bar/bar.component';
+import { MatchComponent } from './pages/Mobile/smschedule/match/match.component';
 
 
 
@@ -103,7 +106,10 @@ import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component
     TeamsListComponent,
     TeamsProfileComponent,
     MainmenuComponent,
-    ChoiseComponent
+    ChoiseComponent,
+    SMscheduleComponent,
+    BarComponent,
+    MatchComponent
   ],
   imports: [
     BrowserModule,

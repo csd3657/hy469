@@ -22,6 +22,7 @@ import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.compon
 import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
 import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
+import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
 
 
 
@@ -61,6 +62,7 @@ const routes: Routes = [
   { path: 'EMAMPLE', component: EmampleComponent },
   { path: 'SMhome', component: SMhomepageComponent },
   { path: 'SMmenu', component: MainmenuComponent },
+  { path: 'SMschedule', component: SMscheduleComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },
