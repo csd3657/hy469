@@ -17,7 +17,6 @@ import { VotingComponent } from './pages/AugmTable/voting/voting.component';
 import { WallnewsComponent } from './pages/Wall/wallnews/wallnews.component';
 import { PlayerInfosComponent } from './pages/Wall/player-infos/player-infos.component';
 import { TeamInfosComponent } from './pages/Wall/team-infos/team-infos.component';
-import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { PrematchStatisticsComponent } from './pages/Wall/prematch-statistics/prematch-statistics.component';
 import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep2Component } from './pages/AugmTable/voting/votestep2/votestep2.component';
@@ -27,7 +26,6 @@ import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3
 
 
 const routes: Routes = [
-  {path: 'PlayersMobile', component:PlayersListComponent},
   {path: 'ScheduleTv', component:ScheduleTVComponent},
   {path: 'SearchTv', component:SearchTvComponent},
   {path: 'WatchlistTv', component:WatchlistTvComponent},
