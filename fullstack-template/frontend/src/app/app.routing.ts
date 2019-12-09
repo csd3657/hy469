@@ -19,6 +19,7 @@ import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
+import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
 
 
 
@@ -56,6 +57,7 @@ const routes: Routes = [
   { path: 'PrematchStatistics', component: PrematchStatisticsComponent },
   { path: 'EMAMPLE', component: EmampleComponent },
   { path: 'SMhome', component: SMhomepageComponent },
+  { path: 'SMmenu', component: MainmenuComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

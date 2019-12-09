@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeaderTagComponent implements OnInit {
 
   @Input() page_title: string;
+  @Input() image: string;
 
   constructor() { }
 
