@@ -28,23 +28,10 @@ export class ExampleController {
         router
             .post('/treatSomeone', this.treatSomeone);
 
-<<<<<<< HEAD
         return router;
     }
  
     
-=======
-
-    public treatSomeone(req: Request, res: Response) {
-        const message: string = req.body.message;
-        const event: string = req.body.event;
-
-        //Sending a broadcast message to all clients
-        const socketService = DIContainer.get(SocketsService);
-        socketService.broadcast(event, message);
-    }
-
->>>>>>> branchManos
     /**
      * Sens a message back as a response
      */

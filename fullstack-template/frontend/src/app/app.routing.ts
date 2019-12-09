@@ -19,6 +19,9 @@ import { Votestep1Component } from './pages/AugmTable/voting/votestep1/votestep1
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
+import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
+import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
+
 
 
 
@@ -47,6 +50,7 @@ const routes: Routes = [
     ]
   },
   { path: 'TableLiveInfos', component: LiveinfosComponent },
+  {path:'TeamsMobile' , component: TeamsListComponent},
   { path: 'PlayersMobile', component: PlayersListComponent },
   { path: 'StartingPlayer', component: StartingPlayerComponent },
   { path: 'SubstitutePlayer', component: SubstitutePlayerComponent },

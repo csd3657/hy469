@@ -46,6 +46,8 @@ import { SmlivematchComponent } from './pages/Mobile/smhomepage/smlivematch/smli
 import { TopplaysComponent } from './pages/Mobile/smhomepage/topplays/topplays.component';
 import { VideoComponent } from './pages/Mobile/smhomepage/topplays/video/video.component';
 import { StandingsComponent } from './pages/Mobile/smhomepage/standings/standings.component';
+import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
+import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profile.component';
 
 
 
@@ -95,7 +97,9 @@ import { StandingsComponent } from './pages/Mobile/smhomepage/standings/standing
     SmlivematchComponent,
     TopplaysComponent,
     VideoComponent,
-    StandingsComponent
+    StandingsComponent,
+    TeamsListComponent,
+    TeamsProfileComponent
   ],
   imports: [
     BrowserModule,
