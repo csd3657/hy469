@@ -48,6 +48,8 @@ import { VideoComponent } from './pages/Mobile/smhomepage/topplays/video/video.c
 import { StandingsComponent } from './pages/Mobile/smhomepage/standings/standings.component';
 import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
 import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profile.component';
+import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
+import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component';
 
 
 
@@ -99,7 +101,9 @@ import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profil
     VideoComponent,
     StandingsComponent,
     TeamsListComponent,
-    TeamsProfileComponent
+    TeamsProfileComponent,
+    MainmenuComponent,
+    ChoiseComponent
   ],
   imports: [
     BrowserModule,
