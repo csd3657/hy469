@@ -38,6 +38,10 @@ import { StatsRowComponent } from './pages/Wall/prematch-statistics/stats-row/st
 import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
+import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
+import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
+import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
+
 
 
 
@@ -45,6 +49,7 @@ import { PlayersListComponent } from './pages/Mobile/players-list/players-list.c
   declarations: [
     AppComponent,
     SidebarMenuComponent,
+    HeaderTagComponent,
     HomepageTVComponent,
     VideoTVComponent,
     VotestatsComponent,
@@ -78,7 +83,9 @@ import { PlayersListComponent } from './pages/Mobile/players-list/players-list.c
     StatsRowComponent,
     EmampleComponent,
     Votestep3Component,
-    PlayersListComponent
+    PlayersListComponent,
+    SideLetterComponent,
+    PlayerProfileComponent
   ],
   imports: [
     BrowserModule,
