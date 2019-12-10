@@ -39,7 +39,6 @@ import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
-import { PlayerProfileComponent } from './pages/Mobile/player-profile/player-profile.component';
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
 import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
 import { SmlivematchComponent } from './pages/Mobile/smhomepage/smlivematch/smlivematch.component';
@@ -53,8 +52,6 @@ import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component
 import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
 import { BarComponent } from './pages/Mobile/smschedule/bar/bar.component';
 import { MatchComponent } from './pages/Mobile/smschedule/match/match.component';
-import { PlayerProfilePageComponent } from './pages/Mobile/player-profile-page/player-profile-page.component';
-import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/player-profile-tag.component';
 
 
 
@@ -99,7 +96,6 @@ import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/pla
     Votestep3Component,
     PlayersListComponent,
     SideLetterComponent,
-    PlayerProfileComponent,
     SMhomepageComponent,
     SmlivematchComponent,
     TopplaysComponent,
@@ -111,9 +107,7 @@ import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/pla
     ChoiseComponent,
     SMscheduleComponent,
     BarComponent,
-    MatchComponent,
-    PlayerProfilePageComponent,
-    PlayerProfileTagComponent
+    MatchComponent
   ],
   imports: [
     BrowserModule,
