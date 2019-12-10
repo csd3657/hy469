@@ -53,6 +53,8 @@ import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component
 import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
 import { BarComponent } from './pages/Mobile/smschedule/bar/bar.component';
 import { MatchComponent } from './pages/Mobile/smschedule/match/match.component';
+import { PlayerProfilePageComponent } from './pages/Mobile/player-profile-page/player-profile-page.component';
+import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/player-profile-tag.component';
 
 
 
@@ -109,7 +111,9 @@ import { MatchComponent } from './pages/Mobile/smschedule/match/match.component'
     ChoiseComponent,
     SMscheduleComponent,
     BarComponent,
-    MatchComponent
+    MatchComponent,
+    PlayerProfilePageComponent,
+    PlayerProfileTagComponent
   ],
   imports: [
     BrowserModule,
