@@ -11,16 +11,18 @@
         PUNTER,KEVIN XAVIER
     </div>
     <div class="letter_tag"> <span class="text">Average Statistics </span> </div>
+<div class="container1">
+    <div class="types" *ngFor="let cat of Categories">
+        {{cat}}
+    </div>
+</div>
 
     <div class="container">
-        <div class="types" *ngFor="let cat of Categories">
-            {{cat}}
-        </div>
-    </div>
-    <div class="main1">
         <div class="types1" *ngFor="let cat of Numbers">
             {{cat}}
         </div>
     </div>
+
+
 
 </div>
