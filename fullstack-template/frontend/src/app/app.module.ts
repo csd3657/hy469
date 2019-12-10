@@ -55,6 +55,8 @@ import { BarComponent } from './pages/Mobile/smschedule/bar/bar.component';
 import { MatchComponent } from './pages/Mobile/smschedule/match/match.component';
 import { PlayerProfilePageComponent } from './pages/Mobile/player-profile-page/player-profile-page.component';
 import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/player-profile-tag.component';
+import { PlayerProfileStatisticsComponent } from './pages/Mobile/player-profile-statistics/player-profile-statistics.component';
+import { StatisticsTagComponent } from './pages/Mobile/statistics-tag/statistics-tag.component';
 
 
 
@@ -113,7 +115,9 @@ import { PlayerProfileTagComponent } from './pages/Mobile/player-profile-tag/pla
     BarComponent,
     MatchComponent,
     PlayerProfilePageComponent,
-    PlayerProfileTagComponent
+    PlayerProfileTagComponent,
+    PlayerProfileStatisticsComponent,
+    StatisticsTagComponent
   ],
   imports: [
     BrowserModule,

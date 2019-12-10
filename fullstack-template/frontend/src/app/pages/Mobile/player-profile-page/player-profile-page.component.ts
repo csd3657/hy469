@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-player-profile-page',
@@ -7,9 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerProfilePageComponent implements OnInit {
 
-  constructor() { }
+  private heart:string;
+  
+
+  constructor() { 
+    this.heart="../../../../assets/images/Empty_heart.png";
+  }
+
+ 
 
   ngOnInit() {
+  }
+
+  addToFavourites(){
+    if(this.heart==="../../../../assets/images/Full_heart.png"){
+      this.heart="../../../../assets/images/Empty_heart.png";
+    }else{
+      this.heart="../../../../assets/images/Full_heart.png";
+    }
   }
 
 }

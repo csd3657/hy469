@@ -24,6 +24,7 @@ import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.compone
 import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
 import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
 import { PlayerProfilePageComponent } from './pages/Mobile/player-profile-page/player-profile-page.component';
+import { PlayerProfileStatisticsComponent } from './pages/Mobile/player-profile-statistics/player-profile-statistics.component';
 
 
 
@@ -52,7 +53,8 @@ const routes: Routes = [
     ]
   },
   { path: 'TableLiveInfos', component: LiveinfosComponent },
-  { path: 'PlayerProfile', component:PlayerProfilePageComponent },
+  { path: 'PlayersMobile/KevinPunter', component:PlayerProfilePageComponent },
+  { path: 'PlayersMobile/KevinPunter/Statistics', component:PlayerProfileStatisticsComponent },
   {path:'TeamsMobile' , component: TeamsListComponent},
   { path: 'PlayersMobile', component: PlayersListComponent },
   { path: 'StartingPlayer', component: StartingPlayerComponent },

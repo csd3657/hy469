@@ -1,0 +1,26 @@
+<ami-fullstack-statistics-tag image="../../../../assets/images/back_arrow.png" page_title="Punter X. K."
+    link_icon="../../../../assets/images/connect.png"></ami-fullstack-statistics-tag>
+<div class="main">
+    <div class="heart" (click)="addToFavourites()">
+        <img src={{heart}}>
+    </div>
+    <span class="player">
+        <img src="../../../../assets/images/Punter.png">
+    </span>
+    <div class="player_name">
+        PUNTER,KEVIN XAVIER
+    </div>
+    <div class="letter_tag"> <span class="text">Average Statistics </span> </div>
+
+    <div class="container">
+        <div class="types" *ngFor="let cat of Categories">
+            {{cat}}
+        </div>
+    </div>
+    <div class="main1">
+        <div class="types1" *ngFor="let cat of Numbers">
+            {{cat}}
+        </div>
+    </div>
+
+</div>
