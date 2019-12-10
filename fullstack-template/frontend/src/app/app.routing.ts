@@ -53,9 +53,9 @@ const routes: Routes = [
   },
   { path: 'TableLiveInfos', component: LiveinfosComponent },
   { path: 'TeamsMobile', component: TeamsListComponent },
-  { path: 'PlayersMobile/KevinPunter', component:PlayerProfilePageComponent },
-  { path: 'PlayersMobile/KevinPunter/Statistics', component:PlayerProfileStatisticsComponent },
-  {path:'TeamsMobile' , component: TeamsListComponent},
+  { path: 'PlayersMobile/KevinPunter', component: PlayerProfilePageComponent },
+  { path: 'PlayersMobile/KevinPunter/Statistics', component: PlayerProfileStatisticsComponent },
+  { path: 'TeamsMobile', component: TeamsListComponent },
   { path: 'PlayersMobile', component: PlayersListComponent },
   { path: 'StartingPlayer', component: StartingPlayerComponent },
   { path: 'SubstitutePlayer', component: SubstitutePlayerComponent },
@@ -64,17 +64,26 @@ const routes: Routes = [
   { path: 'TeamInfoWall', component: TeamInfosComponent },
   { path: 'PrematchStatistics', component: PrematchStatisticsComponent },
   { path: 'EMAMPLE', component: EmampleComponent },
+  { path: 'SMschedule', component: SMscheduleComponent },
   { path: 'SMhome', component: SMhomepageComponent },
   { path: 'SMmenu', component: MainmenuComponent },
-  { path: 'SMschedule', component: SMscheduleComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
 
+const routes2: Routes = [
+  
+
+];
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
+  exports: [
+    RouterModule
+  ]
 })
 export class AppRoutingModule { }

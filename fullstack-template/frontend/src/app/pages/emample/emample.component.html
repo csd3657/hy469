@@ -2,6 +2,7 @@
     <h1>SOCKET EXAMPLE</h1>
     <ul>
         <h1>Situation:</h1>
+        <button (click) = "treat()" >TREAT</button>
         <li *ngFor="let event of socketEvents">
             <h5>
                 {{event.event}}
@@ -10,6 +11,8 @@
             <p *ngIf="myUserID==userIDToTreat">
                 Its {{event.message.food | json}}!
             </p>
+            
         </li>
     </ul>
 </div>
+<a routerLink = "/home" > Home </a>
