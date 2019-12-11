@@ -1,0 +1,76 @@
+.image_holder img{
+    width: 393px;
+    height: 161px;
+}
+
+.head_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left:5%;
+    margin-top:3%;
+}
+.text1{
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6A6A6;
+}
+.VL{
+    display: inline-block;
+    height: 15px;
+    background-color:black;
+    width:1px;
+    margin-left: 2%;
+    vertical-align: middle;
+}
+.text2{
+    display: inline-block;
+    color:#898989;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+.author_date{
+    margin-left:37%;
+}
+.main_text{
+    width:329px ;
+    height: 223px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left:5%;
+    margin-top:7%;
+}
+
+.full_team img{
+    width:393px;
+    height: 161px;
+}
+
+.full_team{
+    margin-top:20%;
+}
+.IN{
+    text-align: center;
+    position: relative;
+    left:2px;
+    top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.OUT{
+    position: relative;
+    left: 188px;
+    top: -160px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: center;
+}
+.Dep ,.Arr{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

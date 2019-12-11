@@ -25,6 +25,7 @@ import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.compon
 import { PlayerProfilePageComponent } from './pages/Mobile/player-profile-page/player-profile-page.component';
 import { PlayerProfileStatisticsComponent } from './pages/Mobile/player-profile-statistics/player-profile-statistics.component';
 import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.component';
+import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
 
 
 
@@ -53,6 +54,7 @@ const routes: Routes = [
     ]
   },
   { path: 'TableLiveInfos', component: LiveinfosComponent },
+  { path: 'NewsMobile/CSKARoster', component: SpecificNewsComponent },
   { path: 'NewsMobile', component: NewsMobileComponent },
   { path: 'TeamsMobile', component: TeamsListComponent },
   { path: 'PlayersMobile/KevinPunter', component: PlayerProfilePageComponent },
