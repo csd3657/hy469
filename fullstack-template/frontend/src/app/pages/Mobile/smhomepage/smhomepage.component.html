@@ -1,10 +1,14 @@
+<div>
+    <ami-fullstack-header-tag (hide_rest_scroll)="hide_the_rest()" page_title="Home"
+        image="../../../../assets/images/main_menu_mobile.png"></ami-fullstack-header-tag>
 
-<ami-fullstack-header-tag page_title="Home" image="../../../../assets/images/main_menu_mobile.png"></ami-fullstack-header-tag>
+    <div *ngIf="hide_the_rest_page">
+        <ami-fullstack-smlivematch></ami-fullstack-smlivematch>
 
-<ami-fullstack-smlivematch></ami-fullstack-smlivematch>
+        <ami-fullstack-topplays title="Top Plays"></ami-fullstack-topplays>
 
-<ami-fullstack-topplays title="Top Plays"></ami-fullstack-topplays>
+        <ami-fullstack-topplays title="News"></ami-fullstack-topplays>
 
-<ami-fullstack-topplays title="News"></ami-fullstack-topplays>
-
-<ami-fullstack-standings></ami-fullstack-standings>
+        <ami-fullstack-standings></ami-fullstack-standings>
+    </div>
+</div>
