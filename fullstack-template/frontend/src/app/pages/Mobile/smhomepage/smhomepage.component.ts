@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SMhomepageComponent implements OnInit {
 
+  public hide_the_rest_page = true;
+  
   constructor() { }
 
   ngOnInit() {
   }
 
+  hide_the_rest(){
+    this.hide_the_rest_page = !this.hide_the_rest_page;
+  }
 }

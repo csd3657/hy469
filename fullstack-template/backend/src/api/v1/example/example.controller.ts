@@ -26,7 +26,9 @@ export class ExampleController {
         const router = Router();
 
         router
-            .post('/treatSomeone', this.treatSomeone);
+            .post('/treatSomeone', this.treatSomeone)
+            .post('/openMatchToTv', this.matchToTv)
+            .post('/closeMatchToTv', this.matchToTv);
 
         return router;
     }
@@ -57,6 +59,15 @@ export class ExampleController {
     }
     
     public treatSomeone(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+    public matchToTv(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

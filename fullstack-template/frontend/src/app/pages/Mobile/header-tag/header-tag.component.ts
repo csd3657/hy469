@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-header-tag',
@@ -11,14 +11,21 @@ export class HeaderTagComponent implements OnInit {
 
   @Input() page_title: string;
   @Input() image: string;
+  @Output() public hide_rest_scroll = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  SendToParent(){
+    this.hide_rest_scroll.emit();
+  }
   openMenu(){
+    
     this.openMenu_flag = !this.openMenu_flag;
   }
+
+  
 
 }
