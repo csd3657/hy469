@@ -1,0 +1,33 @@
+.container{
+    margin-top:8%;
+}
+
+.image_holder .photo{
+    width: 393px;
+    height: 161px;
+    margin-left: -4%;
+    z-index: 1;
+}
+.image_holder .connect{
+    position: relative;
+    left:330px;
+    top:-45px;
+    z-index: 2;
+    color: black;
+}
+.Title_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-top:-5%;
+    margin-left:-1%;
+}
+
+.Specific_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #626262;
+    margin-left: -1%;
+}
+
