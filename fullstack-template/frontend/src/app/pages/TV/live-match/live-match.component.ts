@@ -14,7 +14,7 @@ export class LiveMatchComponent implements OnInit {
   public safeURL: SafeResourceUrl;
 
   constructor(private _sanitizer: DomSanitizer) {
-    this.safeURL = this._sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/xPY_IcihVfY');
+    this.safeURL = this._sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/xPY_IcihVfY?autoplay=1');
   }
 
   ngOnInit() {

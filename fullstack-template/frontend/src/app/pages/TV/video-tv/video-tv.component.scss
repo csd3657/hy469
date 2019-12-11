@@ -6,8 +6,8 @@
     overflow-x: hidden;
     overflow-y: auto;
     width: max-content;
+    
 }
-
 .sidemenu{
     height: 100%;
     width: 110px;
@@ -18,11 +18,16 @@
 }
 .row{
     overflow-x: scroll;
+    overflow: hidden;
     width: 2000px;
     margin-bottom: 1.5%;
 }
 .ghost{
     width:1920px;
     height: 1.5%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
