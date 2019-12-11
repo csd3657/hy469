@@ -1,13 +1,19 @@
-<div class="Header">
-    <span class="arrow">
-        <img src={{image}}>
-        <!--Velaki-> "../../../../assets/images/back_arrow.png"-->
-        <!--Mainmenu-> "../../../../assets/images/main_menu_mobile.png"-->
-    </span>
-    <span class="text">
-         <h4>{{page_title}}</h4> 
-    </span>
-    <span class="search">
-        <img src="../../../../assets/images/SearchTag.png">
-    </span>
+<div class="menu">
+    <div class="Header">
+        <span (click)="openMenu()" class="arrow">
+            <img src={{image}}>
+            <!--Velaki-> "../../../../assets/images/back_arrow.png"-->
+            <!--Mainmenu-> "../../../../assets/images/main_menu_mobile.png"-->
+        </span>
+        <span class="text">
+            <h4>{{page_title}}</h4>
+        </span>
+        <span class="search">
+            <img src="../../../../assets/images/SearchTag.png">
+        </span>
+    </div>
+
+    <div *ngIf="image=='../../../../assets/images/main_menu_mobile.png' && openMenu_flag">
+        <ami-fullstack-mainmenu></ami-fullstack-mainmenu>
+    </div>
 </div>

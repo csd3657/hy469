@@ -67,16 +67,15 @@ const routes: Routes = [
   { path: 'SMschedule', component: SMscheduleComponent },
   { path: 'SMhome', component: SMhomepageComponent },
   { path: 'SMmenu', component: MainmenuComponent },
+  { path: 'SMschedule', component: SMscheduleComponent },
+  { path: 'SMplayers', component: PlayersListComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
 
-const routes2: Routes = [
-  
 
-];
 
 @NgModule({
   imports: [

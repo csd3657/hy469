@@ -7,6 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderTagComponent implements OnInit {
 
+  public openMenu_flag = false;
+
   @Input() page_title: string;
   @Input() image: string;
 
@@ -15,5 +17,8 @@ export class HeaderTagComponent implements OnInit {
   ngOnInit() {
   }
 
+  openMenu(){
+    this.openMenu_flag = !this.openMenu_flag;
+  }
 
 }

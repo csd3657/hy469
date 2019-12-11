@@ -31,7 +31,7 @@ export class EmampleComponent implements OnInit {
   }
 
   public treat(){
-    //this.userIDToTreat = "me";
+    this.userIDToTreat = "me";
     this.treatSomeone();
   }
 
