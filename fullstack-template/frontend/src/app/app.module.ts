@@ -59,6 +59,7 @@ import { StatisticsTagComponent } from './pages/Mobile/statistics-tag/statistics
 import { PlayerProfileTagComponent } from './pages/Mobile/players-profile-tag/player-profile-tag.component';
 import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.component';
 import { NewsBoxComponent } from './pages/Mobile/news-box/news-box.component';
+import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
 
 
 
@@ -121,7 +122,8 @@ import { NewsBoxComponent } from './pages/Mobile/news-box/news-box.component';
     PlayerProfileStatisticsComponent,
     StatisticsTagComponent,
     NewsMobileComponent,
-    NewsBoxComponent
+    NewsBoxComponent,
+    SpecificNewsComponent
   ],
   imports: [
     BrowserModule,
