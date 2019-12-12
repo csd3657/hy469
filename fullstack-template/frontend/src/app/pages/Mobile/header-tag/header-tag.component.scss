@@ -39,10 +39,22 @@ span{
 
 .search{
     height: 41px;
-    margin-left: 15%;
+    margin-left: 7%;
 }
 
 .search img{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.sendTo{
+    height: 41px;
+}
+
+.sendTo img{
+    visibility: hidden;
     width: 24px;
     height: 24px;
     margin: auto;
