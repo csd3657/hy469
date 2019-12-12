@@ -12,5 +12,8 @@ export class SidebarMenuComponent implements OnInit {
   ngOnInit() {
   }
 
+ // HoverSmth(){
+  //  console.log("HELLO");
+  //}
 
 }
