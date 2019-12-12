@@ -1,3 +1,4 @@
+import { VirtualComponent } from './cursor/virtual/virtual.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -123,7 +124,8 @@ import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-new
     StatisticsTagComponent,
     NewsMobileComponent,
     NewsBoxComponent,
-    SpecificNewsComponent
+    SpecificNewsComponent,
+    VirtualComponent
   ],
   imports: [
     BrowserModule,
