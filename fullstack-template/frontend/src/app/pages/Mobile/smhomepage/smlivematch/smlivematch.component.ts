@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
+import {Router} from '@angular/router';
+
 
 @Component({
   selector: 'ami-fullstack-smlivematch',
@@ -8,7 +10,7 @@ import { MobileService } from 'src/app/global/services/mobile/mobile.service';
 })
 export class SmlivematchComponent implements OnInit {
 
-  constructor(private _mobileService: MobileService) { }
+  constructor(private _mobileService: MobileService,private router: Router) { }
 
   ngOnInit() {
   }
@@ -16,6 +18,7 @@ export class SmlivematchComponent implements OnInit {
 
   openMatchToTv(){
     this._mobileService.openMatchToTv(true).subscribe();
+    this.router.navigateByUrl('/PlayersMobile');
   }
 
 }
