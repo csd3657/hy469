@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { HeaderTagComponent } from '../header-tag/header-tag.component';
 
 @Component({
   selector: 'ami-fullstack-player-profile-page',
