@@ -62,6 +62,8 @@ import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.comp
 import { NewsBoxComponent } from './pages/Mobile/news-mobile/news-box/news-box.component';
 import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
 import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontrol.component';
+import { TeamHeaderTagComponent } from './pages/Mobile/teams-list/team-header-tag/team-header-tag.component';
+import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-page-team/specific-page-team.component';
 
 
 
@@ -127,7 +129,9 @@ import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontr
     NewsBoxComponent,
     SpecificNewsComponent,
     VirtualComponent,
-    RemotecontrolComponent
+    RemotecontrolComponent,
+    TeamHeaderTagComponent,
+    SpecificPageTeamComponent
   ],
   imports: [
     BrowserModule,
