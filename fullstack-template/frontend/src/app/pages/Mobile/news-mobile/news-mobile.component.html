@@ -1,9 +1,14 @@
-<ami-fullstack-header-tag image= "../../../../assets/images/main_menu_mobile.png" page_title="News"></ami-fullstack-header-tag>
+<ami-fullstack-header-tag (hide_rest_scroll)="hide_the_rest()" image="../../../../assets/images/main_menu_mobile.png"
+    page_title="News"></ami-fullstack-header-tag>
 
-<div class="main">
+<div *ngIf="hide_the_rest_page" class="main">
     <ami-fullstack-news-box image="../../../../assets/images/CSKA_roster.png" Title="Roster Rundown: CSKA Moscow" Text="The Russian euroleague champions have managed 
     to make significant changes in their roster"></ami-fullstack-news-box>
-    <ami-fullstack-news-box image="../../../../assets/images/Panathinaikos_roster.png" Title="Roster Rundown: Panathinaikos OPAP Athens" Text="The Greek giants have made significant transfers and the aim  
+    <ami-fullstack-news-box image="../../../../assets/images/Panathinaikos_roster.png"
+        Title="Roster Rundown: Panathinaikos OPAP Athens" Text="The Greek giants have made significant transfers and the aim  
     to go to final 4"></ami-fullstack-news-box>
-    <ami-fullstack-news-box image="../../../../assets/images/Olympiacos_roster.png" Title="Roster Rundown: Olympiacos Pireaus" Text="Olympiacos coaching stuff have seriously renovated the roster, with EuroLeague experience "></ami-fullstack-news-box>
+    <ami-fullstack-news-box image="../../../../assets/images/Olympiacos_roster.png"
+        Title="Roster Rundown: Olympiacos Pireaus"
+        Text="Olympiacos coaching stuff have seriously renovated the roster, with EuroLeague experience ">
+    </ami-fullstack-news-box>
 </div>

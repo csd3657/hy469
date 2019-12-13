@@ -40,7 +40,7 @@ import { EmampleComponent } from './pages/emample/emample.component';
 import { Votestep3Component } from './pages/AugmTable/voting/votestep3/votestep3.component';
 import { PlayersListComponent } from './pages/Mobile/players-list/players-list.component';
 import { HeaderTagComponent } from './pages/Mobile/header-tag/header-tag.component';
-import { PlayerProfileComponent } from './pages/Mobile/players-profile/player-profile.component'
+import { PlayerProfileComponent } from './pages/Mobile/players-list/players-profile/player-profile.component'
 import { SideLetterComponent } from './pages/Mobile/side-letter/side-letter.component';
 import { SMhomepageComponent } from './pages/Mobile/smhomepage/smhomepage.component';
 import { SmlivematchComponent } from './pages/Mobile/smhomepage/smlivematch/smlivematch.component';
@@ -48,7 +48,7 @@ import { TopplaysComponent } from './pages/Mobile/smhomepage/topplays/topplays.c
 import { VideoComponent } from './pages/Mobile/smhomepage/topplays/video/video.component';
 import { StandingsComponent } from './pages/Mobile/smhomepage/standings/standings.component';
 import { TeamsListComponent } from './pages/Mobile/teams-list/teams-list.component';
-import { TeamsProfileComponent } from './pages/Mobile/teams-profile/teams-profile.component';
+import { TeamsProfileComponent } from './pages/Mobile/teams-list/teams-profile/teams-profile.component';
 import { MainmenuComponent } from './pages/Mobile/mainmenu/mainmenu.component';
 import { ChoiseComponent } from './pages/Mobile/mainmenu/choise/choise.component';
 import { SMscheduleComponent } from './pages/Mobile/smschedule/smschedule.component';
@@ -59,7 +59,7 @@ import { PlayerProfileStatisticsComponent } from './pages/Mobile/player-profile-
 import { StatisticsTagComponent } from './pages/Mobile/statistics-tag/statistics-tag.component';
 import { PlayerProfileTagComponent } from './pages/Mobile/players-profile-tag/player-profile-tag.component';
 import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.component';
-import { NewsBoxComponent } from './pages/Mobile/news-box/news-box.component';
+import { NewsBoxComponent } from './pages/Mobile/news-mobile/news-box/news-box.component';
 import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
 
 

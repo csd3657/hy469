@@ -1,30 +1,32 @@
-<div class="main">
-    <ami-fullstack-header-tag image="../../../../assets/images/back_arrow.png" page_title="Teams"></ami-fullstack-header-tag>
-    <div class="letter_tag"> <span class="text">A</span> </div>
-    <ami-fullstack-side-letter></ami-fullstack-side-letter>
+<ami-fullstack-header-tag (hide_rest_scroll)="hide_the_rest()" image="../../../../assets/images/main_menu_mobile.png" page_title="Teams"></ami-fullstack-header-tag>
+<div *ngIf="hide_the_rest_page">
+    <div class="main">
+        <div class="letter_tag"> <span class="text">A</span> </div>
+        <ami-fullstack-side-letter></ami-fullstack-side-letter>
+    </div>
+    <div class="Line">
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Alba_icon.png" name="ALBA Berlin"
+            short="BER" nation="Germany"></ami-fullstack-teams-profile>
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Efes_icon.png"
+            name="Anadolu Efes Instabul" short="EFS" nation="Turkey"></ami-fullstack-teams-profile>
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Armani_icon.png"
+            name="Armani AX Milano" short="AXM" nation="Italy"></ami-fullstack-teams-profile>
+    </div>
+    <div class="letter2_tag"> <span class="text">C</span> </div>
+    <div class="Line">
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/temp_zvezda.png" name="Crvena Zvezda mts Belgrade"
+            short="CZV" nation="Serbia"></ami-fullstack-teams-profile>
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/temp_cska.png"
+            name="CSKA Moscow" short="CSK" nation="Russia"></ami-fullstack-teams-profile>
+    </div>
+    <div class="letter2_tag"> <span class="text">F</span> </div>
+    <div class="Line">
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Barca_icon.png" name="FC Barcelona"
+            short="FCB" nation="Spain"></ami-fullstack-teams-profile>
+        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Bayern_icon.png"
+            name="FC Bayern Munich" short="BAY" nation="Germany"></ami-fullstack-teams-profile>
+            <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Fenerbahce_icon.png"
+            name="Fenerbahce BEKO Instabul" short="FNB" nation="Turkey"></ami-fullstack-teams-profile>
+    </div>
+    <div class="letter2_tag"> <span class="text">K</span> </div>
 </div>
-<div class="Line">
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Alba_icon.png" name="ALBA Berlin"
-        short="BER" nation="Germany"></ami-fullstack-teams-profile>
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Efes_icon.png"
-        name="Anadolu Efes Instabul" short="EFS" nation="Turkey"></ami-fullstack-teams-profile>
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Armani_icon.png"
-        name="Armani AX Milano" short="AXM" nation="Italy"></ami-fullstack-teams-profile>
-</div>
-<div class="letter2_tag"> <span class="text">C</span> </div>
-<div class="Line">
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/temp_zvezda.png" name="Crvena Zvezda mts Belgrade"
-        short="CZV" nation="Serbia"></ami-fullstack-teams-profile>
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/temp_cska.png"
-        name="CSKA Moscow" short="CSK" nation="Russia"></ami-fullstack-teams-profile>
-</div>
-<div class="letter2_tag"> <span class="text">F</span> </div>
-<div class="Line">
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Barca_icon.png" name="FC Barcelona"
-        short="FCB" nation="Spain"></ami-fullstack-teams-profile>
-    <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Bayern_icon.png"
-        name="FC Bayern Munich" short="BAY" nation="Germany"></ami-fullstack-teams-profile>
-        <ami-fullstack-teams-profile class="team" team="../../../../assets/images/Fenerbahce_icon.png"
-        name="Fenerbahce BEKO Instabul" short="FNB" nation="Turkey"></ami-fullstack-teams-profile>
-</div>
-<div class="letter2_tag"> <span class="text">K</span> </div>
