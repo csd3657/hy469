@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ami-fullstack-smschedule',
-  templateUrl: './smschedule.component.html',
-  styleUrls: ['./smschedule.component.scss']
+  selector: 'ami-fullstack-remotecontrol',
+  templateUrl: './remotecontrol.component.html',
+  styleUrls: ['./remotecontrol.component.scss']
 })
-export class SMscheduleComponent implements OnInit {
+export class RemotecontrolComponent implements OnInit {
 
   public hide_the_rest_page = true;
   

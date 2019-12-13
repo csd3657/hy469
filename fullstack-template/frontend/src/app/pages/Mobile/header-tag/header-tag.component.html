@@ -3,9 +3,6 @@
         <span *ngIf="image=='../../../../assets/images/main_menu_mobile.png'" (click)="openMenu()" (click)="SendToParent();" class="arrow">
             <img src={{image}}>
         </span>
-        <span *ngIf="image=='../../../../assets/images/back_arrow.png'" (click)="openMenu()" (click)="SendToParent();" class="arrow">
-            <img src={{image}}>
-        </span>
         <span class="text">
             <h4>{{page_title}}</h4>
         </span>
@@ -16,7 +13,7 @@
             <img src="../../../../assets/images/SearchTag.png">
         </span>
     </div>
-    <div class="header-tag" *ngIf="image=='../../../../assets/images/main_menu_mobile.png' && openMenu_flag">
+    <div class="header-tag" *ngIf="openMenu_flag">
         <ami-fullstack-mainmenu></ami-fullstack-mainmenu>
     </div>
 </div>

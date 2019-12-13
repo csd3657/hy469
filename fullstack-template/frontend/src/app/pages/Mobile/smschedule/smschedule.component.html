@@ -1,6 +1,7 @@
-<ami-fullstack-header-tag page_title="Schedule" image="../../../../assets/images/main_menu_mobile.png">
+<ami-fullstack-header-tag (hide_rest_scroll)="hide_the_rest()" page_title="Schedule" image="../../../../assets/images/main_menu_mobile.png">
 </ami-fullstack-header-tag>
-<div>
+
+<div *ngIf="hide_the_rest_page">
     <ami-fullstack-bar date="Thursday, Oct 3"> </ami-fullstack-bar>
 
     <ami-fullstack-match date="20:45" img1="../../../../../assets/teams_Schedule/real.png"

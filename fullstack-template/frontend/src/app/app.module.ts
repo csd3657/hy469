@@ -61,6 +61,7 @@ import { PlayerProfileTagComponent } from './pages/Mobile/players-profile-tag/pl
 import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.component';
 import { NewsBoxComponent } from './pages/Mobile/news-mobile/news-box/news-box.component';
 import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
+import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontrol.component';
 
 
 
@@ -125,7 +126,8 @@ import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-new
     NewsMobileComponent,
     NewsBoxComponent,
     SpecificNewsComponent,
-    VirtualComponent
+    VirtualComponent,
+    RemotecontrolComponent
   ],
   imports: [
     BrowserModule,

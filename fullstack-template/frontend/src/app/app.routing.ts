@@ -27,6 +27,7 @@ import { PlayerProfileStatisticsComponent } from './pages/Mobile/player-profile-
 import { NewsMobileComponent } from './pages/Mobile/news-mobile/news-mobile.component';
 import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-news.component';
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
+import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontrol.component';
 
 
 
@@ -76,6 +77,7 @@ const routes: Routes = [
   { path: 'SMschedule', component: SMscheduleComponent },
   { path: 'SMplayers', component: PlayersListComponent },
   { path: 'SMnews', component: NewsMobileComponent },
+  { path: 'SMremotecontrol', component: RemotecontrolComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },

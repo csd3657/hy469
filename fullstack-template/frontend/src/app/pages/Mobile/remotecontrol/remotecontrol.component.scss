@@ -1,0 +1,54 @@
+span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu{
+    margin-top: 0%;
+}
+
+.nav-menu{
+    height: 330px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.up img, .down img{
+    height: 60px;
+    width: 100px;
+}
+
+.left img, .right img{
+    height: 100px;
+    width: 60px;
+}
+
+.ok img{
+    height: 110px;
+    width: 110px;
+}
+.ok{
+    margin: 10%;
+}
+
+.play-menu, .extra-menu, .volume-menu{
+    height: 120px;
+    width: 350px;
+    margin: auto;
+    margin-top: 0%;
+    text-align: center;
+}
+.volume-menu{
+    margin-top: 5%;
+}
+
+.play-pause, .live{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.extra-menu span, .volume-menu span, .play-menu span{
+    margin: 5%;
+}
+
