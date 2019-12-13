@@ -4,7 +4,8 @@ span{
 }
 
 .menu{
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     color: white;
     width: 393px;
     height: 851px;
