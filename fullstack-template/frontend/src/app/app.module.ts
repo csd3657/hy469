@@ -66,6 +66,8 @@ import { TeamHeaderTagComponent } from './pages/Mobile/teams-list/team-header-ta
 import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-page-team/specific-page-team.component';
 import { SpecificTeamNewsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-news/specific-team-news.component';
 import { SpecificArticleComponent } from './pages/Mobile/teams-list/specific-page-team/specific-article/specific-article.component';
+import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-statistics/specific-team-statistics.component';
+import { TeamLogoHeartComponent } from './pages/Mobile/teams-list/specific-page-team/team-logo-heart/team-logo-heart.component';
 
 
 
@@ -134,7 +136,9 @@ import { SpecificArticleComponent } from './pages/Mobile/teams-list/specific-pag
     TeamHeaderTagComponent,
     SpecificPageTeamComponent,
     SpecificTeamNewsComponent,
-    SpecificArticleComponent
+    SpecificArticleComponent,
+    SpecificTeamStatisticsComponent,
+    TeamLogoHeartComponent
   ],
   imports: [
     BrowserModule,
