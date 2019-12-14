@@ -1,3 +1,25 @@
+:host ::ng-deep .option1 {
+    color: white;
+}
+:host ::ng-deep .line {
+    left: 138px;
+}
+:host ::ng-deep .option2 {
+    color: black !important;
+    display: inline-block;
+    width:95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 13% !important;
+}
+:host ::ng-deep .search {
+    margin-left: 12% !important;
+}
+:host ::ng-deep .text {
+    margin-left: 20% !important;
+}
 .heart{
     margin-left: 85%;
     margin-top:4%;
@@ -42,23 +64,7 @@
     margin-top: -1%;
     margin-left: 28%;
 }
-.letter_tag{
-    width: 393px;
-    height: 20px;
-    background: black;
-    opacity: 80%; 
-    margin-top: 7%; 
-}
-.text{
-    color:white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    line-height: 20px;
-    vertical-align: top;
-    margin-left:7%;
-}
-
-:host ::ng-deep .option1 {
-    color: black;
+.container{
+    margin-top: 10%;
+    margin-left: -4%;
 }
