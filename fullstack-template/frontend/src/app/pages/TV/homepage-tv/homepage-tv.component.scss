@@ -68,16 +68,18 @@
   }
   
   .text{
-    width: 300px;
+    visibility: hidden;   
+    
+    width: 320px;
     height: 1080px;
-    top: 0px;
+
     position: absolute;
     left:110px;
-    background-color: black;
-    visibility: hidden;
-   
-    
+    top: 0px;
+
+    background-color: black; 
   }
+
   .text div{
     text-align: left;
     text-decoration: none;

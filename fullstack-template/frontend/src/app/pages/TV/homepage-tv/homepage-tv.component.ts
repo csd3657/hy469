@@ -50,6 +50,15 @@ export class HomepageTVComponent implements OnInit {
       }
     })
 
+    this._socketService.syncMessages("open_TVmenu").subscribe(msg=>{
+      console.log(msg)
+      if(msg.message["show"]){
+        document.getElementById("text").style.visibility="visible";
+      }else{
+        document.getElementById("text").style.visibility="hidden";
+      }
+    })
+
   }
 
   closeMatch(){

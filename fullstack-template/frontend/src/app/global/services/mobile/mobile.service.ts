@@ -49,4 +49,18 @@ export class MobileService {
     )
   }
 
+  
+
+  public open_TVmenu(menu_is_open) {
+    return this.http.post(`${this.hostURl}/api/example/open_TVmenu`,
+      {
+        message: {
+          show: menu_is_open
+        }
+        , 
+        event:"open_TVmenu"
+      }
+    )
+  }
+
 }

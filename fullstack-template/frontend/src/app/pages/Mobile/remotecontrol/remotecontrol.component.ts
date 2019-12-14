@@ -13,6 +13,7 @@ export class RemotecontrolComponent implements OnInit {
   
   public hide_the_rest_page = true;
   public match_is_played = true;
+  public menu_is_open = false;
 
   constructor(private _mobileService: MobileService, private router: Router) {
     this.play_image = "../../../../assets/remotecontrol/pause.png";
@@ -26,7 +27,6 @@ export class RemotecontrolComponent implements OnInit {
   }
 
   play_pause() {
-
     if (this.match_is_played) {
       this.play_image = "../../../../assets/remotecontrol/play.png";
       this._mobileService.play_Match(false).subscribe();
@@ -36,6 +36,16 @@ export class RemotecontrolComponent implements OnInit {
     }
 
     this.match_is_played = !this.match_is_played;
-
   }
+
+  open_menu(){
+    if (this.menu_is_open) {
+      this._mobileService.open_TVmenu(false).subscribe();
+    } else {
+      this._mobileService.open_TVmenu(true).subscribe();
+    }
+
+    this.menu_is_open = !this.menu_is_open;
+  }
+
 }

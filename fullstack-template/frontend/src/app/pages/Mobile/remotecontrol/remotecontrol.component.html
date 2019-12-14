@@ -4,7 +4,7 @@
 <div class="menu" *ngIf="hide_the_rest_page">
     <div class="extra-menu">
         <span> <img src="../../../../assets/remotecontrol/settings.png"> </span>
-        <span class="live"> <img src="../../../../assets/remotecontrol/live.png"> </span>
+        <span class="menu" (click)="open_menu()"> <img src="../../../../assets/remotecontrol/menu.png"> </span>
         <span> <img src="../../../../assets/remotecontrol/multi_screens.png"> </span>
     </div>
     
@@ -20,7 +20,7 @@
 
     <div  class="play-menu">
         <span> <img src="../../../../assets/remotecontrol/rewind_left.png"> </span>
-        <span (click)="play_pause()" class="play-pause"> <img  src={{play_image}}> </span>
+        <span class="play-pause" (click)="play_pause()"> <img  src={{play_image}}> </span>
         <span> <img src="../../../../assets/remotecontrol/rewind_right.png"> </span>
     </div>
 
