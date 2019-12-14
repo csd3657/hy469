@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SocketsService } from 'src/app/global/services';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
 import {Router} from '@angular/router';
+import { LeapService, Gestures } from 'src/app/cursor/leap.service';
 
 @Component({
   selector: 'ami-fullstack-homepage-tv',
@@ -10,9 +11,12 @@ import {Router} from '@angular/router';
 })
 export class HomepageTVComponent implements OnInit {
 
-  constructor(private _socketService: SocketsService, private _mobileService: MobileService,private router: Router) { }
+  constructor(private _socketService: SocketsService, private _mobileService: MobileService,private router: Router, private _leapService: LeapService) { }
 
   ngOnInit() {
+   
+
+
     this._socketService.syncMessages("openMatch").subscribe(msg=>{
       console.log(msg)
       if(msg.message["show"]){

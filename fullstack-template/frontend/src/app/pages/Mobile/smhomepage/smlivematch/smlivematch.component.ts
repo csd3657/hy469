@@ -18,7 +18,7 @@ export class SmlivematchComponent implements OnInit {
 
   openMatchToTv(){
     this._mobileService.openMatchToTv(true).subscribe();
-    this.router.navigateByUrl('/PlayersMobile');
+    this.router.navigateByUrl('/SMremotecontrol');
   }
 
 }
