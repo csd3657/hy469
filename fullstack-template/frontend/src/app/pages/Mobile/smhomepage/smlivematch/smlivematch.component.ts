@@ -10,7 +10,7 @@ import {Router} from '@angular/router';
 })
 export class SmlivematchComponent implements OnInit {
 
-  constructor(private _mobileService: MobileService,private router: Router) { }
+  constructor(private _mobileService: MobileService, private router: Router) { }
 
   ngOnInit() {
   }

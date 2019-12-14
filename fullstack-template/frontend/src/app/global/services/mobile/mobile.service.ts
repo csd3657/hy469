@@ -36,4 +36,17 @@ export class MobileService {
       }
     )
   }
+
+  public play_Match(is_paused) {
+    return this.http.post(`${this.hostURl}/api/example/play_Match`,
+      {
+        message: {
+          show: is_paused
+        }
+        , 
+        event:"pause_play_Match"
+      }
+    )
+  }
+
 }

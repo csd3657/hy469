@@ -22,7 +22,6 @@ export class LiveMatchComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.myVideo.nativeElement.play();
     this._leapService.gestureRecognizer().subscribe((gesture) => {
       if (gesture == Gestures.SWIPE_LEFT) {
         console.log('swipe left -- home component');
@@ -31,10 +30,6 @@ export class LiveMatchComponent implements OnInit {
     });
 
 
-  }
-
-  closeMatch() {
-    this._mobileService.closeMatchToTv(false).subscribe();
   }
 
   rewind_back_30sec() {
