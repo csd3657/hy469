@@ -62,4 +62,14 @@ export class HomepageTVComponent implements OnInit {
     this.myVideo.nativeElement.play();
   }
 
+  Menu(){
+    var element=document.getElementById("text");
+    if(element.style.visibility=="hidden"){
+      element.style.visibility="visible";
+    }else{
+      element.style.visibility="hidden";
+    }
+    
+  }
+
 }

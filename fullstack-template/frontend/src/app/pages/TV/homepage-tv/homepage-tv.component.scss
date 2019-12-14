@@ -67,5 +67,46 @@
       height: 100%;
   }
   
- 
+  .text{
+    width: 300px;
+    height: 1080px;
+    top: 0px;
+    position: absolute;
+    left:110px;
+    background-color: black;
+    visibility: hidden;
    
+    
+  }
+  .text div{
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 16px;
+    padding-top: 23px;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    background-color: none; 
+    color: white !important;
+    font-size: 40px;
+    margin-top: 6%;
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
