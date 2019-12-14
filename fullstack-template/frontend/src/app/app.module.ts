@@ -68,6 +68,7 @@ import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-pa
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

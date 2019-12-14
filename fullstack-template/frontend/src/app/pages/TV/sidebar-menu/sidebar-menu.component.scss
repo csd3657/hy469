@@ -1,3 +1,8 @@
+span{
+  display: inline-block;
+  vertical-align: top;
+}
+
 .menu{
     height: 1080px;
     background: #000000;
@@ -6,6 +11,8 @@
 .options{
   margin-top: 50%;
 }
+
+
 
 .menu a {
     display: block;
