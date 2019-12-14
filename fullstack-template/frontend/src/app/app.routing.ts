@@ -40,6 +40,7 @@ const routes: Routes = [
   { path: 'WatchlistTv', component: WatchlistTvComponent },
   { path: 'VideosTv', component: VideoTVComponent },
   { path: 'HomepageTv', component: HomepageTVComponent },
+  { path: 'HomepageTv/:id', component: HomepageTVComponent },
   {
     path: 'TableVote',
     component: VotingComponent,

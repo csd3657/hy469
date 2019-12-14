@@ -71,6 +71,7 @@ import { TeamLogoHeartComponent } from './pages/Mobile/teams-list/specific-page-
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

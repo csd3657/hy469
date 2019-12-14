@@ -183,7 +183,7 @@ export class LeapService {
   /*****************************/
 
   private circleHander(frame, gesture): Gestures {
-    if (!gesture || !gesture.pointableIds)
+    if (!gesture || !gesture.pointableIds || gesture.pointableIds.length == 0)
       return null;
     var pointableID = gesture.pointableIds[0];
     var direction = frame.pointable(pointableID).direction;

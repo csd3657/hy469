@@ -1,11 +1,19 @@
+span{
+  display: inline-block;
+  vertical-align: top;
+}
+
 .menu{
     height: 1080px;
     background: #000000;
     overflow: hidden;
+    z-index: 1;
 }
 .options{
   margin-top: 50%;
 }
+
+
 
 .menu a {
     display: block;
@@ -28,3 +36,4 @@
     width: 10px;
     margin-top: 25px;
   }
+  
