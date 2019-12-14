@@ -29,6 +29,8 @@ import { SpecificNewsComponent } from './pages/Mobile/specific-news/specific-new
 import { LiveMatchComponent } from './pages/TV/live-match/live-match.component';
 import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontrol.component';
 import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-page-team/specific-page-team.component';
+import { SpecificTeamNewsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-news/specific-team-news.component';
+import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-statistics/specific-team-statistics.component';
 
 
 
@@ -58,7 +60,9 @@ const routes: Routes = [
     ]
   },
   { path: 'RealVsMaccabi', component: LiveMatchComponent },
+  { path: 'TeamsMobile/AXM/Statistics', component: SpecificTeamStatisticsComponent },
   { path: 'TeamsMobile/AXM', component: SpecificPageTeamComponent },
+  { path: 'TeamsMobile/AXM/News', component: SpecificTeamNewsComponent },
   { path: 'TableLiveInfos', component: LiveinfosComponent },
   { path: 'NewsMobile/CSKARoster', component: SpecificNewsComponent },
   { path: 'NewsMobile', component: NewsMobileComponent },

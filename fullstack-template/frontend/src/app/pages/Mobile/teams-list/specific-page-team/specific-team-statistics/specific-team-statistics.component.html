@@ -1,0 +1,16 @@
+<ami-fullstack-team-header-tag class="Header" image="../../../../assets/images/main_menu_mobile.png"
+    link_icon=".../../../../assets/images/connect.png" page_title="AXM"></ami-fullstack-team-header-tag>
+<div class="main">
+    <ami-fullstack-team-logo-heart></ami-fullstack-team-logo-heart>
+    <div class="letter2_tag"> <span class="text">Average Statistics</span> </div>
+    <div class="Vertical1">
+        <div *ngFor="let cat of categories" class="category">
+            {{cat}}
+        </div>
+    </div>
+    <div class="Vertical2">
+        <div *ngFor="let res of results" class="results">
+            {{res}}
+        </div>
+    </div>
+</div>

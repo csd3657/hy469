@@ -1,47 +1,4 @@
-.heart{
-    margin-left: 85%;
-    margin-top:4%;
-}
 
-.team{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    margin-left: 3%;
-}
-.team img{
-    width: 80px;
-    height: 80px;
-    margin-top:2%;
-}
-
-.team_name{
-    font-size: 20px;
-    width: 190px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color:black;
-    margin-left: 28%;
-    margin-top: -20%;
-}
-.short{
-    font-size: 20px;
-    width: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color:#AEAEAE;
-    margin-top: -1%;
-    margin-left: 28%;
-}
-.nation{
-    font-size: 20px;
-    width: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color:black;
-    margin-top: -1%;
-    margin-left: 28%;
-}
 .letter_tag{
     width: 393px;
     height: 20px;
@@ -57,4 +14,8 @@
     line-height: 20px;
     vertical-align: top;
     margin-left:7%;
+}
+
+:host ::ng-deep .option1 {
+    color: black;
 }
