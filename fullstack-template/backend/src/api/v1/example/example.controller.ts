@@ -30,7 +30,8 @@ export class ExampleController {
             .post('/openMatchToTv', this.matchToTv)
             .post('/closeMatchToTv', this.matchToTv)
             .post('/play_Match', this.is_played_matchToTv)
-            .post('/open_TVmenu', this.open_TVmenu);
+            .post('/open_TVmenu', this.open_TVmenu)
+            .post('/controlMenuTV', this.control_TVmenu);
 
         return router;
     }
@@ -91,6 +92,16 @@ export class ExampleController {
     }
 
     public open_TVmenu(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+    
+    public control_TVmenu(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

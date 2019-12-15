@@ -9,13 +9,12 @@ span{
     overflow: hidden;
     z-index: 1;
 }
+
 .options{
   margin-top: 50%;
 }
 
-
-
-.menu a {
+.options a {
     display: block;
     text-align: center;
     padding: 16px;
@@ -36,4 +35,69 @@ span{
     width: 10px;
     margin-top: 25px;
   }
+  
+
+  .text{
+
+    visibility: hidden;
+    
+    
+    width: 350px;
+    height: 1080px;
+
+    position: absolute;
+    left:110px;
+    top: 0px;
+
+    background-color: black; 
+  }
+
+  .text div{
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    background-color: none; 
+    color: white !important;
+    font-size: 40px;
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  
+
+  .options1 a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+    /*transition: all 0.3s ease;*/
+    color: white;
+    font-size: 50px;
+
+    margin: 3.4%
+  }
+
+  .options1{
+    margin-top: 22%;
+  }
+
   

@@ -1,5 +1,5 @@
 <div class="match" id="theMatch">
-    <button class="button" (click)="Menu()" id="button">
+    <button class="button" (click)="closeMatch()" id="button">
         CLOSE ME
     </button>
 
@@ -15,20 +15,6 @@
 
 <div class="main">
     <ami-fullstack-sidebar-menu class="sidemenu" id="sidemenu"></ami-fullstack-sidebar-menu>
-    <div class="text" id="text">
-        <div class="options">
-            <div><a routerLink="/HomepageTv">Home</a></div>
-            <div> <a routerLink="/News">News</a></div>
-            <div> <a routerLink="/VideosTv">Videos</a></div>
-            <div> <a routerLink="/ScheduleTv">Schedule</a></div>
-            <div><a routerLink="/Teams">Teams</a></div>
-            <div> <a routerLink="/Players">Players</a></div>
-            <div> <a routerLink="/Ranking">Rankings</a></div>
-            <div><a routerLink="/WatchlistTv">Watchlist</a></div>
-            <div> <a routerLink="/Favourites">Favourites</a></div>
-        </div>
-
-    </div>
 
 
     <div class="row">
@@ -48,8 +34,5 @@
             team2="../../../../assets\images\Fenerbahce.png" date="OCT 04" time="22:45 CET">
         </ami-fullstack-upcoming-match>
     </div>
-    <button class="button1" (click)="Menu()" id="button1">
-        CLOSE ME
-    </button>
 
 </div>

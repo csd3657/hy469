@@ -9,13 +9,13 @@
     </div>
     
     <div class="nav-menu">
-        <div class="up"> <img src="../../../../assets/remotecontrol/up.png"> </div>
+        <div class="up" (click) = "control_menuTV('up')"> <img src="../../../../assets/remotecontrol/up.png"> </div>
         <div>
             <span class="left"> <img src="../../../../assets/remotecontrol/left.png"> </span>
-            <span class="ok"> <img src="../../../../assets/remotecontrol/ok.png"> </span>
+            <span class="ok" (click) = "control_menuTV('ok')"> <img src="../../../../assets/remotecontrol/ok.png"> </span>
             <span class="right"> <img src="../../../../assets/remotecontrol/right.png"> </span>
         </div>
-        <div class="down"> <img src="../../../../assets/remotecontrol/down.png"> </div>
+        <div class="down" (click) = "control_menuTV('down')"> <img src="../../../../assets/remotecontrol/down.png"> </div>
     </div>
 
     <div  class="play-menu">

@@ -43,19 +43,8 @@ export class HomepageTVComponent implements OnInit {
       console.log(msg)
       if(msg.message["show"]){
         this.myVideo.nativeElement.play();
-        //this.router.navigateByUrl('/RealVsMaccabi');
       }else{
         this.myVideo.nativeElement.pause();
-        //this.router.navigateByUrl('/HomepageTv');
-      }
-    })
-
-    this._socketService.syncMessages("open_TVmenu").subscribe(msg=>{
-      console.log(msg)
-      if(msg.message["show"]){
-        document.getElementById("text").style.visibility="visible";
-      }else{
-        document.getElementById("text").style.visibility="hidden";
       }
     })
 
@@ -69,16 +58,6 @@ export class HomepageTVComponent implements OnInit {
     this.myVideo.nativeElement.pause();
     this.myVideo.nativeElement.currentTime -= 30;
     this.myVideo.nativeElement.play();
-  }
-
-  Menu(){
-    var element=document.getElementById("text");
-    if(element.style.visibility=="hidden"){
-      element.style.visibility="visible";
-    }else{
-      element.style.visibility="hidden";
-    }
-    
   }
 
 }

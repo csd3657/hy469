@@ -63,4 +63,16 @@ export class MobileService {
     )
   }
 
+  public controlMenuTV(button) {
+    return this.http.post(`${this.hostURl}/api/example/controlMenuTV`,
+      {
+        message: {
+          show: button
+        }
+        , event:"control_TVmenu"
+        
+      }
+    )
+  }
+
 }
