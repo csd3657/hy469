@@ -49,13 +49,13 @@ export class RemotecontrolComponent implements OnInit {
   }
 
   control_menuTV(button) {
-    if (button == 'up'){
+    if (this.menu_is_open && button == 'up'){
       this._mobileService.controlMenuTV('up').subscribe();
     }
-    if (button == 'down'){
+    if (this.menu_is_open && button == 'down'){
       this._mobileService.controlMenuTV('down').subscribe();
     }
-    if (button == 'ok'){
+    if (this.menu_is_open && button == 'ok'){
       this._mobileService.controlMenuTV('ok').subscribe();
     }
   }
