@@ -24,7 +24,9 @@
     position: relative;
     left: 20px;
     opacity: 70%;
+    z-index: 1;
     margin-bottom: -2%;
+    visibility: hidden;
 }
 .horizontal_line{
     height: 1px;
@@ -33,17 +35,21 @@
     display: inline-block;
     position: relative;
     opacity: 70%;
+    z-index: 1;
     bottom:18px;
+    visibility: hidden;
 }
 .vertical_line2{
     height: 400px;
     width:1px;
+    z-index: 1;
     background-color: grey;
     display: inline-block;
     position: relative;
     left: 20px;
     opacity: 70%;
     margin-top: -1.2%;
+    visibility: hidden;
 }
 /*
 .matchDiv{
@@ -52,3 +58,6 @@
     border: 5px solid white;
 }
 */
+:host ::ng-deep .box {
+    border: 1px solid yellow;
+}

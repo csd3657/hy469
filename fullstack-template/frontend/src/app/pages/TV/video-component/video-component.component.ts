@@ -11,9 +11,10 @@ export class VideoComponentComponent implements OnInit {
   @Input() text:string;
   @Input() date_text:string;
 
-  constructor() { }
+  constructor() {  }
 
   ngOnInit() {
+   
   }
 
 }

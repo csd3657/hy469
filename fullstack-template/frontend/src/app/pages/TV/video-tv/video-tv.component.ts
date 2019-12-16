@@ -10,6 +10,7 @@ export class VideoTVComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
