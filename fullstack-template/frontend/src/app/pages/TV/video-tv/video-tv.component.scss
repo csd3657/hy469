@@ -31,4 +31,6 @@
     display: none;
 }
 
-
+:host ::ng-deep .container {
+    border: 1px solid yellow;
+}
