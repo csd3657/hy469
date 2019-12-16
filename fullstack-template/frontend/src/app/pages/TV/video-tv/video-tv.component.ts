@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { SocketsService } from 'src/app/global/services';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
 import { Router } from '@angular/router';
@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./video-tv.component.scss']
 })
 export class VideoTVComponent implements OnInit {
-
+  
+  @ViewChild('myVideo', { static: true }) myVideo: ElementRef;
   public video_counter;
 
   videos = {
@@ -51,6 +52,9 @@ export class VideoTVComponent implements OnInit {
         }
         if (msg.message["show"] == 'ok') {
           this.ok_click();
+        }
+        if (msg.message["show"] == 'exit') {
+          this.closeVideo();
         }
       }
 
@@ -108,7 +112,7 @@ export class VideoTVComponent implements OnInit {
   ok_click() {
     if(this.video_counter == 2){
       document.getElementById("theVideo").style.visibility = "visible";
-
+      this.myVideo.nativeElement.play();
     }else{
       console.log('THIS VIDEO IS NOT AVAILABLE FOR DEMO VERSION (PLEASE CHOOSE EFES VS BARCA)');
     }
@@ -122,6 +126,12 @@ export class VideoTVComponent implements OnInit {
   not_onclick_video_effect(which_to_change) {
     console.log(which_to_change);
     document.getElementById(this.videos[which_to_change]).style.border = "0px solid white";
+  }
+
+  closeVideo(){
+    this.myVideo.nativeElement.pause();
+    this.myVideo.nativeElement.currentTime = 0;
+    document.getElementById("theVideo").style.visibility = "hidden";
   }
 
 }

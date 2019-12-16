@@ -64,7 +64,10 @@ export class RemotecontrolComponent implements OnInit {
     }
     if (this.menu_is_open && button == 'ok'){
       this._mobileService.controlMenuTV('ok').subscribe();
-    }    
+    } 
+    if (this.menu_is_open && button == 'exit'){
+      this._mobileService.controlMenuTV('exit').subscribe();
+    }     
 
     //for videos tv
     if (!this.menu_is_open && button == 'up'){
@@ -82,6 +85,9 @@ export class RemotecontrolComponent implements OnInit {
     if (!this.menu_is_open && button == 'ok'){
       this._mobileService.VideoMenuTV('ok').subscribe();
     } 
+    if (this.menu_is_open && button == 'exit'){
+      this._mobileService.VideoMenuTV('exit').subscribe();
+    }  
 
   }
 
