@@ -11,23 +11,10 @@ export class VideoComponentComponent implements OnInit {
   @Input() text: string;
   @Input() date_text: string;
 
-  @Input() ggg: boolean;
+  constructor() {  }
 
-    constructor() {
-      
-     }
-
-ngOnInit() {
+  ngOnInit() {
    
-}
-
-ngOnChanges(){
-  if(this.ggg){
-    document.getElementById("container").style.border = "4px solid white";
-  }else{
-    document.getElementById("container").style.border = "0px solid red";
   }
- 
-}
 
 }
