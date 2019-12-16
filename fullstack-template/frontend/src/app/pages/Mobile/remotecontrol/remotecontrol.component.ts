@@ -49,15 +49,42 @@ export class RemotecontrolComponent implements OnInit {
   }
 
   control_menuTV(button) {
+    //for menu tv
     if (this.menu_is_open && button == 'up'){
       this._mobileService.controlMenuTV('up').subscribe();
     }
     if (this.menu_is_open && button == 'down'){
       this._mobileService.controlMenuTV('down').subscribe();
     }
+    if (this.menu_is_open && button == 'left'){
+      this._mobileService.controlMenuTV('left').subscribe();
+    }
+    if (this.menu_is_open && button == 'right'){
+      this._mobileService.controlMenuTV('right').subscribe();
+    }
     if (this.menu_is_open && button == 'ok'){
       this._mobileService.controlMenuTV('ok').subscribe();
+    }    
+
+    //for videos tv
+    if (!this.menu_is_open && button == 'up'){
+      this._mobileService.VideoMenuTV('up').subscribe();
     }
+    if (!this.menu_is_open && button == 'down'){
+      this._mobileService.VideoMenuTV('down').subscribe();
+    }
+    if (!this.menu_is_open && button == 'left'){
+      this._mobileService.VideoMenuTV('left').subscribe();
+    }
+    if (!this.menu_is_open && button == 'right'){
+      this._mobileService.VideoMenuTV('right').subscribe();
+    }
+    if (!this.menu_is_open && button == 'ok'){
+      this._mobileService.VideoMenuTV('ok').subscribe();
+    } 
+
   }
+
+  
 
 }

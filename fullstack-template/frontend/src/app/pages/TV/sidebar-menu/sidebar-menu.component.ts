@@ -54,9 +54,6 @@ export class SidebarMenuComponent implements OnInit {
         this.ok_click();
       }
     })
-
-    
-
   }
 
   up_click() {

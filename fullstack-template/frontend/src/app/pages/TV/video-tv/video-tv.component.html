@@ -1,22 +1,38 @@
 <ami-fullstack-sidebar-menu class="sidemenu"></ami-fullstack-sidebar-menu>
+
+<div class="match" id="theVideo">
+        <button class="button" (click)="closeMatch()" id="button">
+            CLOSE ME
+        </button>
+    
+        <div class="video_container">
+            <video controls #myVideo>
+                <source src="../../../../assets/match_video/match.mp4" type="video/mp4" />
+            </video>
+    
+        </div>
+    
+    
+</div>
+
 <div class="main">
         <div class="ghost"></div>
         <ami-fullstack-title-tag class="Headtitle" header="Latest Videos"></ami-fullstack-title-tag>
         <div class="row">
                 <ami-fullstack-video-component id="video1" class="video" src_image="../../../../assets/images/efesVSbarca.png" text="RS Round 1 Highlights: Efes 64-74 Barcelona" date_text="Oct 4, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/ZalgirisVsBaskonia.png" text="RS Round 1 Highlights: Zalgiris 58-70 Baskonia" date_text="Oct 4, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/AlbaVsZenit.png" text="RS Round 1 Highlights: ALBA 85-65 Zenit" date_text="Oct 4, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/AsvelVsOlympiacos.png" text="RS Round 1 Highlights: ASVEL 82-63 Olympiakos" date_text="Oct 3, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/panathinaikosVSCrevna.png" text="RS Round 1 Highlights: Panathinaikos 87-82 Crvena Bel" date_text="Oct 2, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video2" class="video" src_image="../../../../assets/images/ZalgirisVsBaskonia.png" text="RS Round 1 Highlights: Zalgiris 58-70 Baskonia" date_text="Oct 4, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video3" class="video" src_image="../../../../assets/images/AlbaVsZenit.png" text="RS Round 1 Highlights: ALBA 85-65 Zenit" date_text="Oct 4, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video4" class="video" src_image="../../../../assets/images/AsvelVsOlympiacos.png" text="RS Round 1 Highlights: ASVEL 82-63 Olympiakos" date_text="Oct 3, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video5" class="video" src_image="../../../../assets/images/panathinaikosVSCrevna.png" text="RS Round 1 Highlights: Panathinaikos 87-82 Crvena Bel" date_text="Oct 2, 2019"></ami-fullstack-video-component>
                 
         </div>
         <ami-fullstack-title-tag class="Headtitle" header="Top 10"></ami-fullstack-title-tag>
         <div class="row">
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/Top10plays.png" text="Top 10 plays of season 2018-2019" date_text="Oct 3, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/Top10blocks.png" text="Top 10 blocks of season 2018-2019" date_text="Oct 2, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/Top10alleys.png" text="Top 10 Alley-hoops of season 2018-2019 " date_text="Oct 2, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/Top10assists.png" text="Top 10 Assists of season 2018-2019" date_text="Oct 2, 2019"></ami-fullstack-video-component>
-                <ami-fullstack-video-component class="video" src_image="../../../../assets/images/Top5plays.png" text="Top 5 Champ plays of season 2018-2019" date_text="Oct 1, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video6" class="video" src_image="../../../../assets/images/Top10plays.png" text="Top 10 plays of season 2018-2019" date_text="Oct 3, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video7" class="video" src_image="../../../../assets/images/Top10blocks.png" text="Top 10 blocks of season 2018-2019" date_text="Oct 2, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video8" class="video" src_image="../../../../assets/images/Top10alleys.png" text="Top 10 Alley-hoops of season 2018-2019 " date_text="Oct 2, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video9" class="video" src_image="../../../../assets/images/Top10assists.png" text="Top 10 Assists of season 2018-2019" date_text="Oct 2, 2019"></ami-fullstack-video-component>
+                <ami-fullstack-video-component id="video10" class="video" src_image="../../../../assets/images/Top5plays.png" text="Top 5 Champ plays of season 2018-2019" date_text="Oct 1, 2019"></ami-fullstack-video-component>
                 
         </div>
         <ami-fullstack-title-tag class="Headtitle" header="Round MVP"></ami-fullstack-title-tag>

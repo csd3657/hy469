@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { SocketsService } from 'src/app/global/services';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 import { LeapService, Gestures } from 'src/app/cursor/leap.service';
 
 @Component({
@@ -13,9 +13,9 @@ export class HomepageTVComponent implements OnInit {
 
   @ViewChild('myVideo', { static: true }) myVideo: ElementRef;
 
-  constructor(private _socketService: SocketsService, private _mobileService: MobileService,private router: Router, private _leapService: LeapService) {
-    
-   }
+  constructor(private _socketService: SocketsService, private _mobileService: MobileService, private router: Router, private _leapService: LeapService) {
+
+  }
 
   ngOnInit() {
 
@@ -26,31 +26,34 @@ export class HomepageTVComponent implements OnInit {
       }
     });
 
-    this._socketService.syncMessages("openMatch").subscribe(msg=>{
+    this._socketService.syncMessages("openMatch").subscribe(msg => {
       console.log(msg)
-      if(msg.message["show"]){
-        this.myVideo.nativeElement.play();
-        document.getElementById("theMatch").style.visibility="visible";
-        //this.router.navigateByUrl('/RealVsMaccabi');
-      }else{
-        this.myVideo.nativeElement.pause();
-        document.getElementById("theMatch").style.visibility="hidden";
-        //this.router.navigateByUrl('/HomepageTv');
+      if (this.router.url === '/HomepageTv') {
+        if (msg.message["show"]) {
+          this.myVideo.nativeElement.play();
+          document.getElementById("theMatch").style.visibility = "visible";
+          //this.router.navigateByUrl('/RealVsMaccabi');
+        } else {
+          this.myVideo.nativeElement.pause();
+          document.getElementById("theMatch").style.visibility = "hidden";
+          //this.router.navigateByUrl('/HomepageTv');
+        }
       }
+
     })
 
-    this._socketService.syncMessages("pause_play_Match").subscribe(msg=>{
+    this._socketService.syncMessages("pause_play_Match").subscribe(msg => {
       console.log(msg)
-      if(msg.message["show"]){
+      if (msg.message["show"]) {
         this.myVideo.nativeElement.play();
-      }else{
+      } else {
         this.myVideo.nativeElement.pause();
       }
     })
 
   }
 
-  closeMatch(){
+  closeMatch() {
     this._mobileService.closeMatchToTv(false).subscribe();
   }
 

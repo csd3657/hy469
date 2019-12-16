@@ -74,6 +74,18 @@ export class MobileService {
       }
     )
   }
+
+  public VideoMenuTV(button) {
+    return this.http.post(`${this.hostURl}/api/example/VideoMenuTV`,
+      {
+        message: {
+          show: button
+        }
+        , event:"VideoMenuTV"
+        
+      }
+    )
+  }
   
   
 
