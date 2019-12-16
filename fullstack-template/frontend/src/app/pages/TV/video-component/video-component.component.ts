@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-video-component',
@@ -7,13 +7,19 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class VideoComponentComponent implements OnInit {
 
-  @Input() src_image:string;
-  @Input() text:string;
-  @Input() date_text:string;
+  @Input() src_image: string;
+  @Input() text: string;
+  @Input() date_text: string;
 
-  constructor() { }
+  public id;
+    constructor() {
+      this.id = "4px solid red";
+      
+     }
 
-  ngOnInit() {
-  }
+ngOnInit() {
+   document.getElementById("container").style.border= this.id;
+}
+
 
 }

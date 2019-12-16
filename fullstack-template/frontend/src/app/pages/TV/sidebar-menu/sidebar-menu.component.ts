@@ -102,5 +102,4 @@ export class SidebarMenuComponent implements OnInit {
     document.getElementById(which_to_change).style.fontWeight = "normal";
   }
 
-
 }
