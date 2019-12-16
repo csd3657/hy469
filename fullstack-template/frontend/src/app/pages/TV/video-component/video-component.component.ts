@@ -11,23 +11,10 @@ export class VideoComponentComponent implements OnInit {
   @Input() text: string;
   @Input() date_text: string;
 
-<<<<<<< HEAD
-  public id;
-    constructor() {
-      this.id = "4px solid red";
-      
-     }
-
-ngOnInit() {
-   document.getElementById("container").style.border= this.id;
-}
-
-=======
   constructor() {  }
 
   ngOnInit() {
    
   }
->>>>>>> branchManos
 
 }
