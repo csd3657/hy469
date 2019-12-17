@@ -1,6 +1,6 @@
-<ami-fullstack-team-header-tag class="Header" image="../../../../assets/images/main_menu_mobile.png" page_title="AXM">
+<ami-fullstack-team-header-tag (hide_rest_scroll)="hide_the_rest()" class="Header"  image="../../../../assets/images/main_menu_mobile.png" page_title="AXM">
 </ami-fullstack-team-header-tag>
-<div class="main">
+<div class="main" *ngIf="hide_the_rest_page">
     <ami-fullstack-team-logo-heart></ami-fullstack-team-logo-heart>
     <div class="container">
         <ami-fullstack-specific-article image="../../../../../assets/images/Scola_news.png"

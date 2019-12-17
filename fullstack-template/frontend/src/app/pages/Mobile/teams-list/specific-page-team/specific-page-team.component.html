@@ -1,7 +1,7 @@
-<ami-fullstack-team-header-tag image="../../../../assets/images/main_menu_mobile.png" page_title="AXM"
+<ami-fullstack-team-header-tag (hide_rest_scroll)="hide_the_rest()" image="../../../../assets/images/main_menu_mobile.png" page_title="AXM"
     link_icon="../../../../assets/images/connect.png"></ami-fullstack-team-header-tag>
 
-<div class="main">
+<div class="main"  *ngIf="hide_the_rest_page">
     <ami-fullstack-team-logo-heart></ami-fullstack-team-logo-heart>
     <div class="letter_tag"> <span class="text">Coach</span></div>
     <ami-fullstack-player-profile class="player" player_image="../../../../assets/images/Messina.png"

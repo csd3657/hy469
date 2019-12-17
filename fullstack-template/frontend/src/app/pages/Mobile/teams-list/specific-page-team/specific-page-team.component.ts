@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SpecificPageTeamComponent implements OnInit {
 
  private heart:string;
+ public hide_the_rest_page = true;
 
   
   constructor() { 
@@ -23,6 +24,11 @@ export class SpecificPageTeamComponent implements OnInit {
     }else{
       this.heart="../../../../assets/images/Full_heart.png";
     }
+  }
+
+
+  hide_the_rest(){
+    this.hide_the_rest_page = !this.hide_the_rest_page;
   }
 
 }
