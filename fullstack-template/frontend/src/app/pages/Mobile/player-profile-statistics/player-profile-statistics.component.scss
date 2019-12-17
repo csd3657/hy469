@@ -60,3 +60,14 @@
     font-weight: bold;
 }
 
+:host ::ng-deep .option2{
+    color: black !important;
+}
+:host ::ng-deep .option1{
+    color: white !important;
+}
+:host ::ng-deep hr{
+    left:196px!important;
+}
+
+

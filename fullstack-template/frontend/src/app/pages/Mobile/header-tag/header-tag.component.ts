@@ -22,7 +22,6 @@ export class HeaderTagComponent implements OnInit {
     this.hide_rest_scroll.emit();
   }
   openMenu(){
-    
     this.openMenu_flag = !this.openMenu_flag;
   }
 

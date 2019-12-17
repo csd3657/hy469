@@ -1,4 +1,8 @@
 
+.menu{
+    width: 1920px;
+    background-color: #1A0700;
+}
 .sidemenu{
     height: 100%;
     width: 110px;
@@ -9,14 +13,13 @@
     overflow: hidden;
 }
 .main{
-    background-color: #1A0700;
-    width: 1920px;
+    
+    width: auto;
     margin-left: 109px;
     height: 1080px;
     overflow-x: auto;
     overflow-y: auto;
     display: inline-block;
-    width: auto;
 }
 :host ::ng-deep .menu .options .VL {
     margin-top: 753px;

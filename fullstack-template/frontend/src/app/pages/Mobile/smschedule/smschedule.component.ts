@@ -17,6 +17,8 @@ export class SMscheduleComponent implements OnInit {
   @ViewChild(MatchComponent,{static:true}) child:MatchComponent
 
   public hide_the_rest_page = true;
+
+ 
   constructor() {
     this.matches = {
       1: this.remove,

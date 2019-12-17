@@ -1,19 +1,33 @@
 <div class="Header">
-    <span class="arrow">
+    <span class="arrow" (click)="openMenu()" (click)="SendToParent();">
         <img src={{image}}>
     </span>
+
     <span class="text">
-         <h4>{{page_title}}</h4> 
+        <h4>{{page_title}}</h4>
     </span>
+
     <span class="TvShare">
         <img src={{link_icon}}>
     </span>
     <span class="search">
         <img src="../../../../assets/images/SearchTag.png">
     </span>
-    <a routerLink="/TeamsMobile/AXM"> <div class="option1">Roster</div></a>
-    <a routerLink="/TeamsMobile/AXM/News"> <div class="option2">News</div></a>
-    <a routerLink="/TeamsMobile/AXM/Statistics"> <div class="option3">Statistics</div></a> 
-    <hr class="line">
+    <div *ngIf="!openMenu_flag">
+        <a routerLink="/TeamsMobile/AXM">
+            <div class="option1">Roster</div>
+        </a>
+        <a routerLink="/TeamsMobile/AXM/News">
+            <div class="option2">News</div>
+        </a>
+        <a routerLink="/TeamsMobile/AXM/Statistics">
+            <div class="option3">Statistics</div>
+        </a>
+        <hr class="line">
+    </div>
+
+    <div class="header-tag" *ngIf="openMenu_flag">
+        <ami-fullstack-mainmenu></ami-fullstack-mainmenu>
+    </div>
 
 </div>

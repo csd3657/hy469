@@ -9,6 +9,7 @@ import { HeaderTagComponent } from '../header-tag/header-tag.component';
 export class PlayerProfilePageComponent implements OnInit {
 
   private heart:string;
+  public hide_the_rest_page = true;
   
 
   constructor() { 
@@ -26,6 +27,11 @@ export class PlayerProfilePageComponent implements OnInit {
     }else{
       this.heart="../../../../assets/images/Full_heart.png";
     }
+  }
+
+
+  hide_the_rest() {
+    this.hide_the_rest_page = !this.hide_the_rest_page;
   }
 
 }

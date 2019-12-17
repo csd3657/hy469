@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ami-fullstack-players-list',
@@ -9,7 +10,7 @@ export class PlayersListComponent implements OnInit {
 
   public hide_the_rest_page = true;
   
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
@@ -17,5 +18,10 @@ export class PlayersListComponent implements OnInit {
   hide_the_rest(){
     this.hide_the_rest_page = !this.hide_the_rest_page;
   }
+
+  open_player_profile(){
+    this.router.navigateByUrl('/PlayersMobile/KevinPunter');
+  }  
+
 }
 

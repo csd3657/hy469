@@ -12,9 +12,15 @@ export class TeamHeaderTagComponent implements OnInit {
   @Input() link_icon:string;
 
 
+  public hide_the_rest_page = true;
+  
   constructor() { }
 
   ngOnInit() {
+  }
+
+  hide_the_rest(){
+    this.hide_the_rest_page = !this.hide_the_rest_page;
   }
 
 }

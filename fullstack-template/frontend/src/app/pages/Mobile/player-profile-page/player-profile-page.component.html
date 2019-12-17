@@ -1,6 +1,7 @@
-<ami-fullstack-player-profile-tag image="../../../../assets/images/main_menu_mobile.png" page_title="Punter X. K."
+<ami-fullstack-player-profile-tag (hide_rest_scroll)="hide_the_rest()" image="../../../../assets/images/main_menu_mobile.png" page_title="Punter X. K."
     link_icon="../../../../assets/images/connect.png"></ami-fullstack-player-profile-tag>
-<div class="main">
+
+<div class="main" *ngIf="hide_the_rest_page">
     <div class="heart" (click)="addToFavourites()">
         <img src={{heart}}>
     </div>

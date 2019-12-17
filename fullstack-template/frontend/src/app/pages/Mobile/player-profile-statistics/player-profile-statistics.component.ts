@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PlayerProfileStatisticsComponent implements OnInit {
 
   private heart:string;
+  public hide_the_rest_page = true;
   Categories = ['Games','Points','PIR','Rebounds','Assists','Steals','Turnovers','2 points Field Goal %','3 points Field Goal %','Free Throws %'];
   Numbers =['3','25','13','3','5','2','3','50%','25%','80%'];
 
@@ -22,6 +23,10 @@ export class PlayerProfileStatisticsComponent implements OnInit {
     }else{
       this.heart="../../../../assets/images/Full_heart.png";
     }
+  }
+
+  hide_the_rest() {
+    this.hide_the_rest_page = !this.hide_the_rest_page;
   }
 
 

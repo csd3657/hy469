@@ -3,6 +3,7 @@ import { SocketsService } from 'src/app/global/services';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
 import { Router } from '@angular/router';
 import { LeapService, Gestures } from 'src/app/cursor/leap.service';
+import { SmartSpeakerService } from 'src/app/smart-speaker.service';
 
 @Component({
   selector: 'ami-fullstack-homepage-tv',
@@ -13,12 +14,12 @@ export class HomepageTVComponent implements OnInit {
 
   @ViewChild('myVideo', { static: true }) myVideo: ElementRef;
 
-  constructor(private _socketService: SocketsService, private _mobileService: MobileService, private router: Router, private _leapService: LeapService) {
+  constructor(private _socketService: SocketsService, private _mobileService: MobileService, private router: Router, private _leapService: LeapService, private _smartSpeaker: SmartSpeakerService) {
 
   }
 
   ngOnInit() {
-
+      
     this._leapService.gestureRecognizer().subscribe((gesture) => {
       if (gesture == Gestures.SWIPE_LEFT) {
         console.log('swipe left -- home component');
