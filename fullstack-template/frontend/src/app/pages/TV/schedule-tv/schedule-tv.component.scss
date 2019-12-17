@@ -51,13 +51,6 @@
     margin-top: -1.2%;
     visibility: hidden;
 }
-/*
-.matchDiv{
-    height: 380px;
-    width: 900px;
-    border: 5px solid white;
-}
-*/
-:host ::ng-deep .box {
-    border: 1px solid yellow;
+:host ::ng-deep .menu .options .VL {
+    margin-top: 340px;
 }
