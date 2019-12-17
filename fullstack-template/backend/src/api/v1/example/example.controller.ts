@@ -34,6 +34,7 @@ export class ExampleController {
             .post('/controlMenuTV', this.control_TVmenu)
             .post('/VideoMenuTV', this.videos_TVmenu)
             .post('/exitVideo', this.exitVideo)
+            .post('/setConnectIconVisible', this.setConnectIconVisible);
         return router;
     }
  
@@ -123,6 +124,16 @@ export class ExampleController {
     }
 
     public exitVideo(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+    
+    public setConnectIconVisible(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

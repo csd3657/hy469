@@ -18,6 +18,7 @@ export class SpecificTeamNewsComponent implements OnInit {
   hide_the_rest(){
     this.hide_the_rest_page = !this.hide_the_rest_page;
   }
+
   
 
 }

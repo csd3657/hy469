@@ -99,6 +99,18 @@ export class MobileService {
       }
     )
   }
+
+  public setConnectIconVisible(visible) {
+    return this.http.post(`${this.hostURl}/api/example/setConnectIconVisible`,
+      {
+        message: {
+          show: visible
+        }
+        , event:"setConnectIconVisible"
+        
+      }
+    )
+  }
   
 
 }
