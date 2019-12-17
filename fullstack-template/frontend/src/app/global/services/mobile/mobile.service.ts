@@ -86,7 +86,19 @@ export class MobileService {
       }
     )
   }
+
   
+  public exitVideo(exit_video) {
+    return this.http.post(`${this.hostURl}/api/example/exitVideo`,
+      {
+        message: {
+          show: exit_video
+        }
+        , event:"exitVideo"
+        
+      }
+    )
+  }
   
 
 }

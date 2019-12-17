@@ -60,6 +60,13 @@ export class VideoTVComponent implements OnInit {
 
     })
 
+    this._socketService.syncMessages("exitVideo").subscribe(msg => {
+      console.log(msg)
+      if (this.router.url === '/VideosTv') {
+        this.closeVideo();
+      }
+    })
+
    
 
   }

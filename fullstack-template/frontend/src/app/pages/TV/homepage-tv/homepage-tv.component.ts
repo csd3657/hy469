@@ -30,8 +30,8 @@ export class HomepageTVComponent implements OnInit {
       console.log(msg)
       if (this.router.url === '/HomepageTv') {
         if (msg.message["show"]) {
-          this.myVideo.nativeElement.play();
           document.getElementById("theMatch").style.visibility = "visible";
+          this.myVideo.nativeElement.play();
           //this.router.navigateByUrl('/RealVsMaccabi');
         } else {
           this.myVideo.nativeElement.pause();
@@ -48,6 +48,13 @@ export class HomepageTVComponent implements OnInit {
         this.myVideo.nativeElement.play();
       } else {
         this.myVideo.nativeElement.pause();
+      }
+    })
+
+    this._socketService.syncMessages("exitVideo").subscribe(msg => {
+      console.log(msg)
+      if(this.router.url === '/HomepageTv'){
+        this.closeMatch();
       }
     })
 

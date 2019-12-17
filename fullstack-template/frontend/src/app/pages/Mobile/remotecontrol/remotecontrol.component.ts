@@ -48,6 +48,10 @@ export class RemotecontrolComponent implements OnInit {
     this.menu_is_open = !this.menu_is_open;
   }
 
+  exit_video(){
+    this._mobileService.exitVideo('exit_video').subscribe();
+  }
+
   control_menuTV(button) {
     //for menu tv
     if (this.menu_is_open && button == 'up'){
