@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SocketsService } from 'src/app/global/services';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ami-fullstack-augm-table-default',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AugmTableDefaultComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _socketService: SocketsService, public router: Router) { }
 
   ngOnInit() {
+
+    this._socketService.syncMessages("openStatisticsToOtherDevices").subscribe(msg => {
+      console.log(msg)
+      if (msg.message["show"] === 'AugmTable'){
+        this.router.navigateByUrl('/TableLiveInfos');
+      } else {
+        console.log('open wall statistics')
+      }
+    })
   }
 
 }

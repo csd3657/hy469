@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -16,9 +16,17 @@ export class SmlivematchComponent implements OnInit {
   }
 
 
-  openMatchToTv(){
+  openMatchToTv() {
+
     this._mobileService.openMatchToTv(true).subscribe();
     this.router.navigateByUrl('/SMremotecontrol');
+
+    this.openStatisticsToOtherDevices();
   }
 
+  openStatisticsToOtherDevices(){
+    this._mobileService.openStatisticsToOtherDevices('Wall').subscribe();
+    this._mobileService.openStatisticsToOtherDevices('AugmTable').subscribe();
+  }
+  
 }

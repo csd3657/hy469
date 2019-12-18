@@ -99,6 +99,20 @@ export class MobileService {
       }
     )
   }
+
+  public openStatisticsToOtherDevices(device) {
+    return this.http.post(`${this.hostURl}/api/example/openStatisticsToOtherDevices`,
+      {
+        message: {
+          show: device
+        }
+        , event:"openStatisticsToOtherDevices"
+        
+      }
+    )
+  }
+
+  
   
 
 }
