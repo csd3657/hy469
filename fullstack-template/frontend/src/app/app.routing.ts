@@ -31,6 +31,7 @@ import { RemotecontrolComponent } from './pages/Mobile/remotecontrol/remotecontr
 import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-page-team/specific-page-team.component';
 import { SpecificTeamNewsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-news/specific-team-news.component';
 import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-statistics/specific-team-statistics.component';
+import { LastFiveResultsComponent } from './pages/Wall/last-five-results/last-five-results.component';
 
 
 
@@ -75,6 +76,7 @@ const routes: Routes = [
   { path: 'SubstitutePlayer', component: SubstitutePlayerComponent },
   { path: 'WallNews', component: WallnewsComponent },
   { path: 'PlayerInfoWall', component: PlayerInfosComponent },
+  { path: 'LastFiveResults', component: LastFiveResultsComponent },
   { path: 'TeamInfoWall', component: TeamInfosComponent },
   { path: 'PrematchStatistics', component: PrematchStatisticsComponent },
   { path: 'EMAMPLE', component: EmampleComponent },

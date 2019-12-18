@@ -68,6 +68,8 @@ import { SpecificTeamNewsComponent } from './pages/Mobile/teams-list/specific-pa
 import { SpecificArticleComponent } from './pages/Mobile/teams-list/specific-page-team/specific-article/specific-article.component';
 import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-statistics/specific-team-statistics.component';
 import { TeamLogoHeartComponent } from './pages/Mobile/teams-list/specific-page-team/team-logo-heart/team-logo-heart.component';
+import { LastFiveResultsComponent } from './pages/Wall/last-five-results/last-five-results.component';
+import { ResultComponent } from './pages/Wall/last-five-results/result/result.component';
 
 
 
@@ -139,7 +141,9 @@ import { TeamLogoHeartComponent } from './pages/Mobile/teams-list/specific-page-
     SpecificTeamNewsComponent,
     SpecificArticleComponent,
     SpecificTeamStatisticsComponent,
-    TeamLogoHeartComponent
+    TeamLogoHeartComponent,
+    LastFiveResultsComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,67 @@
+span{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainpage{
+    background-image: url("../../../../assets/images/Wall_Images/LiveGameStats.png");
+    height: 800px;
+    width: 1720px;
+}
+.team1_flag img{
+    width: 200px;
+    height: 282px;
+}
+.team1_flag{
+    margin-left: 10%;
+    width: 200px;
+    height: 282px;
+}
+.team2_flag img{
+    width: 220px;
+    height: 220px;
+}
+.team2_flag{
+    width: 220px;
+    height: 220px;
+    margin-left: 76%;
+    margin-top: -3%;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    margin-top: -15%;
+    margin-left: 35%;
+}
+.row{
+    display: inline-block;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+.row1{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+:host ::ng-deep .row .Zal .box{
+    background-color: red !important;
+}
+:host ::ng-deep .row .Al .box{
+    background-color: red !important;
+}
+
+:host ::ng-deep .row1 .box {
+    margin-left: 118%;
+}
+:host ::ng-deep .row1 .team {
+    text-align:right;
+}
+:host ::ng-deep .row1 .An .box{
+    background-color: red !important;
+}
+:host ::ng-deep .row1 .Zen .box{
+    background-color: red !important;
+}
