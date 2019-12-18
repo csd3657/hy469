@@ -11,7 +11,7 @@ export class SpecificNewsComponent implements OnInit {
 
   public hide_the_rest_page = true;
   
-  constructor(public router: Router, private _mobileService: MobileService) {
+  constructor() {
     
   }
 

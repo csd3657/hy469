@@ -11,7 +11,7 @@ export class NewsMobileComponent implements OnInit {
 
   public hide_the_rest_page = true;
   
-  constructor(public router: Router, public _mobileService: MobileService) { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
