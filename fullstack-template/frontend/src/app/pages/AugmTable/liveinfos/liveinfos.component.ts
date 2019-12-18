@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-liveinfos',
@@ -7,7 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LiveinfosComponent implements OnInit {
 
-  constructor() { }
+  @Input() team1;
+  @Input() team2;
+
+
+  constructor() {
+
+    this.team1 = {
+      score: 0,
+      pts  : 0,
+      ass  : 0,
+      reb  : 0
+    }
+    this.team2 = {
+      score: 0,
+      pts  : 0,
+      ass  : 0,
+      reb  : 0
+    }
+   }
 
   ngOnInit() {
   }

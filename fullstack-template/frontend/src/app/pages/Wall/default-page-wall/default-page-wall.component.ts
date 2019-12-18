@@ -23,4 +23,5 @@ export class DefaultPageWallComponent implements OnInit {
     })
   }
 
+
 }

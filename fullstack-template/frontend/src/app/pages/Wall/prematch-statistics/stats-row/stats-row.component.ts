@@ -13,6 +13,7 @@ export class StatsRowComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

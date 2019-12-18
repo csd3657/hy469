@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ami-fullstack-last-five-results',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LastFiveResultsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
+    this.openLiveStats();
   }
 
+  openLiveStats() {
+    setTimeout(() => 
+    { 
+      this.router.navigateByUrl('/PrematchStatistics'); 
+    },
+    80000 //1.20min
+    );
+  }
 }

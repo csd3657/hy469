@@ -9,26 +9,26 @@
                 <h2>Real Madrid</h2>
             </span>
             <span class="teams_score">
-                <h1> <span class="team1_score"> 68 </span> - <span class="team2_score"> 61 </span> </h1>
+                <h1> <span class="team1_score"> {{team1['score']}} </span> - <span class="team2_score"> {{team2['score']}} </span> </h1>
             </span>
             <span class="team2">
                 <h2>Maccabi FOX <br>Tel Aviv</h2>
             </span>
         </div>
         <div class="divstats">
-            <ami-fullstack-stats-row class="stats" name="pt2" stats_title="2PT" stats_team1="67.2%" stats_team2="56.3%">
+            <ami-fullstack-stats-row class="stats" name="pt2" stats_title="2PT" stats_team1="{{team1['pt2']}}%" stats_team2="{{team2['pt2']}}%">
             </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="pt3" stats_title="3PT" stats_team1="45%" stats_team2="32.8%">
+            <ami-fullstack-stats-row class="stats" name="pt3" stats_title="3PT" stats_team1="{{team1['pt3']}}%" stats_team2="{{team2['pt3']}}%">
             </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="rebounds" stats_title="Rebounds" stats_team1="25"
-                stats_team2="32"> </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="assists" stats_title="Assists" stats_team1="28"
-                stats_team2="15"> </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="turnovers" stats_title="Turnovers" stats_team1="10"
-                stats_team2="15"> </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="steals" stats_title="Steals" stats_team1="6" stats_team2="10">
+            <ami-fullstack-stats-row class="stats" name="rebounds" stats_title="Rebounds" stats_team1="{{team1['Reb']}}"
+                stats_team2="{{team2['Reb']}}"> </ami-fullstack-stats-row>
+            <ami-fullstack-stats-row class="stats" name="assists" stats_title="Assists" stats_team1="{{team1['Ass']}}"
+                stats_team2="{{team2['Ass']}}"> </ami-fullstack-stats-row>
+            <ami-fullstack-stats-row class="stats" name="turnovers" stats_title="Turnovers" stats_team1="{{team1['Turn']}}"
+                stats_team2="{{team2['Turn']}}"> </ami-fullstack-stats-row>
+            <ami-fullstack-stats-row class="stats" name="steals" stats_title="Steals" stats_team1="{{team1['St']}}" stats_team2="{{team2['St']}}">
             </ami-fullstack-stats-row>
-            <ami-fullstack-stats-row class="stats" name="blocks" stats_title="Blocks" stats_team1="10" stats_team2="8">
+            <ami-fullstack-stats-row class="stats" name="blocks" stats_title="Blocks" stats_team1="{{team1['Bl']}}" stats_team2="{{team2['Bl']}}">
             </ami-fullstack-stats-row>
         </div>
     </span>
