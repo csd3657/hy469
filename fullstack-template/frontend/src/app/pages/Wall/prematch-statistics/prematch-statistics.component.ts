@@ -45,7 +45,7 @@ export class PrematchStatisticsComponent implements OnInit {
       this.team1['score'] = 3;
       this.team1['Ass'] = 1;
       this.first_macc_point();
-    },40000);
+    },120000);
 
     
   }
@@ -71,11 +71,36 @@ export class PrematchStatisticsComponent implements OnInit {
       this.team2['score'] = 4;
       this.team2['pt3'] = 100;
       this.team2['Ass'] = 1;
+      this.halftimestats();
     },37000);
 
     //edw teleiwnei i timeout gia to prwto imixrono
   }
 
+  halftimestats(){
+    setTimeout(()=>{
+      this.team1['score']=38;
+      this.team1['pt2']=30;
+      this.team1['score']=40;
+      this.team1['Reb']=10;
+      this.team1['Ass']=8;
+      this.team1['St']=3;
+      this.team1['Bl']=2;
+
+      
+      this.team2['score']=31;
+      this.team2['pt2']=25;
+      this.team2['score']=32;
+      this.team2['Reb']=11;
+      this.team2['Ass']=7;
+      this.team2['St']=4;
+      this.team2['Bl']=1;
+    
+    },3000);
+      
+
+    //edw teleiwnei i timeout gia to prwto imixrono
+  }
   
 
 }

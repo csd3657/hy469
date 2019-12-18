@@ -10,18 +10,23 @@ import { Router } from '@angular/router';
 })
 export class SmlivematchComponent implements OnInit {
 
-  constructor(private _mobileService: MobileService, private router: Router) { }
+  public flag:boolean;
+  constructor(private _mobileService: MobileService, private router: Router) {
+    this.flag=true;
+   }
 
   ngOnInit() {
   }
 
 
   openMatchToTv() {
-
-    this._mobileService.openMatchToTv(true).subscribe();
-    this.router.navigateByUrl('/SMremotecontrol');
-
-    this.openStatisticsToOtherDevices();
+    if(this.flag){
+      this.flag=false;
+      this._mobileService.openMatchToTv(true).subscribe();
+      this.router.navigateByUrl('/SMremotecontrol');
+      this.openStatisticsToOtherDevices();
+    }
+    
   }
 
   openStatisticsToOtherDevices(){
