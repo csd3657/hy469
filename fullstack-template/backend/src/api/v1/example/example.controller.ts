@@ -27,8 +27,8 @@ export class ExampleController {
 
         router
             .post('/treatSomeone', this.treatSomeone)
-            .post('/openMatchToTv', this.matchToTv)
-            .post('/closeMatchToTv', this.matchToTv)
+            .post('/openMatchToTv', this.matchToTvOpen)
+            .post('/closeMatchToTv', this.matchToTvClose)
             .post('/play_Match', this.is_played_matchToTv)
             .post('/open_TVmenu', this.open_TVmenu)
             .post('/controlMenuTV', this.control_TVmenu)
@@ -73,7 +73,16 @@ export class ExampleController {
 
     }
     
-    public matchToTv(req: Request, res: Response) {
+    public matchToTvOpen(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+    public matchToTvClose(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

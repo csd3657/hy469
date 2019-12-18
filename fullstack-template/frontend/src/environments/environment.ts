@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  host: 'http://192.168.1.4:80',
+  host: 'http://192.168.1.15:80',
 };
 
 /*
@@ -15,3 +15,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
