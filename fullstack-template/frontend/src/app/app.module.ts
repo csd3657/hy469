@@ -70,6 +70,8 @@ import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/speci
 import { TeamLogoHeartComponent } from './pages/Mobile/teams-list/specific-page-team/team-logo-heart/team-logo-heart.component';
 import { LastFiveResultsComponent } from './pages/Wall/last-five-results/last-five-results.component';
 import { ResultComponent } from './pages/Wall/last-five-results/result/result.component';
+import { DefaultPageWallComponent } from './pages/Wall/default-page-wall/default-page-wall.component';
+import { AugmTableDefaultComponent } from './pages/AugmTable/augm-table-default/augm-table-default.component';
 
 
 
@@ -143,7 +145,9 @@ import { ResultComponent } from './pages/Wall/last-five-results/result/result.co
     SpecificTeamStatisticsComponent,
     TeamLogoHeartComponent,
     LastFiveResultsComponent,
-    ResultComponent
+    ResultComponent,
+    DefaultPageWallComponent,
+    AugmTableDefaultComponent
   ],
   imports: [
     BrowserModule,

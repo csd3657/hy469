@@ -32,6 +32,8 @@ import { SpecificPageTeamComponent } from './pages/Mobile/teams-list/specific-pa
 import { SpecificTeamNewsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-news/specific-team-news.component';
 import { SpecificTeamStatisticsComponent } from './pages/Mobile/teams-list/specific-page-team/specific-team-statistics/specific-team-statistics.component';
 import { LastFiveResultsComponent } from './pages/Wall/last-five-results/last-five-results.component';
+import { DefaultPageWallComponent } from './pages/Wall/default-page-wall/default-page-wall.component';
+import { AugmTableDefaultComponent } from './pages/AugmTable/augm-table-default/augm-table-default.component';
 
 
 
@@ -87,6 +89,8 @@ const routes: Routes = [
   { path: 'SMplayers', component: PlayersListComponent },
   { path: 'SMnews', component: NewsMobileComponent },
   { path: 'SMremotecontrol', component: RemotecontrolComponent },
+  { path: 'WallDefault', component: DefaultPageWallComponent },
+  { path: 'AugmTableDefault', component: AugmTableDefaultComponent },
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },
