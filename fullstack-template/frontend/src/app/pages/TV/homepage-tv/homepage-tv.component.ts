@@ -62,7 +62,7 @@ export class HomepageTVComponent implements OnInit {
   }
 
   closeMatch() {
-    this._mobileService.closeMatchToTv(false).subscribe();
+    this._mobileService.openMatchToTv(false).subscribe();
   }
 
   rewind_back_30sec() {

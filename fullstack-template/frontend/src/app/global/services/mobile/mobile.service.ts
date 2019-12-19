@@ -25,14 +25,14 @@ export class MobileService {
     )
   }
 
-  public closeMatchToTv(openMatch) {
+  public closeMatchToTv(closeMatch) {
     return this.http.post(`${this.hostURl}/api/example/closeMatchToTv`,
       {
         message: {
-          show: openMatch
+          show: closeMatch
         }
         , 
-        event:"openMatch"
+        event:"closeMatch"
       }
     )
   }

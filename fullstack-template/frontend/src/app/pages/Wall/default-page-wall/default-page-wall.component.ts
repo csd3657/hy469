@@ -16,7 +16,7 @@ export class DefaultPageWallComponent implements OnInit {
     this._socketService.syncMessages("openStatisticsToOtherDevices").subscribe(msg => {
       console.log(msg)
       if (msg.message["show"] === 'Wall') {
-        this.router.navigateByUrl('/LastFiveResults');
+        this.router.navigateByUrl('/PrematchStatistics');
       } else {
         console.log('open table statistics')
       }

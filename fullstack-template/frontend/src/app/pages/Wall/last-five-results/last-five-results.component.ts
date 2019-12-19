@@ -17,7 +17,7 @@ export class LastFiveResultsComponent implements OnInit {
   openLiveStats() {
     setTimeout(() => 
     { 
-      this.router.navigateByUrl('/PrematchStatistics'); 
+      //this.router.navigateByUrl('/PrematchStatistics'); 
     },
     80000 //1.20min
     );
