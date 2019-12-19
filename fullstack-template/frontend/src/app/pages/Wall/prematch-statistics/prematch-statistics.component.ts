@@ -81,7 +81,6 @@ export class PrematchStatisticsComponent implements OnInit {
     setTimeout(()=>{
       this.team1['score']=38;
       this.team1['pt2']=30;
-      this.team1['score']=40;
       this.team1['Reb']=10;
       this.team1['Ass']=8;
       this.team1['St']=3;
@@ -90,7 +89,6 @@ export class PrematchStatisticsComponent implements OnInit {
       
       this.team2['score']=31;
       this.team2['pt2']=25;
-      this.team2['score']=32;
       this.team2['Reb']=11;
       this.team2['Ass']=7;
       this.team2['St']=4;
