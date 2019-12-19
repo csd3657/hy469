@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MobileService } from 'src/app/global/services/mobile/mobile.service';
+import { SmartSpeakerService } from 'src/app/smart-speaker.service';
 
 @Component({
   selector: 'ami-fullstack-specific-news',
@@ -11,15 +12,21 @@ export class SpecificNewsComponent implements OnInit {
 
   public hide_the_rest_page = true;
   
-  constructor() {
+  constructor(public _smartSpeaker:SmartSpeakerService, public router:Router) {
     
   }
 
   ngOnInit() {
-    
+    this._smartSpeaker.addCommand('Punter', ()=>{
+      this._smartSpeaker.speak('Yes sir');
+      this.router.navigateByUrl('/WallDefault');
+      });
+  
   }
 
   hide_the_rest(){
     this.hide_the_rest_page = !this.hide_the_rest_page;
   }
+ 
+  
 }
