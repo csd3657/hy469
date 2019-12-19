@@ -1,6 +1,6 @@
 
-<div class="menu">
-    <div class="title"> <p>VOTE FOR <span class="USER">USER</span> COMPLETED SUCCESSFULLY</p> </div>
+<div class="menu" *ngIf="image == 'campazzo'">
+    <div class="title"> <p>VOTE FOR <span class="USER">USER1</span> COMPLETED SUCCESSFULLY</p> </div>
     <span class="leftbar">
         <span class="mvpImage">
             <div><img src="../../../../../assets/images/table/VoteFacundoCam.png"></div>
@@ -18,4 +18,26 @@
             <span class="no_button"><button (click)="SendToParent2();"> <p>NO</p> </button></span>
         </div>
     </span>
+    
+</div>
+<div class="menu" *ngIf="image == 'dorsey'">
+    <div class="title"> <p>VOTE FOR <span class="USER">USER2</span> COMPLETED SUCCESSFULLY</p> </div>
+    <span class="leftbar">
+        <span class="mvpImage">
+            <div><img src="../../../../../assets/images/table/VoteDorseyForMVP.png"></div>
+        </span>
+        <span class="mvpVote">
+            <h2><div>YOU HAVE VOTED</div>  <div class="mvpVoteName">TYLER DORSEY</div> <div>FOR MVP</div></h2>
+        </span>
+    </span>
+    <span class="rightbar">
+        <div class="question">
+            <h2>DO YOU HAVE ANOTHER VOTE TO SUBMIT?</h2>
+        </div>
+        <div class="buttons">
+            <span class="yes_button"><button (click)="SendToParent1();"> <p>YES</p> </button></span>
+            <span class="no_button"><button (click)="SendToParent2();"> <p>NO</p> </button></span>
+        </div>
+    </span>
+    
 </div>
