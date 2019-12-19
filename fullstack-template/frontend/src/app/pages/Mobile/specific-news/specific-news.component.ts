@@ -12,16 +12,10 @@ export class SpecificNewsComponent implements OnInit {
 
   public hide_the_rest_page = true;
   
-  constructor(public _smartSpeaker:SmartSpeakerService, public router:Router) {
-    
-  }
+  constructor(public _smartSpeaker:SmartSpeakerService, public router:Router) {}
 
   ngOnInit() {
-    this._smartSpeaker.addCommand('Punter', ()=>{
-      this._smartSpeaker.speak('Yes sir');
-      this.router.navigateByUrl('/WallDefault');
-      });
-  
+    
   }
 
   hide_the_rest(){
