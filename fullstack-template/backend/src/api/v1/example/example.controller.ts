@@ -34,7 +34,8 @@ export class ExampleController {
             .post('/controlMenuTV', this.control_TVmenu)
             .post('/VideoMenuTV', this.videos_TVmenu)
             .post('/exitVideo', this.exitVideo)
-            .post('/openStatisticsToOtherDevices', this.openStatisticsToOtherDevices);
+            .post('/openStatisticsToOtherDevices', this.openStatisticsToOtherDevices)
+            .post('/open_cska_article', this.open_cska_article); 
         return router;
     }
  
@@ -134,6 +135,18 @@ export class ExampleController {
     }
     
     public openStatisticsToOtherDevices(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+
+    
+
+    public open_cska_article(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

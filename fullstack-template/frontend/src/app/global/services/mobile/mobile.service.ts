@@ -111,6 +111,19 @@ export class MobileService {
       }
     )
   }
+  
+
+  public open_cska_article() {
+    return this.http.post(`${this.hostURl}/api/example/open_cska_article`,
+      {
+        message: {
+          show: true
+        }
+        , event:"open_cska_article"
+        
+      }
+    )
+  }
 
   
   
