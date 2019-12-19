@@ -14,6 +14,7 @@ export class HeaderTagComponent implements OnInit {
 
   @Input() page_title: string;
   @Input() image: string;
+  @Input() micro: string;
   @Output() public hide_rest_scroll = new EventEmitter();
 
   constructor(public router: Router, public _socketService: SocketsService, public _mobileService: MobileService) {

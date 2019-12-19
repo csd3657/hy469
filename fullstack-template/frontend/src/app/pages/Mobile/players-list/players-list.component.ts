@@ -13,17 +13,14 @@ export class PlayersListComponent implements OnInit {
   public hide_the_rest_page = true;
 
   constructor(public router: Router, public _smartSpeaker: SmartSpeakerService, public _mobileService: MobileService) {
-    this._smartSpeaker.addCommand('Hello', () => {
-      this._smartSpeaker.speak('Yes sir');
+    this._smartSpeaker.addCommand('Show Kevin', () => {
+      this._smartSpeaker.speak('Yes, Sir');
       this.openPunter();
     });
    }
 
   ngOnInit() {
-    this._smartSpeaker.addCommand('Hello', () => {
-      this._smartSpeaker.speak('Yes sir');
-      this.openPunter();
-    });
+    
   }
 
   hide_the_rest() {

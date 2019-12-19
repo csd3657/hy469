@@ -1,7 +1,7 @@
 <div class="menu">
     <div class="Header">
-        <span *ngIf="image=='../../../../assets/images/main_menu_mobile.png'" (click)="openMenu()" (click)="SendToParent();" class="arrow">
-            <img src={{image}}>
+        <span (click)="openMenu()" (click)="SendToParent();" class="arrow">
+            <img src="../../../../assets/images/main_menu_mobile.png">
         </span>
         <span class="text">
             <h4>{{page_title}}</h4>
@@ -9,7 +9,10 @@
         <span class="sendTo" (click) = "open_article_cska()">
             <img id="connect_icon" src="../../../../assets/images/connect.png">
         </span>
-        <span class="search">
+        <span *ngIf="micro == '../../../../assets/images/microphone.png'" class="search">
+            <img src="../../../../assets/images/microphone.png">
+        </span>
+        <span *ngIf="micro != '../../../../assets/images/microphone.png'" class="search">
             <img src="../../../../assets/images/SearchTag.png">
         </span>
     </div>
