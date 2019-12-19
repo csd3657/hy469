@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ValueConverter } from '@angular/compiler/src/render3/view/template';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ami-fullstack-liveinfos',
@@ -16,7 +17,7 @@ export class LiveinfosComponent implements OnInit {
   public value=59;
   public value2=24;
   public value3=9;
-  constructor() {
+  constructor(public router:Router) {
     this.team1 =
     {
       score: 0,
@@ -123,7 +124,7 @@ export class LiveinfosComponent implements OnInit {
       this.team2['player5'].ass = 1;
       this.team2['player5'].reb=4;
       this.stop();
-      document.getElementById("timer").innerHTML="Half Time";
+      this.Voting();
     
     },3000);
       
@@ -159,6 +160,11 @@ export class LiveinfosComponent implements OnInit {
     document.getElementById("timer3").innerHTML=this.value3.toString();
     document.getElementById("timer2").innerHTML=this.value2.toString();
     document.getElementById("timer").innerHTML=this.value.toString();
+  }
+  Voting(){
+    setTimeout(()=>{
+      this.router.navigateByUrl('/TableVote');
+    },80000);
   }
   
 }
