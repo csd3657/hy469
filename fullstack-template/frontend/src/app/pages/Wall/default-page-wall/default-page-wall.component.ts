@@ -21,6 +21,15 @@ export class DefaultPageWallComponent implements OnInit {
         console.log('open table statistics')
       }
     })
+
+    this._socketService.syncMessages("open_cska_article").subscribe(msg => {
+      console.log(msg)
+      if (msg.message["show"]) {
+        this.router.navigateByUrl('/WallNews');
+      }
+    })
+    
+    
   }
 
 
