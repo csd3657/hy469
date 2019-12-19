@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'ami-fullstack-votestep2',
@@ -9,6 +9,8 @@ export class Votestep2Component implements OnInit {
 
   @Output() public childEvent1 = new EventEmitter();
   @Output() public childEvent2 = new EventEmitter();
+
+  @Input() public image;
 
   constructor() { }
 
