@@ -124,6 +124,19 @@ export class MobileService {
       }
     )
   }
+  
+
+  public defaultPageWall() {
+    return this.http.post(`${this.hostURl}/api/example/defaultPageWall`,
+      {
+        message: {
+          show: true
+        }
+        , event:"defaultPageWall"
+        
+      }
+    )
+  }
 
   
   

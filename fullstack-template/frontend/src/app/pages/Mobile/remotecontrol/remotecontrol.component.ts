@@ -50,6 +50,7 @@ export class RemotecontrolComponent implements OnInit {
 
   exit_video(){
     this._mobileService.exitVideo('exit_video').subscribe();
+    this._mobileService.defaultPageWall().subscribe();
   }
 
   control_menuTV(button) {

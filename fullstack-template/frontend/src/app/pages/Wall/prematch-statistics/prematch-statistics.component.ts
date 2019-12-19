@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { SocketsService } from 'src/app/global/services';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ami-fullstack-prematch-statistics',
@@ -10,7 +12,7 @@ export class PrematchStatisticsComponent implements OnInit {
   @Input() team1;
   @Input() team2;
 
-  constructor() {
+  constructor(public _socketService: SocketsService, public router: Router) { 
     this.team1 = {
       score : 0,
       pt2   : 0,
@@ -33,10 +35,21 @@ export class PrematchStatisticsComponent implements OnInit {
     }
    }
 
-  ngOnInit() {
+   
+
+   ngOnInit() {
+ 
+     this._socketService.syncMessages("defaultPageWall").subscribe(msg => {
+       console.log(msg)
+       if (msg.message["show"]) {
+         this.router.navigateByUrl('/WallDefault');
+       } else {
+         console.log('open table statistics')
+       }
+     })
     this.first_3pt();
 
-
+    
   }
 
   first_3pt(){
