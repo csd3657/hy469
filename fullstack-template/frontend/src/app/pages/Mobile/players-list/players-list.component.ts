@@ -13,8 +13,8 @@ export class PlayersListComponent implements OnInit {
   public hide_the_rest_page = true;
 
   constructor(public router: Router, public _smartSpeaker: SmartSpeakerService, public _mobileService: MobileService) {
-    this._smartSpeaker.addCommand('Show Kevin', () => {
-      this._smartSpeaker.speak('Yes, Sir');
+    this._smartSpeaker.addCommand(['Kevin', 'Punter', 'Kevin Punter'], () => {
+      this._smartSpeaker.speak('Displaying Punter');
       this.openPunter();
     });
    }
