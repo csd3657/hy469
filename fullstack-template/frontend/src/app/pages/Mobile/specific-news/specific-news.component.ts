@@ -17,10 +17,8 @@ export class SpecificNewsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this._smartSpeaker.addCommand('Punter', ()=>{
-      this._smartSpeaker.speak('Yes sir');
-      this.router.navigateByUrl('/WallDefault');
-      });
+    
+    
   
   }
 

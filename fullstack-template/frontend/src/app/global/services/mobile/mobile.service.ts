@@ -139,6 +139,18 @@ export class MobileService {
   }
 
   
+  public open_Punter_ToWall() {
+    return this.http.post(`${this.hostURl}/api/example/open_Punter_ToWall`,
+      {
+        message: {
+          show: true
+        }
+        , event:"open_Punter_ToWall"
+        
+      }
+    )
+  }
+  
   
 
 }

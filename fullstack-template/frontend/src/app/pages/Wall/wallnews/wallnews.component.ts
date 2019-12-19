@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { SmartSpeakerService } from 'src/app/smart-speaker.service';
 
 @Component({
   selector: 'ami-fullstack-wallnews',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WallnewsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _smartSpeaker:SmartSpeakerService, public router: Router) { }
 
   ngOnInit() {
+    setTimeout(()=>{
+      this.router.navigateByUrl('/WallDefault');
+    },
+    30000);
   }
 
 }

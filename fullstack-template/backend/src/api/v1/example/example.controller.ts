@@ -36,7 +36,8 @@ export class ExampleController {
             .post('/exitVideo', this.exitVideo)
             .post('/openStatisticsToOtherDevices', this.openStatisticsToOtherDevices)
             .post('/open_cska_article', this.open_cska_article)
-            .post('/defaultPageWall', this.defaultPageWall);
+            .post('/defaultPageWall', this.defaultPageWall)
+            .post('/open_Punter_ToWall', this.open_Punter_ToWall);
         return router;
     }
  
@@ -167,6 +168,16 @@ export class ExampleController {
     }
     
     public defaultPageWall(req: Request, res: Response) {
+        const message: string = req.body.message;
+        const event: string = req.body.event;
+
+        //Sending a broadcast message to all clients
+        const socketService = DIContainer.get(SocketsService);
+        socketService.broadcast(event, message);
+
+    }
+
+    public open_Punter_ToWall(req: Request, res: Response) {
         const message: string = req.body.message;
         const event: string = req.body.event;
 

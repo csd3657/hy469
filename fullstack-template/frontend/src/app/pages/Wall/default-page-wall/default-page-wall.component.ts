@@ -29,6 +29,12 @@ export class DefaultPageWallComponent implements OnInit {
       }
     })
     
+    this._socketService.syncMessages("open_Punter_ToWall").subscribe(msg => {
+      console.log(msg)
+      if (msg.message["show"]) {
+        this.router.navigateByUrl('/PlayerInfoWall');
+      }
+    })
     
   }
 
