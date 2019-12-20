@@ -29,7 +29,6 @@ export class PlayersListComponent implements OnInit {
 
   openPunter() {
     this._mobileService.open_Punter_ToWall().subscribe();
-
     this.router.navigateByUrl('/PlayersMobile/KevinPunter');
   }
 
