@@ -1,2 +1,2 @@
-HY469 Project 1st time to commit
+Sports Casting App customized for an "intelligent" living room. (Leap, Microphone and Multimodalities included)
  
